@@ -1,0 +1,17 @@
+{
+  "review_date": "2026-10-26",
+  "scope": "Developer handoff from a clean checkout of the staged files; no new model fitting",
+  "clean_staged_checkout": true,
+  "snapshot_member_hashes_verified": 1216,
+  "fitting_freeze_valid": true,
+  "implementation_freeze_sha256": "16c85f05472c629b8093721d6fd0d9d451bb0065ab3bac1fe904b110a252a139",
+  "exact_selection_match": true,
+  "exact_cell_and_bootstrap_arrays": true,
+  "python_files_compiled": 95,
+  "numpy": "2.2.6",
+  "synthetic_statistics_checks_passed": true,
+  "download_resume_mock_checks_passed": true,
+  "credential_pattern_hits": [],
+  "files_over_10_MiB_in_review_set": [],
+  "selected": null
+}

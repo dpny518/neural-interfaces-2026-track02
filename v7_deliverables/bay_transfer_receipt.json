@@ -1,0 +1,11 @@
+{
+  "folder": "transfers/neural-interfaces-2026-track02/v7-20261025",
+  "node_id": "2e93ae68-814c-4da0-877c-4274501f6e84",
+  "bytes": 1269782187,
+  "sha256": "7a101ef47340cbb4d2b9a331329cd35b61ca1fb8476c5aef8aece8632cb980ff",
+  "download_verified": true,
+  "public_share_created": false,
+  "transfer_mode": "Each 4MiB segment verified against original-host SHA-256, then full archive hash",
+  "verified_segments": 303,
+  "range_endpoint_observation": "Malformed Content-Range header; segment content validated cryptographically"
+}

@@ -1,0 +1,101 @@
+{
+  "excluded_subjects": [
+    "P08"
+  ],
+  "fitting_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P09",
+    "P10"
+  ],
+  "fixed_epochs": 20,
+  "seed": 42,
+  "ssl": null,
+  "training_history": [
+    {
+      "epoch": 1,
+      "training_loss": 1.3129057517418494
+    },
+    {
+      "epoch": 2,
+      "training_loss": 1.1245726003096654
+    },
+    {
+      "epoch": 3,
+      "training_loss": 1.0212306930468633
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.9639240067738754
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.9206863252016214
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.9044766013438885
+    },
+    {
+      "epoch": 7,
+      "training_loss": 0.8933976682332846
+    },
+    {
+      "epoch": 8,
+      "training_loss": 0.8344416503722851
+    },
+    {
+      "epoch": 9,
+      "training_loss": 0.8656400258724506
+    },
+    {
+      "epoch": 10,
+      "training_loss": 0.8091332018375397
+    },
+    {
+      "epoch": 11,
+      "training_loss": 0.8079999410189115
+    },
+    {
+      "epoch": 12,
+      "training_loss": 0.7986990832365476
+    },
+    {
+      "epoch": 13,
+      "training_loss": 0.8202937612166772
+    },
+    {
+      "epoch": 14,
+      "training_loss": 0.745663766677563
+    },
+    {
+      "epoch": 15,
+      "training_loss": 0.7232155937414902
+    },
+    {
+      "epoch": 16,
+      "training_loss": 0.7260289673621838
+    },
+    {
+      "epoch": 17,
+      "training_loss": 0.7476135836197779
+    },
+    {
+      "epoch": 18,
+      "training_loss": 0.7501663244687594
+    },
+    {
+      "epoch": 19,
+      "training_loss": 0.7405615953298715
+    },
+    {
+      "epoch": 20,
+      "training_loss": 0.7157411368993613
+    }
+  ]
+}

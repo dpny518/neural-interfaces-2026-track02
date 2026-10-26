@@ -1,0 +1,482 @@
+FIT_START cv ['P01'] reconstructed_v6 33 75
+/mnt/18t/neural-interfaces-2026-track02-v7/v7_work/training.py:71: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  X = torch.as_tensor(cov,device=device,dtype=torch.float32)
+FIT_DONE cv ['P01'] reconstructed_v6 33 seconds 7.7
+FIT_START cv ['P01'] reconstructed_v6 42 20
+FIT_DONE cv ['P01'] reconstructed_v6 42 seconds 1.8
+FIT_START cv ['P01'] reconstructed_v6 133 75
+FIT_DONE cv ['P01'] reconstructed_v6 133 seconds 6.6
+FIT_START cv ['P01'] reconstructed_v6 142 20
+FIT_DONE cv ['P01'] reconstructed_v6 142 seconds 1.9
+FIT_START cv ['P01'] reconstructed_v6 233 75
+FIT_DONE cv ['P01'] reconstructed_v6 233 seconds 6.3
+FIT_START cv ['P01'] reconstructed_v6 242 20
+FIT_DONE cv ['P01'] reconstructed_v6 242 seconds 1.7
+FIT_START cv ['P01'] masked_ssl 33 75
+FIT_DONE cv ['P01'] masked_ssl 33 seconds 9.4
+FIT_START cv ['P01'] masked_ssl 42 20
+FIT_DONE cv ['P01'] masked_ssl 42 seconds 3.9
+FIT_START cv ['P01'] masked_ssl 133 75
+FIT_DONE cv ['P01'] masked_ssl 133 seconds 8.2
+FIT_START cv ['P01'] masked_ssl 142 20
+FIT_DONE cv ['P01'] masked_ssl 142 seconds 3.6
+FIT_START cv ['P01'] masked_ssl 233 75
+FIT_DONE cv ['P01'] masked_ssl 233 seconds 9.3
+FIT_START cv ['P01'] masked_ssl 242 20
+FIT_DONE cv ['P01'] masked_ssl 242 seconds 3.8
+FIT_START cv ['P01'] expanded_grid 33 75
+FIT_DONE cv ['P01'] expanded_grid 33 seconds 6.5
+FIT_START cv ['P01'] expanded_grid 42 20
+FIT_DONE cv ['P01'] expanded_grid 42 seconds 1.8
+FIT_START cv ['P01'] expanded_grid 133 75
+FIT_DONE cv ['P01'] expanded_grid 133 seconds 6.3
+FIT_START cv ['P01'] expanded_grid 142 20
+FIT_DONE cv ['P01'] expanded_grid 142 seconds 1.8
+FIT_START cv ['P01'] expanded_grid 233 75
+FIT_DONE cv ['P01'] expanded_grid 233 seconds 6.9
+FIT_START cv ['P01'] expanded_grid 242 20
+FIT_DONE cv ['P01'] expanded_grid 242 seconds 2.0
+FIT_START cv ['P01'] cross_subject_mixup 33 75
+FIT_DONE cv ['P01'] cross_subject_mixup 33 seconds 10.5
+FIT_START cv ['P01'] cross_subject_mixup 42 20
+FIT_DONE cv ['P01'] cross_subject_mixup 42 seconds 2.8
+FIT_START cv ['P01'] cross_subject_mixup 133 75
+FIT_DONE cv ['P01'] cross_subject_mixup 133 seconds 9.7
+FIT_START cv ['P01'] cross_subject_mixup 142 20
+FIT_DONE cv ['P01'] cross_subject_mixup 142 seconds 2.5
+FIT_START cv ['P01'] cross_subject_mixup 233 75
+FIT_DONE cv ['P01'] cross_subject_mixup 233 seconds 10.1
+FIT_START cv ['P01'] cross_subject_mixup 242 20
+FIT_DONE cv ['P01'] cross_subject_mixup 242 seconds 2.9
+FIT_START cv ['P02'] reconstructed_v6 33 75
+FIT_DONE cv ['P02'] reconstructed_v6 33 seconds 7.0
+FIT_START cv ['P02'] reconstructed_v6 42 20
+FIT_DONE cv ['P02'] reconstructed_v6 42 seconds 1.9
+FIT_START cv ['P02'] reconstructed_v6 133 75
+FIT_DONE cv ['P02'] reconstructed_v6 133 seconds 7.1
+FIT_START cv ['P02'] reconstructed_v6 142 20
+FIT_DONE cv ['P02'] reconstructed_v6 142 seconds 2.0
+FIT_START cv ['P02'] reconstructed_v6 233 75
+FIT_DONE cv ['P02'] reconstructed_v6 233 seconds 7.0
+FIT_START cv ['P02'] reconstructed_v6 242 20
+FIT_DONE cv ['P02'] reconstructed_v6 242 seconds 1.9
+FIT_START cv ['P02'] masked_ssl 33 75
+FIT_DONE cv ['P02'] masked_ssl 33 seconds 8.9
+FIT_START cv ['P02'] masked_ssl 42 20
+FIT_DONE cv ['P02'] masked_ssl 42 seconds 4.2
+FIT_START cv ['P02'] masked_ssl 133 75
+FIT_DONE cv ['P02'] masked_ssl 133 seconds 9.1
+FIT_START cv ['P02'] masked_ssl 142 20
+FIT_DONE cv ['P02'] masked_ssl 142 seconds 4.0
+FIT_START cv ['P02'] masked_ssl 233 75
+FIT_DONE cv ['P02'] masked_ssl 233 seconds 9.0
+FIT_START cv ['P02'] masked_ssl 242 20
+FIT_DONE cv ['P02'] masked_ssl 242 seconds 4.0
+FIT_START cv ['P02'] expanded_grid 33 75
+FIT_DONE cv ['P02'] expanded_grid 33 seconds 7.1
+FIT_START cv ['P02'] expanded_grid 42 20
+FIT_DONE cv ['P02'] expanded_grid 42 seconds 2.0
+FIT_START cv ['P02'] expanded_grid 133 75
+FIT_DONE cv ['P02'] expanded_grid 133 seconds 7.1
+FIT_START cv ['P02'] expanded_grid 142 20
+FIT_DONE cv ['P02'] expanded_grid 142 seconds 2.0
+FIT_START cv ['P02'] expanded_grid 233 75
+FIT_DONE cv ['P02'] expanded_grid 233 seconds 7.1
+FIT_START cv ['P02'] expanded_grid 242 20
+FIT_DONE cv ['P02'] expanded_grid 242 seconds 2.0
+FIT_START cv ['P02'] cross_subject_mixup 33 75
+FIT_DONE cv ['P02'] cross_subject_mixup 33 seconds 10.9
+FIT_START cv ['P02'] cross_subject_mixup 42 20
+FIT_DONE cv ['P02'] cross_subject_mixup 42 seconds 2.9
+FIT_START cv ['P02'] cross_subject_mixup 133 75
+FIT_DONE cv ['P02'] cross_subject_mixup 133 seconds 10.8
+FIT_START cv ['P02'] cross_subject_mixup 142 20
+FIT_DONE cv ['P02'] cross_subject_mixup 142 seconds 2.9
+FIT_START cv ['P02'] cross_subject_mixup 233 75
+FIT_DONE cv ['P02'] cross_subject_mixup 233 seconds 10.9
+FIT_START cv ['P02'] cross_subject_mixup 242 20
+FIT_DONE cv ['P02'] cross_subject_mixup 242 seconds 3.0
+FIT_START cv ['P03'] reconstructed_v6 33 75
+FIT_DONE cv ['P03'] reconstructed_v6 33 seconds 7.4
+FIT_START cv ['P03'] reconstructed_v6 42 20
+FIT_DONE cv ['P03'] reconstructed_v6 42 seconds 2.1
+FIT_START cv ['P03'] reconstructed_v6 133 75
+FIT_DONE cv ['P03'] reconstructed_v6 133 seconds 7.3
+FIT_START cv ['P03'] reconstructed_v6 142 20
+FIT_DONE cv ['P03'] reconstructed_v6 142 seconds 2.0
+FIT_START cv ['P03'] reconstructed_v6 233 75
+FIT_DONE cv ['P03'] reconstructed_v6 233 seconds 7.2
+FIT_START cv ['P03'] reconstructed_v6 242 20
+FIT_DONE cv ['P03'] reconstructed_v6 242 seconds 2.1
+FIT_START cv ['P03'] masked_ssl 33 75
+FIT_DONE cv ['P03'] masked_ssl 33 seconds 9.3
+FIT_START cv ['P03'] masked_ssl 42 20
+FIT_DONE cv ['P03'] masked_ssl 42 seconds 4.2
+FIT_START cv ['P03'] masked_ssl 133 75
+FIT_DONE cv ['P03'] masked_ssl 133 seconds 8.9
+FIT_START cv ['P03'] masked_ssl 142 20
+FIT_DONE cv ['P03'] masked_ssl 142 seconds 3.8
+FIT_START cv ['P03'] masked_ssl 233 75
+FIT_DONE cv ['P03'] masked_ssl 233 seconds 9.0
+FIT_START cv ['P03'] masked_ssl 242 20
+FIT_DONE cv ['P03'] masked_ssl 242 seconds 4.2
+FIT_START cv ['P03'] expanded_grid 33 75
+FIT_DONE cv ['P03'] expanded_grid 33 seconds 7.5
+FIT_START cv ['P03'] expanded_grid 42 20
+FIT_DONE cv ['P03'] expanded_grid 42 seconds 6.6
+FIT_START cv ['P03'] expanded_grid 133 75
+FIT_DONE cv ['P03'] expanded_grid 133 seconds 7.4
+FIT_START cv ['P03'] expanded_grid 142 20
+FIT_DONE cv ['P03'] expanded_grid 142 seconds 2.1
+FIT_START cv ['P03'] expanded_grid 233 75
+FIT_DONE cv ['P03'] expanded_grid 233 seconds 7.3
+FIT_START cv ['P03'] expanded_grid 242 20
+FIT_DONE cv ['P03'] expanded_grid 242 seconds 2.1
+FIT_START cv ['P03'] cross_subject_mixup 33 75
+FIT_DONE cv ['P03'] cross_subject_mixup 33 seconds 11.0
+FIT_START cv ['P03'] cross_subject_mixup 42 20
+FIT_DONE cv ['P03'] cross_subject_mixup 42 seconds 3.0
+FIT_START cv ['P03'] cross_subject_mixup 133 75
+FIT_DONE cv ['P03'] cross_subject_mixup 133 seconds 11.0
+FIT_START cv ['P03'] cross_subject_mixup 142 20
+FIT_DONE cv ['P03'] cross_subject_mixup 142 seconds 3.0
+FIT_START cv ['P03'] cross_subject_mixup 233 75
+FIT_DONE cv ['P03'] cross_subject_mixup 233 seconds 15.2
+FIT_START cv ['P03'] cross_subject_mixup 242 20
+FIT_DONE cv ['P03'] cross_subject_mixup 242 seconds 2.7
+FIT_START cv ['P04'] reconstructed_v6 33 75
+FIT_DONE cv ['P04'] reconstructed_v6 33 seconds 5.9
+FIT_START cv ['P04'] reconstructed_v6 42 20
+FIT_DONE cv ['P04'] reconstructed_v6 42 seconds 1.5
+FIT_START cv ['P04'] reconstructed_v6 133 75
+FIT_DONE cv ['P04'] reconstructed_v6 133 seconds 5.6
+FIT_START cv ['P04'] reconstructed_v6 142 20
+FIT_DONE cv ['P04'] reconstructed_v6 142 seconds 1.6
+FIT_START cv ['P04'] reconstructed_v6 233 75
+FIT_DONE cv ['P04'] reconstructed_v6 233 seconds 6.1
+FIT_START cv ['P04'] reconstructed_v6 242 20
+FIT_DONE cv ['P04'] reconstructed_v6 242 seconds 1.7
+FIT_START cv ['P04'] masked_ssl 33 75
+FIT_DONE cv ['P04'] masked_ssl 33 seconds 8.0
+FIT_START cv ['P04'] masked_ssl 42 20
+FIT_DONE cv ['P04'] masked_ssl 42 seconds 3.5
+FIT_START cv ['P04'] masked_ssl 133 75
+FIT_DONE cv ['P04'] masked_ssl 133 seconds 7.9
+FIT_START cv ['P04'] masked_ssl 142 20
+FIT_DONE cv ['P04'] masked_ssl 142 seconds 3.7
+FIT_START cv ['P04'] masked_ssl 233 75
+FIT_DONE cv ['P04'] masked_ssl 233 seconds 8.0
+FIT_START cv ['P04'] masked_ssl 242 20
+FIT_DONE cv ['P04'] masked_ssl 242 seconds 3.5
+FIT_START cv ['P04'] expanded_grid 33 75
+FIT_DONE cv ['P04'] expanded_grid 33 seconds 5.9
+FIT_START cv ['P04'] expanded_grid 42 20
+FIT_DONE cv ['P04'] expanded_grid 42 seconds 1.8
+FIT_START cv ['P04'] expanded_grid 133 75
+FIT_DONE cv ['P04'] expanded_grid 133 seconds 6.5
+FIT_START cv ['P04'] expanded_grid 142 20
+FIT_DONE cv ['P04'] expanded_grid 142 seconds 5.9
+FIT_START cv ['P04'] expanded_grid 233 75
+FIT_DONE cv ['P04'] expanded_grid 233 seconds 5.6
+FIT_START cv ['P04'] expanded_grid 242 20
+FIT_DONE cv ['P04'] expanded_grid 242 seconds 1.6
+FIT_START cv ['P04'] cross_subject_mixup 33 75
+FIT_DONE cv ['P04'] cross_subject_mixup 33 seconds 9.6
+FIT_START cv ['P04'] cross_subject_mixup 42 20
+FIT_DONE cv ['P04'] cross_subject_mixup 42 seconds 2.7
+FIT_START cv ['P04'] cross_subject_mixup 133 75
+FIT_DONE cv ['P04'] cross_subject_mixup 133 seconds 13.7
+FIT_START cv ['P04'] cross_subject_mixup 142 20
+FIT_DONE cv ['P04'] cross_subject_mixup 142 seconds 2.2
+FIT_START cv ['P04'] cross_subject_mixup 233 75
+FIT_DONE cv ['P04'] cross_subject_mixup 233 seconds 8.5
+FIT_START cv ['P04'] cross_subject_mixup 242 20
+FIT_DONE cv ['P04'] cross_subject_mixup 242 seconds 2.5
+FIT_START cv ['P05'] reconstructed_v6 33 75
+FIT_DONE cv ['P05'] reconstructed_v6 33 seconds 7.0
+FIT_START cv ['P05'] reconstructed_v6 42 20
+FIT_DONE cv ['P05'] reconstructed_v6 42 seconds 2.0
+FIT_START cv ['P05'] reconstructed_v6 133 75
+FIT_DONE cv ['P05'] reconstructed_v6 133 seconds 7.2
+FIT_START cv ['P05'] reconstructed_v6 142 20
+FIT_DONE cv ['P05'] reconstructed_v6 142 seconds 1.8
+FIT_START cv ['P05'] reconstructed_v6 233 75
+FIT_DONE cv ['P05'] reconstructed_v6 233 seconds 6.6
+FIT_START cv ['P05'] reconstructed_v6 242 20
+FIT_DONE cv ['P05'] reconstructed_v6 242 seconds 1.9
+FIT_START cv ['P05'] masked_ssl 33 75
+FIT_DONE cv ['P05'] masked_ssl 33 seconds 9.3
+FIT_START cv ['P05'] masked_ssl 42 20
+FIT_DONE cv ['P05'] masked_ssl 42 seconds 3.8
+FIT_START cv ['P05'] masked_ssl 133 75
+FIT_DONE cv ['P05'] masked_ssl 133 seconds 8.7
+FIT_START cv ['P05'] masked_ssl 142 20
+FIT_DONE cv ['P05'] masked_ssl 142 seconds 4.2
+FIT_START cv ['P05'] masked_ssl 233 75
+FIT_DONE cv ['P05'] masked_ssl 233 seconds 9.4
+FIT_START cv ['P05'] masked_ssl 242 20
+FIT_DONE cv ['P05'] masked_ssl 242 seconds 4.1
+FIT_START cv ['P05'] expanded_grid 33 75
+FIT_DONE cv ['P05'] expanded_grid 33 seconds 7.2
+FIT_START cv ['P05'] expanded_grid 42 20
+FIT_DONE cv ['P05'] expanded_grid 42 seconds 2.2
+FIT_START cv ['P05'] expanded_grid 133 75
+FIT_DONE cv ['P05'] expanded_grid 133 seconds 7.4
+FIT_START cv ['P05'] expanded_grid 142 20
+FIT_DONE cv ['P05'] expanded_grid 142 seconds 3.7
+FIT_START cv ['P05'] expanded_grid 233 75
+FIT_DONE cv ['P05'] expanded_grid 233 seconds 7.1
+FIT_START cv ['P05'] expanded_grid 242 20
+FIT_DONE cv ['P05'] expanded_grid 242 seconds 2.0
+FIT_START cv ['P05'] cross_subject_mixup 33 75
+FIT_DONE cv ['P05'] cross_subject_mixup 33 seconds 9.9
+FIT_START cv ['P05'] cross_subject_mixup 42 20
+FIT_DONE cv ['P05'] cross_subject_mixup 42 seconds 5.5
+FIT_START cv ['P05'] cross_subject_mixup 133 75
+FIT_DONE cv ['P05'] cross_subject_mixup 133 seconds 10.7
+FIT_START cv ['P05'] cross_subject_mixup 142 20
+FIT_DONE cv ['P05'] cross_subject_mixup 142 seconds 2.7
+FIT_START cv ['P05'] cross_subject_mixup 233 75
+FIT_DONE cv ['P05'] cross_subject_mixup 233 seconds 10.6
+FIT_START cv ['P05'] cross_subject_mixup 242 20
+FIT_DONE cv ['P05'] cross_subject_mixup 242 seconds 3.4
+FIT_START cv ['P06'] reconstructed_v6 33 75
+FIT_DONE cv ['P06'] reconstructed_v6 33 seconds 7.1
+FIT_START cv ['P06'] reconstructed_v6 42 20
+FIT_DONE cv ['P06'] reconstructed_v6 42 seconds 1.8
+FIT_START cv ['P06'] reconstructed_v6 133 75
+FIT_DONE cv ['P06'] reconstructed_v6 133 seconds 6.6
+FIT_START cv ['P06'] reconstructed_v6 142 20
+FIT_DONE cv ['P06'] reconstructed_v6 142 seconds 1.9
+FIT_START cv ['P06'] reconstructed_v6 233 75
+FIT_DONE cv ['P06'] reconstructed_v6 233 seconds 7.0
+FIT_START cv ['P06'] reconstructed_v6 242 20
+FIT_DONE cv ['P06'] reconstructed_v6 242 seconds 1.9
+FIT_START cv ['P06'] masked_ssl 33 75
+FIT_DONE cv ['P06'] masked_ssl 33 seconds 9.4
+FIT_START cv ['P06'] masked_ssl 42 20
+FIT_DONE cv ['P06'] masked_ssl 42 seconds 7.5
+FIT_START cv ['P06'] masked_ssl 133 75
+FIT_DONE cv ['P06'] masked_ssl 133 seconds 8.3
+FIT_START cv ['P06'] masked_ssl 142 20
+FIT_DONE cv ['P06'] masked_ssl 142 seconds 3.8
+FIT_START cv ['P06'] masked_ssl 233 75
+FIT_DONE cv ['P06'] masked_ssl 233 seconds 13.9
+FIT_START cv ['P06'] masked_ssl 242 20
+FIT_DONE cv ['P06'] masked_ssl 242 seconds 3.5
+FIT_START cv ['P06'] expanded_grid 33 75
+FIT_DONE cv ['P06'] expanded_grid 33 seconds 6.9
+FIT_START cv ['P06'] expanded_grid 42 20
+FIT_DONE cv ['P06'] expanded_grid 42 seconds 2.1
+FIT_START cv ['P06'] expanded_grid 133 75
+FIT_DONE cv ['P06'] expanded_grid 133 seconds 7.1
+FIT_START cv ['P06'] expanded_grid 142 20
+FIT_DONE cv ['P06'] expanded_grid 142 seconds 1.9
+FIT_START cv ['P06'] expanded_grid 233 75
+FIT_DONE cv ['P06'] expanded_grid 233 seconds 7.1
+FIT_START cv ['P06'] expanded_grid 242 20
+FIT_DONE cv ['P06'] expanded_grid 242 seconds 2.0
+FIT_START cv ['P06'] cross_subject_mixup 33 75
+FIT_DONE cv ['P06'] cross_subject_mixup 33 seconds 11.0
+FIT_START cv ['P06'] cross_subject_mixup 42 20
+FIT_DONE cv ['P06'] cross_subject_mixup 42 seconds 2.7
+FIT_START cv ['P06'] cross_subject_mixup 133 75
+FIT_DONE cv ['P06'] cross_subject_mixup 133 seconds 10.1
+FIT_START cv ['P06'] cross_subject_mixup 142 20
+FIT_DONE cv ['P06'] cross_subject_mixup 142 seconds 3.0
+FIT_START cv ['P06'] cross_subject_mixup 233 75
+FIT_DONE cv ['P06'] cross_subject_mixup 233 seconds 12.3
+FIT_START cv ['P06'] cross_subject_mixup 242 20
+FIT_DONE cv ['P06'] cross_subject_mixup 242 seconds 2.7
+FIT_START cv ['P07'] reconstructed_v6 33 75
+FIT_DONE cv ['P07'] reconstructed_v6 33 seconds 7.1
+FIT_START cv ['P07'] reconstructed_v6 42 20
+FIT_DONE cv ['P07'] reconstructed_v6 42 seconds 1.9
+FIT_START cv ['P07'] reconstructed_v6 133 75
+FIT_DONE cv ['P07'] reconstructed_v6 133 seconds 7.1
+FIT_START cv ['P07'] reconstructed_v6 142 20
+FIT_DONE cv ['P07'] reconstructed_v6 142 seconds 1.9
+FIT_START cv ['P07'] reconstructed_v6 233 75
+FIT_DONE cv ['P07'] reconstructed_v6 233 seconds 7.1
+FIT_START cv ['P07'] reconstructed_v6 242 20
+FIT_DONE cv ['P07'] reconstructed_v6 242 seconds 2.0
+FIT_START cv ['P07'] masked_ssl 33 75
+FIT_DONE cv ['P07'] masked_ssl 33 seconds 9.5
+FIT_START cv ['P07'] masked_ssl 42 20
+FIT_DONE cv ['P07'] masked_ssl 42 seconds 8.9
+FIT_START cv ['P07'] masked_ssl 133 75
+FIT_DONE cv ['P07'] masked_ssl 133 seconds 13.0
+FIT_START cv ['P07'] masked_ssl 142 20
+FIT_DONE cv ['P07'] masked_ssl 142 seconds 3.7
+FIT_START cv ['P07'] masked_ssl 233 75
+FIT_DONE cv ['P07'] masked_ssl 233 seconds 8.7
+FIT_START cv ['P07'] masked_ssl 242 20
+FIT_DONE cv ['P07'] masked_ssl 242 seconds 4.1
+FIT_START cv ['P07'] expanded_grid 33 75
+FIT_DONE cv ['P07'] expanded_grid 33 seconds 7.2
+FIT_START cv ['P07'] expanded_grid 42 20
+FIT_DONE cv ['P07'] expanded_grid 42 seconds 2.1
+FIT_START cv ['P07'] expanded_grid 133 75
+FIT_DONE cv ['P07'] expanded_grid 133 seconds 7.3
+FIT_START cv ['P07'] expanded_grid 142 20
+FIT_DONE cv ['P07'] expanded_grid 142 seconds 2.0
+FIT_START cv ['P07'] expanded_grid 233 75
+FIT_DONE cv ['P07'] expanded_grid 233 seconds 8.4
+FIT_START cv ['P07'] expanded_grid 242 20
+FIT_DONE cv ['P07'] expanded_grid 242 seconds 1.8
+FIT_START cv ['P07'] cross_subject_mixup 33 75
+FIT_DONE cv ['P07'] cross_subject_mixup 33 seconds 10.0
+FIT_START cv ['P07'] cross_subject_mixup 42 20
+FIT_DONE cv ['P07'] cross_subject_mixup 42 seconds 2.9
+FIT_START cv ['P07'] cross_subject_mixup 133 75
+FIT_DONE cv ['P07'] cross_subject_mixup 133 seconds 10.5
+FIT_START cv ['P07'] cross_subject_mixup 142 20
+FIT_DONE cv ['P07'] cross_subject_mixup 142 seconds 2.8
+FIT_START cv ['P07'] cross_subject_mixup 233 75
+FIT_DONE cv ['P07'] cross_subject_mixup 233 seconds 10.7
+FIT_START cv ['P07'] cross_subject_mixup 242 20
+FIT_DONE cv ['P07'] cross_subject_mixup 242 seconds 3.4
+FIT_START cv ['P08'] reconstructed_v6 33 75
+FIT_DONE cv ['P08'] reconstructed_v6 33 seconds 7.2
+FIT_START cv ['P08'] reconstructed_v6 42 20
+FIT_DONE cv ['P08'] reconstructed_v6 42 seconds 1.9
+FIT_START cv ['P08'] reconstructed_v6 133 75
+FIT_DONE cv ['P08'] reconstructed_v6 133 seconds 6.6
+FIT_START cv ['P08'] reconstructed_v6 142 20
+FIT_DONE cv ['P08'] reconstructed_v6 142 seconds 1.8
+FIT_START cv ['P08'] reconstructed_v6 233 75
+FIT_DONE cv ['P08'] reconstructed_v6 233 seconds 6.9
+FIT_START cv ['P08'] reconstructed_v6 242 20
+FIT_DONE cv ['P08'] reconstructed_v6 242 seconds 2.0
+FIT_START cv ['P08'] masked_ssl 33 75
+FIT_DONE cv ['P08'] masked_ssl 33 seconds 8.8
+FIT_START cv ['P08'] masked_ssl 42 20
+FIT_DONE cv ['P08'] masked_ssl 42 seconds 3.8
+FIT_START cv ['P08'] masked_ssl 133 75
+FIT_DONE cv ['P08'] masked_ssl 133 seconds 9.1
+FIT_START cv ['P08'] masked_ssl 142 20
+FIT_DONE cv ['P08'] masked_ssl 142 seconds 4.2
+FIT_START cv ['P08'] masked_ssl 233 75
+FIT_DONE cv ['P08'] masked_ssl 233 seconds 9.3
+FIT_START cv ['P08'] masked_ssl 242 20
+FIT_DONE cv ['P08'] masked_ssl 242 seconds 4.2
+FIT_START cv ['P08'] expanded_grid 33 75
+FIT_DONE cv ['P08'] expanded_grid 33 seconds 7.2
+FIT_START cv ['P08'] expanded_grid 42 20
+FIT_DONE cv ['P08'] expanded_grid 42 seconds 1.9
+FIT_START cv ['P08'] expanded_grid 133 75
+FIT_DONE cv ['P08'] expanded_grid 133 seconds 6.7
+FIT_START cv ['P08'] expanded_grid 142 20
+FIT_DONE cv ['P08'] expanded_grid 142 seconds 2.0
+FIT_START cv ['P08'] expanded_grid 233 75
+FIT_DONE cv ['P08'] expanded_grid 233 seconds 7.6
+FIT_START cv ['P08'] expanded_grid 242 20
+FIT_DONE cv ['P08'] expanded_grid 242 seconds 3.7
+FIT_START cv ['P08'] cross_subject_mixup 33 75
+FIT_DONE cv ['P08'] cross_subject_mixup 33 seconds 10.1
+FIT_START cv ['P08'] cross_subject_mixup 42 20
+FIT_DONE cv ['P08'] cross_subject_mixup 42 seconds 2.9
+FIT_START cv ['P08'] cross_subject_mixup 133 75
+FIT_DONE cv ['P08'] cross_subject_mixup 133 seconds 11.1
+FIT_START cv ['P08'] cross_subject_mixup 142 20
+FIT_DONE cv ['P08'] cross_subject_mixup 142 seconds 3.0
+FIT_START cv ['P08'] cross_subject_mixup 233 75
+FIT_DONE cv ['P08'] cross_subject_mixup 233 seconds 10.9
+FIT_START cv ['P08'] cross_subject_mixup 242 20
+FIT_DONE cv ['P08'] cross_subject_mixup 242 seconds 3.1
+FIT_START cv ['P09'] reconstructed_v6 33 75
+FIT_DONE cv ['P09'] reconstructed_v6 33 seconds 7.4
+FIT_START cv ['P09'] reconstructed_v6 42 20
+FIT_DONE cv ['P09'] reconstructed_v6 42 seconds 2.1
+FIT_START cv ['P09'] reconstructed_v6 133 75
+FIT_DONE cv ['P09'] reconstructed_v6 133 seconds 7.3
+FIT_START cv ['P09'] reconstructed_v6 142 20
+FIT_DONE cv ['P09'] reconstructed_v6 142 seconds 2.0
+FIT_START cv ['P09'] reconstructed_v6 233 75
+FIT_DONE cv ['P09'] reconstructed_v6 233 seconds 7.1
+FIT_START cv ['P09'] reconstructed_v6 242 20
+FIT_DONE cv ['P09'] reconstructed_v6 242 seconds 1.9
+FIT_START cv ['P09'] masked_ssl 33 75
+FIT_DONE cv ['P09'] masked_ssl 33 seconds 8.9
+FIT_START cv ['P09'] masked_ssl 42 20
+FIT_DONE cv ['P09'] masked_ssl 42 seconds 3.9
+FIT_START cv ['P09'] masked_ssl 133 75
+FIT_DONE cv ['P09'] masked_ssl 133 seconds 9.1
+FIT_START cv ['P09'] masked_ssl 142 20
+FIT_DONE cv ['P09'] masked_ssl 142 seconds 4.3
+FIT_START cv ['P09'] masked_ssl 233 75
+FIT_DONE cv ['P09'] masked_ssl 233 seconds 8.8
+FIT_START cv ['P09'] masked_ssl 242 20
+FIT_DONE cv ['P09'] masked_ssl 242 seconds 3.8
+FIT_START cv ['P09'] expanded_grid 33 75
+FIT_DONE cv ['P09'] expanded_grid 33 seconds 6.9
+FIT_START cv ['P09'] expanded_grid 42 20
+FIT_DONE cv ['P09'] expanded_grid 42 seconds 1.9
+FIT_START cv ['P09'] expanded_grid 133 75
+FIT_DONE cv ['P09'] expanded_grid 133 seconds 6.8
+FIT_START cv ['P09'] expanded_grid 142 20
+FIT_DONE cv ['P09'] expanded_grid 142 seconds 3.2
+FIT_START cv ['P09'] expanded_grid 233 75
+FIT_DONE cv ['P09'] expanded_grid 233 seconds 10.3
+FIT_START cv ['P09'] expanded_grid 242 20
+FIT_DONE cv ['P09'] expanded_grid 242 seconds 1.9
+FIT_START cv ['P09'] cross_subject_mixup 33 75
+FIT_DONE cv ['P09'] cross_subject_mixup 33 seconds 10.9
+FIT_START cv ['P09'] cross_subject_mixup 42 20
+FIT_DONE cv ['P09'] cross_subject_mixup 42 seconds 2.8
+FIT_START cv ['P09'] cross_subject_mixup 133 75
+FIT_DONE cv ['P09'] cross_subject_mixup 133 seconds 9.9
+FIT_START cv ['P09'] cross_subject_mixup 142 20
+FIT_DONE cv ['P09'] cross_subject_mixup 142 seconds 2.8
+FIT_START cv ['P09'] cross_subject_mixup 233 75
+FIT_DONE cv ['P09'] cross_subject_mixup 233 seconds 10.8
+FIT_START cv ['P09'] cross_subject_mixup 242 20
+FIT_DONE cv ['P09'] cross_subject_mixup 242 seconds 2.7
+FIT_START cv ['P10'] reconstructed_v6 33 75
+FIT_DONE cv ['P10'] reconstructed_v6 33 seconds 6.1
+FIT_START cv ['P10'] reconstructed_v6 42 20
+FIT_DONE cv ['P10'] reconstructed_v6 42 seconds 1.6
+FIT_START cv ['P10'] reconstructed_v6 133 75
+FIT_DONE cv ['P10'] reconstructed_v6 133 seconds 6.1
+FIT_START cv ['P10'] reconstructed_v6 142 20
+FIT_DONE cv ['P10'] reconstructed_v6 142 seconds 1.6
+FIT_START cv ['P10'] reconstructed_v6 233 75
+FIT_DONE cv ['P10'] reconstructed_v6 233 seconds 6.0
+FIT_START cv ['P10'] reconstructed_v6 242 20
+FIT_DONE cv ['P10'] reconstructed_v6 242 seconds 1.6
+FIT_START cv ['P10'] masked_ssl 33 75
+FIT_DONE cv ['P10'] masked_ssl 33 seconds 7.9
+FIT_START cv ['P10'] masked_ssl 42 20
+FIT_DONE cv ['P10'] masked_ssl 42 seconds 3.5
+FIT_START cv ['P10'] masked_ssl 133 75
+FIT_DONE cv ['P10'] masked_ssl 133 seconds 8.0
+FIT_START cv ['P10'] masked_ssl 142 20
+FIT_DONE cv ['P10'] masked_ssl 142 seconds 3.5
+FIT_START cv ['P10'] masked_ssl 233 75
+FIT_DONE cv ['P10'] masked_ssl 233 seconds 8.2
+FIT_START cv ['P10'] masked_ssl 242 20
+FIT_DONE cv ['P10'] masked_ssl 242 seconds 3.1
+FIT_START cv ['P10'] expanded_grid 33 75
+FIT_DONE cv ['P10'] expanded_grid 33 seconds 6.1
+FIT_START cv ['P10'] expanded_grid 42 20
+FIT_DONE cv ['P10'] expanded_grid 42 seconds 1.9
+FIT_START cv ['P10'] expanded_grid 133 75
+FIT_DONE cv ['P10'] expanded_grid 133 seconds 7.6
+FIT_START cv ['P10'] expanded_grid 142 20
+FIT_DONE cv ['P10'] expanded_grid 142 seconds 1.9
+FIT_START cv ['P10'] expanded_grid 233 75
+FIT_DONE cv ['P10'] expanded_grid 233 seconds 6.1
+FIT_START cv ['P10'] expanded_grid 242 20
+FIT_DONE cv ['P10'] expanded_grid 242 seconds 1.7
+FIT_START cv ['P10'] cross_subject_mixup 33 75
+FIT_DONE cv ['P10'] cross_subject_mixup 33 seconds 9.4
+FIT_START cv ['P10'] cross_subject_mixup 42 20
+FIT_DONE cv ['P10'] cross_subject_mixup 42 seconds 3.7
+FIT_START cv ['P10'] cross_subject_mixup 133 75
+FIT_DONE cv ['P10'] cross_subject_mixup 133 seconds 9.3
+FIT_START cv ['P10'] cross_subject_mixup 142 20
+FIT_DONE cv ['P10'] cross_subject_mixup 142 seconds 2.5
+FIT_START cv ['P10'] cross_subject_mixup 233 75
+FIT_DONE cv ['P10'] cross_subject_mixup 233 seconds 9.4
+FIT_START cv ['P10'] cross_subject_mixup 242 20
+FIT_DONE cv ['P10'] cross_subject_mixup 242 seconds 3.3

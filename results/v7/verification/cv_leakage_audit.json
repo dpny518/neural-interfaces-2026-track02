@@ -1,0 +1,8747 @@
+{
+  "artifact_count": 460,
+  "passed": true,
+  "records": [
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/align_expanded_grid/source.pt",
+      "sha256": "0d38977ca751472304cefb50fe67abdd6055d01bb991731911efd466836fbf86",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/align_reconstructed_v6/source.pt",
+      "sha256": "c613ccb21db446c34ccc73db9e0752f7618c072f3d54dda80042254ee87452ec",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/classical/covariance.pt",
+      "sha256": "8731d1f400492b898ca14eb6ecd4e4d13438425e70049fa096276caa3c330e9d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/classical/nested.pt",
+      "sha256": "4b00a4d4408cc5435e6e54651177be6a978a54572acb810e9efbbbeb1a2e050e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/cross_subject_mixup/seed_133.pt",
+      "sha256": "adebbed8962536d75a0246b7b44ca705df942a46d2f61b6b1122c835b3900edd",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/cross_subject_mixup/seed_142.pt",
+      "sha256": "81de9225226e60cae6c1a5ab3a77a695cd7335032efcb6e188587daaea2bb2bd",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/cross_subject_mixup/seed_233.pt",
+      "sha256": "15054a44194f6cf7ebdaf97f4f7aab7df3991282cd5858557ed2ab79fb216e0c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/cross_subject_mixup/seed_242.pt",
+      "sha256": "955b41ba4b856070583fa3c09e1e8b77bd337df9420bbc6502bc356a086ffc05",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/cross_subject_mixup/seed_33.pt",
+      "sha256": "159ed33d553fc94eb91e440f12a55b83a58a114dfa2ca76dabed0fb605ea916a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/cross_subject_mixup/seed_42.pt",
+      "sha256": "e948c4068de16ce839498fd6f618da6aeb6347b8c8cfcec4499f5e7e3ad16783",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/expanded_grid/seed_133.pt",
+      "sha256": "6574ddd49719740ccb8a55485d8d1fd0b7965e25f36cc8557ab93f512e96864a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/expanded_grid/seed_142.pt",
+      "sha256": "53974e64280a2150ef64ae47241183adafc31885f9e20f30b61ef94ee842b836",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/expanded_grid/seed_233.pt",
+      "sha256": "fcc03417b88c3644e791f3bf8cfaf745688504840c550f87c739ee4cc149817d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/expanded_grid/seed_242.pt",
+      "sha256": "58964a67755291dedd2e028944bce5ab211293881d66052e053353d6294e1b21",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/expanded_grid/seed_33.pt",
+      "sha256": "9774cf5a58426fd066c05d62be84070452a1beed4763b175376ffcfdff35958c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/expanded_grid/seed_42.pt",
+      "sha256": "cd8d4a00779bf2306ace80c7e9281c59335c611a70bdc99348ad9ff1e42268af",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/masked_ssl/seed_133.pt",
+      "sha256": "0060b083cba56701f76fe11be92591997bc3183b9950bcaacdc31faa5824862f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/masked_ssl/seed_142.pt",
+      "sha256": "6ee1dabea0c4452b302603ec9a343dd2e2e7bbf979aa7d8b74d86eefd835bb57",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/masked_ssl/seed_233.pt",
+      "sha256": "3a6ca532355d0a32ff324e109bf4a4e48d02f783479a170356231646780bdc5c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/masked_ssl/seed_242.pt",
+      "sha256": "b46498e61d8034f7d182c9108b7e762556695e879b735b9b6bd1d3cd95399a41",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/masked_ssl/seed_33.pt",
+      "sha256": "48252d63a9420600531cd1ddb9baae70c24384d5c83c1f00b87486ca3fef00e0",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/masked_ssl/seed_42.pt",
+      "sha256": "1ec78154fe8fda127e0ca034661a2f5449e62920d0bfb7a6b8cbdeb901d9252a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P02_linear.pt",
+      "sha256": "07c0e07e96069f575d2cc9d1682bb2094ec9f9932c4f31bce06cacb854b7003a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P02_rbf.pt",
+      "sha256": "8c75487407c6dfb2f8404a4723f6125a65cbbb54da9ef54e1d458ef9171bb6e7",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P03_linear.pt",
+      "sha256": "94e125f3d2fdc3900e03ba527f49d1a0ab1ecc72dbe6b65915d7c6dca295afd5",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P03_rbf.pt",
+      "sha256": "8b783adab4586529474e2c8f1003dc68fa59ab8b4c233cd0e672bf1e08b162dd",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P04_linear.pt",
+      "sha256": "c66db78cd9375189a675bfcd2e85b931f89544203e1a2673e1beed327372b458",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P04_rbf.pt",
+      "sha256": "202fa98b591fd69df83b9f2e83ae0c5e40acd5c6728922a17353871565eb2c7d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P05_linear.pt",
+      "sha256": "c1dce41fc7a7fa97277a0668cdeffcbaf8c81dfd512db8c4a28f9915977d3cce",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P05_rbf.pt",
+      "sha256": "7b290a1aaa15f090cd437d8dd02e92b2b32c749202c76debd5554c6b3a77088f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P06_linear.pt",
+      "sha256": "c4295d0eccc19160c856f2300fb554324638df412abbfc9b8200c303a9626bbe",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P06_rbf.pt",
+      "sha256": "484d817ef668ed5827a0d90a1dee7dbdf1ddeed3794a413552a7bacb32c4bcd1",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P07_linear.pt",
+      "sha256": "1033410dcb25fa09fa1afccfbcfed1a7aa8f3a0569fdbbcf62ec4ee9ca687d07",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P07_rbf.pt",
+      "sha256": "4be5f2049998fff83d22bf56f9d6e5e432b45fed7bf01de934cb2c6c56ba7dcf",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P08_linear.pt",
+      "sha256": "af22d51c45b0643d9f86a32e137378305ed529c7a89f855a72d2c43a5d27d0f9",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P08_rbf.pt",
+      "sha256": "815914889325466da9d61c7d600a89ec5d0d8585a15dba8fd491af7d4897b98d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P09_linear.pt",
+      "sha256": "533dc82d540db07582b6250e2173939b971ba7e4e480e415f046a23dd0e7d69a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P01/nested/inner_P09_rbf.pt",
+      "sha256": "86ccda0e474f270daff3f60eb63a530a75441bd011fc0071f8326d693582dd1d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P01/nested/inner_P10_linear.pt",
+      "sha256": "5b1d77af8d095eb8f7bac0394f61da85be95328bda0c7926d3e04fa309819eff",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P01/nested/inner_P10_rbf.pt",
+      "sha256": "2aabfefef1eedae6b84239937ab74b3b888c3e68641a23f0791496f38790d83a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/reconstructed_v6/seed_133.pt",
+      "sha256": "360bd5ed833c480ece7ed14045a5ccfab61a43805474ccaada28f29892143239",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/reconstructed_v6/seed_142.pt",
+      "sha256": "41273663a3a6c9adfd49a47664a95b32f5d300fe4c859835d030439d2e5445c0",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/reconstructed_v6/seed_233.pt",
+      "sha256": "d116f2898180b3890c3b5c5a74197a1a2408b4350b22d71fcc4e2cb3359b3d03",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/reconstructed_v6/seed_242.pt",
+      "sha256": "d5601dfd965a4d56e2541b5845696203bab8678a0ddc29a6ba35c8c8ffb5d590",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/reconstructed_v6/seed_33.pt",
+      "sha256": "e4ee105683c13929ee68c7954ebc8897c4b93dd581bedbe6308cdec8ea7960fd",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P01/reconstructed_v6/seed_42.pt",
+      "sha256": "232b35900b0edc20b85cb67188b0ece4e048894d3d1beb065dad14a0cad06395",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/align_expanded_grid/source.pt",
+      "sha256": "845aff78e455a405807eeee72fd90fec44f6e74106c853b72004ddb254593e8e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/align_reconstructed_v6/source.pt",
+      "sha256": "50d7f2734932602fe53192da5a4bf742d12a6eba2b65f6d08e9d28d47fafb872",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/classical/covariance.pt",
+      "sha256": "348c98804de8f84e4f169ce4ff32bcc3204c62b72a407f75060fd2f71d24432e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/classical/nested.pt",
+      "sha256": "b136be9177f0a7226ae264ea4c2ed0583ad1972a4cc0fd1be8023e12e2f4f843",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/cross_subject_mixup/seed_133.pt",
+      "sha256": "c9dc38eeb4b14b210eaddb603eacce9c20803ca898ddbaab3f26e46ad0943429",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/cross_subject_mixup/seed_142.pt",
+      "sha256": "efd33fe90ca622c9530d1684dbdd878bdc7e5a8a75b823057d335a4f75695c02",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/cross_subject_mixup/seed_233.pt",
+      "sha256": "3166db2c2e33e7b03f656d011d9a38617a4a95fa6c6f8852f8e4d82b9d4b3b01",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/cross_subject_mixup/seed_242.pt",
+      "sha256": "8615dbc8dc175802634f0cf15cb0a77e0628a8284b102fe5c9ab76bbcf4dec6e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/cross_subject_mixup/seed_33.pt",
+      "sha256": "dd1f16e56c5a0b581215046e576c72c80d521990e3b06019043b116a6053d032",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/cross_subject_mixup/seed_42.pt",
+      "sha256": "60a532ca9f812d6a3f0bc198a12577828eb654cbec235af3f5a7e1bb3c53c233",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/expanded_grid/seed_133.pt",
+      "sha256": "a09c31d403150aa438877b77e0ca8901b0df50f979375a6395e05fd8d6746527",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/expanded_grid/seed_142.pt",
+      "sha256": "7f00ed7f8a4d733009c07dd80b3cf40655eeb66ceec5b55b1e3ae38830701657",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/expanded_grid/seed_233.pt",
+      "sha256": "2748a6142105bd0cb4520ed73020efa6923bb63f65931d7cfc5aa5f8dfde87a4",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/expanded_grid/seed_242.pt",
+      "sha256": "0bcb8ee316d61b169ce358f1c18abc090897b78c84c126caddeee45acf2da9dc",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/expanded_grid/seed_33.pt",
+      "sha256": "94d30fbeffe581103d97fe1251391d062ae521dae1f331b1c4b4a2873eb86a98",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/expanded_grid/seed_42.pt",
+      "sha256": "3acc992b3281da5adeda890a08a61ca5b016bdfafba197d7c88584ef0228497c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/masked_ssl/seed_133.pt",
+      "sha256": "3463fb9c7b4ed96c0a5ebf6ba602f72b90458c5a028ae43c67617e4a0565d0a2",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/masked_ssl/seed_142.pt",
+      "sha256": "55c1a29212d828a030e52cd03880e1ab9d2d1fc499006b2a8c673a1b538f8d97",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/masked_ssl/seed_233.pt",
+      "sha256": "ecc2ec018d29a797c1e372a04bc53d0382edb9bedeeacdaf72a9ca2f1d944c36",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/masked_ssl/seed_242.pt",
+      "sha256": "4322dc0cc81c6bf5a911fd78b7f2778a5c9e7f852033ada6aaac7b847aa213fc",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/masked_ssl/seed_33.pt",
+      "sha256": "e3bf0d6aad1c33a48474c237e5c6c73260a5910c20a436f78101c6e8d9ffbba9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/masked_ssl/seed_42.pt",
+      "sha256": "667467d981cc4d4aad0d8e6f94a4c6bcdaaaf270bb9feac2162c269d8c0325f3",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P01_linear.pt",
+      "sha256": "adf66d48de6f999bd33eecf214f446070ded3884d7b90c01d6ee9449c0484271",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P01_rbf.pt",
+      "sha256": "935fe3a902158cbddc05b7e5c9a73870d7d99122f55c71589bcf16da1dbf05c8",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P03_linear.pt",
+      "sha256": "4690ab5001d6b925abba87efc0dfdb4947ea9d9bbac13ca4bccf6ae5382b6d02",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P03_rbf.pt",
+      "sha256": "6a3c359dc65677c1a8dbfb2a705e7143f483b63df91257f5c462de946d5acd89",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P04_linear.pt",
+      "sha256": "ba45ec5a436d597f2cb02124377bbf5e81dafcdb791cd1c7be75bf3ba4978aa9",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P04_rbf.pt",
+      "sha256": "8de04cf832b9e11ae7b012210dfcf181d75450fe671a5a7c58464a05ccee2f42",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P05_linear.pt",
+      "sha256": "2c70f07ca646dbc47bc053f3e3bda3ec9ce4d28a6de6c888ff2cfb7188caf964",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P05_rbf.pt",
+      "sha256": "e5e025a50d855fd3e3bb09e78e4b7794f6e4cb13507716c41094816cb3c29408",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P06_linear.pt",
+      "sha256": "6967bd50e81cb1f9db698887f76f698659f7515dabf46fab2962c5d24dfa8cef",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P06_rbf.pt",
+      "sha256": "910ad191fa3b86c6dbc4a44ab00694702b99d0ae0781e687b1a3e0e8453bf893",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P07_linear.pt",
+      "sha256": "7599a279a8034e8f2d1c2dab7f6b22434cbcf8bce3e97590732e8c4343442fe1",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P07_rbf.pt",
+      "sha256": "65e2b0123dc03a91044e2af9f3bc7ad973b4fef57326884eb853bfa91c8a9001",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P08_linear.pt",
+      "sha256": "88161435e691afa506c46a45c3e705fdcb4a2d3512036c02382c3821ffda8ac2",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P08_rbf.pt",
+      "sha256": "fc522d502b3413d736c5b81ef98cb2772e5918d812d6a5186724f0d38d02d1db",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P09_linear.pt",
+      "sha256": "bdf4766fde51fd85d4bce4077bf98166097f52237cbdae9ea3bc4c02ef2159f7",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P02/nested/inner_P09_rbf.pt",
+      "sha256": "b4b5270160b8f350063df0ca4cd7ab55cc093f8aa434e92c9d7577f38fd3e148",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P02/nested/inner_P10_linear.pt",
+      "sha256": "fb87c1b2a38062ead798f628decda9064b826764a738e623f3b3b7e66807d82b",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P02/nested/inner_P10_rbf.pt",
+      "sha256": "af7802f16dba39d0a5f1cc369fe393457752bb9bfcd321852d914f4ddd3aa4da",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/reconstructed_v6/seed_133.pt",
+      "sha256": "9a19cb9f25f78a5c2b087606381e1d668345ee2b8d72898efdf048a10316ae60",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/reconstructed_v6/seed_142.pt",
+      "sha256": "f48e1489106a12e619b97c2b21a91f48447a02a18d3933baa79e2e5907ae6f88",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/reconstructed_v6/seed_233.pt",
+      "sha256": "f3375b1104eb345eca0acc6b7d300a775a420faaa7ab7a01d6efad4c8c6361da",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/reconstructed_v6/seed_242.pt",
+      "sha256": "2756fa755632f823e022896da7a43e85e0551a49263044d9d6b6a6c3da7943de",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/reconstructed_v6/seed_33.pt",
+      "sha256": "ac7871fb9cff59e2e548470809db8b17f4fbd8466b985e25bcd9bcaa3efab08c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P02"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P02/reconstructed_v6/seed_42.pt",
+      "sha256": "fd31bdc231ebc54de93593c2e1dfb7c1eb06d78fbad74f3ca35fb701fe99d0af",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/align_expanded_grid/source.pt",
+      "sha256": "42f29747f7cd89be0e602d05df59e6cf28193ad9c4bccc3a76eab4af61fc35a9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/align_reconstructed_v6/source.pt",
+      "sha256": "7a7757f209b0c95fa733513a9c952e1bca4a29058d705f64edd7d725fe03c3fa",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/classical/covariance.pt",
+      "sha256": "f49aa453bee181db20bf34e12eb900ad69b57c0d6c1c820dc4c39dd004f30182",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/classical/nested.pt",
+      "sha256": "558e672a496024dfd1de49f4f0e6fb45506688a6d2401e46e44280b7a13900cb",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/cross_subject_mixup/seed_133.pt",
+      "sha256": "986f79dc6fa5118bc74cce3783801a53fc8f5826abf4e36ea5f0807b54c46cfc",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/cross_subject_mixup/seed_142.pt",
+      "sha256": "48a5afdb4e5a15e297e614dfc96cc5f29d3a1625af1af347520e4d3be32a81c9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/cross_subject_mixup/seed_233.pt",
+      "sha256": "f7ac7ea2f0e9c54502bd7b43f417c8f84b1d166115289f6759104280cc19f4e4",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/cross_subject_mixup/seed_242.pt",
+      "sha256": "8a6982deeedd3b6b7fe5e9928fa235b631cabf77bd17999a915037e6841f61ba",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/cross_subject_mixup/seed_33.pt",
+      "sha256": "08f7f6cd7d3cf3133621293d88d3188c785eb09d53b79cba9de4568b5460a5b5",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/cross_subject_mixup/seed_42.pt",
+      "sha256": "75458eb11b422e5e8032f4ac40f4205ffd24be93bb5b236ef729f0e69c08aa26",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/expanded_grid/seed_133.pt",
+      "sha256": "4bdd119de4df4dc6e9b02ddf4dee832a14f7afe2a24db7851fe5dad335b802a8",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/expanded_grid/seed_142.pt",
+      "sha256": "18e88848299bfaf04bcc4c79019863172c83bfc9d81c413e2c6ca8955f2938eb",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/expanded_grid/seed_233.pt",
+      "sha256": "eb7ad0654e5e62ab80c7a15c1000f421c4e82227224d0f2dbf961929d4586ba0",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/expanded_grid/seed_242.pt",
+      "sha256": "24e6c4ad610962a51f168cadec20d74fe456931f37cf65064b9ce076be48bec0",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/expanded_grid/seed_33.pt",
+      "sha256": "9b7ac9857009335384cf407f0b7e19291e544e9a6d95abd34369a51d2479a7ea",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/expanded_grid/seed_42.pt",
+      "sha256": "25f59930e91542710fdd1225ebf33a57e83ba82540e7a9d85ff7f8a3e284660c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/masked_ssl/seed_133.pt",
+      "sha256": "e636bc5ae669ea49cb7535b96d7405ca08af19b3a816249dcf37d6bb8621f0d9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/masked_ssl/seed_142.pt",
+      "sha256": "f11046bd44e864bd5674c9c8a8082d400b4ff12d889d3cbf09d69ea0d91b2d60",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/masked_ssl/seed_233.pt",
+      "sha256": "20326a0533691e37aac835371c381e528978bfe87db2599c8714a77d336f1a26",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/masked_ssl/seed_242.pt",
+      "sha256": "01e56be7e41bfd23ba44720833f15cfb94ec9e58f4a6d45f0a6791cc1d0c2744",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/masked_ssl/seed_33.pt",
+      "sha256": "e561d073bfe3b380a7d75d238415e1daa8ab01ce32e275b30fc3a0c564643a7c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/masked_ssl/seed_42.pt",
+      "sha256": "c6c5a7da5b303c0788513b64540a92673fe02d099751d9fca62c26d8f7fafb46",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P01_linear.pt",
+      "sha256": "c40bb8cfa80230eb945d96c85980ec0e3bcdeec62d90b4d79df04bc64b5c2a17",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P01_rbf.pt",
+      "sha256": "7ba99fcc5e45fcc3a6973bb677f95fc030b51fc43ceeb0ca93ac1e9b4e10290a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P02_linear.pt",
+      "sha256": "052df5386c5885ca6368c41e95d1284f2f639c29a6c152c2af50eb85296b3aac",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P02_rbf.pt",
+      "sha256": "e7f1cf02db439f675884a236a096a70e76ea0938ad00f5c74711acb8d03e2489",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P04_linear.pt",
+      "sha256": "a4e62260aaab98e53ecda03c66c403291446f24131b4749f46384715bfee93b8",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P04_rbf.pt",
+      "sha256": "ade2424d870d319a40f4f2cf4c295d5a117a962dc7795d3fc172156b805f7e6a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P05_linear.pt",
+      "sha256": "60ac30bbde5478a8c702d602b6e5aeeb4f41f145c80d4f120deaf0ca8f9a7fac",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P05_rbf.pt",
+      "sha256": "b664c9dc9d7165f05fdcfe776c260b03c799528aacaa498827b4d561edaa89f8",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P06_linear.pt",
+      "sha256": "6c812edef1115513a9aac13b235141fe64249707441cd055dab3b7ee895ca90c",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P06_rbf.pt",
+      "sha256": "9daed4a67fcc65438759b9b193012aeadb849269de288ee32db8cb3ed73c3cb5",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P07_linear.pt",
+      "sha256": "ceb876a3ea6b8c60e85c76e87260c1e343f9befd87f52d6ea837d37204f642e8",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P07_rbf.pt",
+      "sha256": "4e11116cd1c8098631b221d716897ee5d00185ced5047e1f03d7042ed65e4db7",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P08_linear.pt",
+      "sha256": "92e9acf13a3d749f9898c715a850869077ec62923bb540e8f4f53238f8f36742",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P08_rbf.pt",
+      "sha256": "5b4cd03637f15a43e3993aa660cab27d2fb7536c17bc21eb61a2dad5dbaa4b0f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P09_linear.pt",
+      "sha256": "6dc9cfb2b4f5125c636d64a77d18ae0d06da085caf01220f65bd0d7b4dd0cc81",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P03/nested/inner_P09_rbf.pt",
+      "sha256": "c50a85b31c774841e5881ad942d034ec9b63eb0250de66905b792ede0046f93b",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P03/nested/inner_P10_linear.pt",
+      "sha256": "2fce4887d64b9c3e7d7c4412e5289aa6973c79ae1ae12e743522cb47f68bf257",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P03/nested/inner_P10_rbf.pt",
+      "sha256": "05d4ee5e64baa8dc7920ffaddc91529f7520a7113885dd82038c3cb95a45fafe",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/reconstructed_v6/seed_133.pt",
+      "sha256": "b788107de48f0732de7ebc2e753e3897a074fbfd0bbc313c4e6635767982aee6",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/reconstructed_v6/seed_142.pt",
+      "sha256": "4a3f2999969aae00f1491c1604b2c6b924acaf893bd958515a04d68a9f3ea45a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/reconstructed_v6/seed_233.pt",
+      "sha256": "6fa54255043c4d15771467040666ee408a51370eaae942c9bd43050dcd839f4f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/reconstructed_v6/seed_242.pt",
+      "sha256": "2a1ca8722ff2263e6517b7ab8dfe9d4721ff9b1f1afc544a0a38f829459910e2",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/reconstructed_v6/seed_33.pt",
+      "sha256": "b2c99fbe21d9eeec5898404e3eae062e03040b7033a7ee6587a856138ce55b8b",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P03"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P03/reconstructed_v6/seed_42.pt",
+      "sha256": "4d4409b0cc5852981ac488f2759e4384a497880bc2c16220d0ed6b06939f4d22",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/align_expanded_grid/source.pt",
+      "sha256": "f165077f9e39d9e76b14134697fda19a9e8444cf831019871e6d8b9aedb12105",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/align_reconstructed_v6/source.pt",
+      "sha256": "04c216f36abed257238a3da59b8721e5fcc11272300f9f77852ac537db3f0f94",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/classical/covariance.pt",
+      "sha256": "c23b2230eaa4b2b9ce60ed1119e76df1a3c8c7c7b9a076a36fe2816e6b38b2be",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/classical/nested.pt",
+      "sha256": "dbc61d94cdfddaa59c4b53502a2439f7d0731a43ee52f459cfee721f1dd05f5b",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/cross_subject_mixup/seed_133.pt",
+      "sha256": "5987a852a1df24b3288a361b225df61447e90f27632b84e7ce0f6f7d84e757c4",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/cross_subject_mixup/seed_142.pt",
+      "sha256": "19c296e978a435c6855a076de01354dde6d72b07cee2147d1ee356fbed31f0e9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/cross_subject_mixup/seed_233.pt",
+      "sha256": "f554118bf5ebf788972bd76933e7fca19b1daf7a1cb19aa4492f1d02fed741a6",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/cross_subject_mixup/seed_242.pt",
+      "sha256": "5512646ed1583bfc7b272a89d6dc973a3883ad6b2cb10eb813c7fe754f01c7b2",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/cross_subject_mixup/seed_33.pt",
+      "sha256": "fb5289f503e789b5a1596ab610bb96f2ca854b8e92b32cda4da2da67507229ea",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/cross_subject_mixup/seed_42.pt",
+      "sha256": "b194c965cd89a83b56d212af2c2776867507ae566875aa086ecb834ff1623045",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/expanded_grid/seed_133.pt",
+      "sha256": "17eae0d79c0788d3b35e80f8d8bc259b15438d9463b624ee53c9eebd7fda13c9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/expanded_grid/seed_142.pt",
+      "sha256": "216ef0a08d697c699faa88e6714080e1e3433716bd0a7b59263e14ed3b480b65",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/expanded_grid/seed_233.pt",
+      "sha256": "ac6e10701d1c2b425497668ace4410dd88a91265d92288a900bdedc8009a8253",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/expanded_grid/seed_242.pt",
+      "sha256": "de3b2711eb9a0ad9debc11e10699149662793bd60150ccb4d84f82fcb15f4059",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/expanded_grid/seed_33.pt",
+      "sha256": "837a4d341def3b49a85b04eae9af915cf78aa7c8d1a3bb6c0f0f02f15dfb817e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/expanded_grid/seed_42.pt",
+      "sha256": "b531d71a1cc4a2a83297b5e73105ab701a4fa705cc94ed177796bab9a26aa858",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/masked_ssl/seed_133.pt",
+      "sha256": "fcdb6ce8f3661812954e8ccd2cc214f7bb43ba00139f5442f8c443a35a7b5c79",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/masked_ssl/seed_142.pt",
+      "sha256": "95c8f08b118e4493d4ce92b36ab6e96dfc519502539a3dc4423fabe7aad67518",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/masked_ssl/seed_233.pt",
+      "sha256": "864e69e03ad1f02a725cb056d3c2be665edbf9ccc03353e6ad627a45d5699c4d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/masked_ssl/seed_242.pt",
+      "sha256": "bbbfbe39516083b491ad6d1b46bfb33a350704fb777a0215b8fccb4f9dfbeaa8",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/masked_ssl/seed_33.pt",
+      "sha256": "a70babee75f3a6a20ed6d71e3ef66e73dea92f595414703cd841f8bfc9ff8947",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/masked_ssl/seed_42.pt",
+      "sha256": "9885920f97f6bfb35fb9627bd2946d61de7207e33a54d53f22659a9f7d45990a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P01_linear.pt",
+      "sha256": "77faa494f9e44f1e298c30a0aa80f78443aab1cc64d832740df971eef97294f6",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P01_rbf.pt",
+      "sha256": "5e060598aca35c986cedd5da97b0d97fa1a400897b2f7fe61c60f166cd7be346",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P02_linear.pt",
+      "sha256": "1e4b8416e4861d2d3565fc7d4e7e7c9675a519aff585c3111198261b07484a4f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P02_rbf.pt",
+      "sha256": "663012801e5f51d98a5a874a4f02cbdaee8845129fe0a964fa051b16f1ec51ae",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P03_linear.pt",
+      "sha256": "f1a286e4895f1a08f0900360f08e756b914ca2c767f1407fa5c9ea0f6ff028a8",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P03_rbf.pt",
+      "sha256": "2053873e8771099a86ddf656f463b06cddd29443e91a867c650a1aa38b63199e",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P05_linear.pt",
+      "sha256": "830502023c72459970d139cd18c001e091671415c1e6e5ef8e00315c07b8384f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P05_rbf.pt",
+      "sha256": "2091bd27b9f3eaaaa1d0cbb0ff5ca294ef029074bbae650d89775cdf63621b24",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P06_linear.pt",
+      "sha256": "39c5702fb157880c4a3f94c41aac289b55423425172f2d4f372be7ba3502993f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P06_rbf.pt",
+      "sha256": "80b61a19a50c0847fc2ea7284b62f6af652e4d9ad811db49dbc70c84ebbdaebb",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P07_linear.pt",
+      "sha256": "5e690e243f019fd0e1049114cc2965b87fbe8022af35529fc1d7c29924a8bab2",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P07_rbf.pt",
+      "sha256": "d954d1c41b8d153035afa54f1752b9099594f7632f0de48fc47ea99308079a26",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P08_linear.pt",
+      "sha256": "895e8cfb4e6b5fc053758b148653f36ec8940d82172c56c79f8e6623259221a5",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P08_rbf.pt",
+      "sha256": "7fff644b485c5367a71268581617cc354013460ad1d1469c79f4869138b2eead",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P09_linear.pt",
+      "sha256": "95d3b7f2e90e0564299b3d0784ec55bae064085747b1d81ab0f26d95860e7609",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P04/nested/inner_P09_rbf.pt",
+      "sha256": "001661251ca81b4afd5625db4b8962ec6e88e6d8fc088566f1eaf659522a5646",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P04/nested/inner_P10_linear.pt",
+      "sha256": "b316cb237c949e10d3bed5ae2f262292a447cae059edd00f6f6d9c29cf828cef",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P04/nested/inner_P10_rbf.pt",
+      "sha256": "434ca08f605e7d4c53883e2376d5bc35eb6534e7c752b883f082ffbd70c5a13c",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/reconstructed_v6/seed_133.pt",
+      "sha256": "a9a533de81cbec52db997fec321623290969b52fc2e1bb69b07df2c8d4b6a038",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/reconstructed_v6/seed_142.pt",
+      "sha256": "ed48dd52e277ca28418a7cc72bc587280f7b3f83152d4118e6194d1baf377a63",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/reconstructed_v6/seed_233.pt",
+      "sha256": "fbaf147a370495718a756322b0a2825d17cdb5f1cc671e8b5dcfe6da3b58e35c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/reconstructed_v6/seed_242.pt",
+      "sha256": "2460e8a0ea31605e45ee9d6707ec444b3803819932f1e8464f5c3d00b33af18f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/reconstructed_v6/seed_33.pt",
+      "sha256": "5aa155a048802dc618be70d521ce68192673d68efc3053f7e8682df4e1bc6264",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P04"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P04/reconstructed_v6/seed_42.pt",
+      "sha256": "28dc5943a0afc6df8d82d9f818f89295c6a5454955b332f2e346d065329d2434",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/align_expanded_grid/source.pt",
+      "sha256": "8b16fe361a0be50979dcb9b6e13ff58d4d07cdaa3226c722013979ebd54d6075",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/align_reconstructed_v6/source.pt",
+      "sha256": "655224ef5638cd5a81a25a5654daca3d8b14ed6b1496f33ad0818b9f464725c0",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/classical/covariance.pt",
+      "sha256": "3ba74a6e92b0d1a8ce113b194853c4b4e3b6496d0f4b0c4efad42ef4d51a7984",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/classical/nested.pt",
+      "sha256": "92d2229ddb45676a71d2eeec9a6050695ba2b1561fab9d1f4d74de3ebb176478",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/cross_subject_mixup/seed_133.pt",
+      "sha256": "08a2b37e68f4eb1b56fc9900f6e375af4b1f121ddaf21be9806ef0830bf6ba6d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/cross_subject_mixup/seed_142.pt",
+      "sha256": "e36a48dd714285b4ccabd328ab1c94eef74a50f2e4b63066d8a9185db354deb1",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/cross_subject_mixup/seed_233.pt",
+      "sha256": "e49d90901ae5d2a50ad40f07f069ffe84d631bd061c12d92aeaf74a62cfca519",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/cross_subject_mixup/seed_242.pt",
+      "sha256": "4e01c590327c4f41dbc3236763b98e4b8ec0951e3a88470b8894fbea7f702538",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/cross_subject_mixup/seed_33.pt",
+      "sha256": "530143ed96757df460fd6a7cfe42585994aaba6c0f963bfa0bf9a9b157d9f942",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/cross_subject_mixup/seed_42.pt",
+      "sha256": "50871b80c13b0ad1f94657cbe3c655055f162b1fb4a6f13c9bf12cad5b8bef0b",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/expanded_grid/seed_133.pt",
+      "sha256": "ca9bf745dd0b3799a441893026f24b3bc5ae805277258b69a3c2ebd1278165fb",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/expanded_grid/seed_142.pt",
+      "sha256": "5638879b0e11e7d28944bee26387e37c3c35c7e39b5b249ae4dff8bbef23df3d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/expanded_grid/seed_233.pt",
+      "sha256": "62d6f3d16fe988f75af468c7a46b90655d48f7bbd1e59973f8111746f718b203",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/expanded_grid/seed_242.pt",
+      "sha256": "6347378054759e2521c24515e766cdc236c8b20e61911dff37e0b6c4a655fe78",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/expanded_grid/seed_33.pt",
+      "sha256": "564e2e93fc96ba132e3498f4710b9c8826996d3ea1f6274ad922dcced5a7ae2d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/expanded_grid/seed_42.pt",
+      "sha256": "b68dad88f9bc67a1576edb153587f0a630d4d39e22e08a0af8d79051f3576697",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/masked_ssl/seed_133.pt",
+      "sha256": "a1b7da9a71614762d5300c538be8749f582b6921cc4ff0710a0a2c205080b29a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/masked_ssl/seed_142.pt",
+      "sha256": "6ce0342b28b973d4fdb435a42a2a695843f83d025f2e5c1115ceb7cf23c87d6d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/masked_ssl/seed_233.pt",
+      "sha256": "a34d4d9f1166baa250f0004241d53eff02fe1797b86e6a81d3b958deba874d05",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/masked_ssl/seed_242.pt",
+      "sha256": "a2113c3e6777d6301c9d82b696cc804f9767dd3564da70dbea3e4459d8dfaa93",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/masked_ssl/seed_33.pt",
+      "sha256": "0a91c15e81caa837ec98f27e3aa7d89ca5f69033fc8c616aac8140768b579167",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/masked_ssl/seed_42.pt",
+      "sha256": "3803bc657f85041791646995783670f2a8305d3723a77bdb272bfe23eaa47e76",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P01_linear.pt",
+      "sha256": "361a02f2ac7e850995133b1c100f056fc5d9dd9da1f8cd611c64f09ae8f34f76",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P01_rbf.pt",
+      "sha256": "28523d4bc470c3d04cc187e8445dc69a9565b96110aa25e02d11cb52f90b16dd",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P02_linear.pt",
+      "sha256": "ea51fd8f4268b673e4fe89d0c06055fcc53aa01b54ffb8efbe6185a3c3831df4",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P02_rbf.pt",
+      "sha256": "2fc77fc3640cc76eb651a249849fd84c217d0ab10943180237fa57355f235008",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P03_linear.pt",
+      "sha256": "9c90e6b08a247ac4fa0c2e43161eacd320aa45d638be35cda1ac40dc16ef7bdd",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P03_rbf.pt",
+      "sha256": "d1ad800d29fab67d21c655d75b1a0a50401cf15aed28cc98eef971cfcc36ad5b",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P04_linear.pt",
+      "sha256": "e98808428b9cca9a6dfd205eecb8550626df5a6b1e5a0bfe85c43b996e82742c",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P04_rbf.pt",
+      "sha256": "eab6489d4b97cfaf8362b2e74fe1b3f69d8c2db172734c089f72b55f5d9c4205",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P06_linear.pt",
+      "sha256": "cdb382e9d8527186856892a05283b4a01e322ffbd7a281280a61b31c9deeb8d9",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P06_rbf.pt",
+      "sha256": "3b4a0813f7c7f1fab5c07a5e3d20d8ecacf43bc95b24b274ed6f204ad952ace4",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P07_linear.pt",
+      "sha256": "db0ed515ebc993bce180e426cb5d38a363604c49c2beae139d3ab8f4896e0d6f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P07_rbf.pt",
+      "sha256": "208e99794506ff50bdb50f29ad388f07ea57fa5149ea4a358833a8d2c8ae891e",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P08_linear.pt",
+      "sha256": "64bef7be57f62556b308061d6f2f4fa3b8574be3ff8417ab27023d1dc93ba078",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P08_rbf.pt",
+      "sha256": "2c3b9eb830a04d5923c08570a9ff924aad08de8ae538bd83bf855dc38175b405",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P09_linear.pt",
+      "sha256": "45cf05176378b6f638a044a6f2038da41265c1d874dec49807e1879f736b4e9a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P05/nested/inner_P09_rbf.pt",
+      "sha256": "c5344a2c8ac13ba29d8ff8fcd28d224ce69cfd006a661cc7b0b1e9bb906c94a0",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P05/nested/inner_P10_linear.pt",
+      "sha256": "728d2d4aeb0102e5dd820e960b20adced00317c66a3c4c3215852b5eecd3f473",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P05/nested/inner_P10_rbf.pt",
+      "sha256": "e795e2138a36f63451a198ab809bdc4a1a45b6fa884f0276e8bc60901461614c",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/reconstructed_v6/seed_133.pt",
+      "sha256": "90f1f50954e935f0c07e07ba35906de9bbd558f8be95b16c3fba5d227da723d7",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/reconstructed_v6/seed_142.pt",
+      "sha256": "b7c95b9027d00de81bce2e29ace82b09aefa653ac6300d59eb7d74b2478f784a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/reconstructed_v6/seed_233.pt",
+      "sha256": "a965eeb2f874242f181ce99df3173bb4dd746ae4e8abbc053778f61a8b74e872",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/reconstructed_v6/seed_242.pt",
+      "sha256": "ddc65c29d7e693f3405d9de18eabdffe20201ef45031841a072b1db2b75fe131",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/reconstructed_v6/seed_33.pt",
+      "sha256": "3b233e7c44e151ddb632d70c539c036f8365a0231d311256be76585c97e29dda",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P05"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P05/reconstructed_v6/seed_42.pt",
+      "sha256": "f69f87eb5495402656ff63345858917cc16fed2c18f1d1449fc6c6566d19f20a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/align_expanded_grid/source.pt",
+      "sha256": "6d1921f3b1ecd55780a93bae3b44147ad38af5e25108d89a9f9ad2e45ee4338d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/align_reconstructed_v6/source.pt",
+      "sha256": "963368eb713191ecf7aa43e1a5e9397411e29f3b3d68e8f406f7cb86b903a714",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/classical/covariance.pt",
+      "sha256": "cf6ab702fa70fee9594d32ab1f6849af262938057f900d1f19f741a89b8bcc57",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/classical/nested.pt",
+      "sha256": "21433705f14e3efe11f1f8e5519299cc05414c0fd96f1adadaa7728d040f55bb",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/cross_subject_mixup/seed_133.pt",
+      "sha256": "e228baf807333bf484d2ce7eccffc9c0e56359279b0ba76d8d87f90188c4ed73",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/cross_subject_mixup/seed_142.pt",
+      "sha256": "93448a40a37130f1559454ef85b0d1248b3f1de1663317a7fa12d2c99a5e5807",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/cross_subject_mixup/seed_233.pt",
+      "sha256": "16e2841867fd2b0a9987ca8b97b4e28b8e44fa814efaa7475887b3a6efa6441e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/cross_subject_mixup/seed_242.pt",
+      "sha256": "717006ce33e39c3638b6314e2ce9d4971371acf9346c200e4b417f0cbbf418d7",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/cross_subject_mixup/seed_33.pt",
+      "sha256": "4870f66e4eefa487761c8bdd59b917526f150492e12fb3dbaf74d07a74a4383e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/cross_subject_mixup/seed_42.pt",
+      "sha256": "038ca62b2944588b97f5c0ea2ef2bafa444096393270678f71a0c60a92832127",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/expanded_grid/seed_133.pt",
+      "sha256": "883e9d215f088e409d75e732bc4fa13453023cabdf206688c109561233cd70bc",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/expanded_grid/seed_142.pt",
+      "sha256": "1caaeb30d18390ea3cf1eb1cce282ebbb47c03502b8d7a67d739998d083860f8",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/expanded_grid/seed_233.pt",
+      "sha256": "6d7b0a4f8a0a31337e59749e51eec1bbc1a52f0452a956ab50169c63763dfc8d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/expanded_grid/seed_242.pt",
+      "sha256": "779efd652d703499dffa06117775eba88ab356a2e3b4e9dadf21762eeef78ed2",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/expanded_grid/seed_33.pt",
+      "sha256": "5ed95da5d653271ccec43927d32ca022d16b7871c62d642b1585d52790cdc884",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/expanded_grid/seed_42.pt",
+      "sha256": "d4b3e1abec64628f68a441276dd7a1c7b106d2928c588976c02b168733111100",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/masked_ssl/seed_133.pt",
+      "sha256": "ad9b60db60b9b0f88b5e4c4378eab437f8672a839af36b049e21f6cf15b0ff8a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/masked_ssl/seed_142.pt",
+      "sha256": "0055652a309c7bf6d5a61cbe5742bd6cc533549cd2da8339e14c6e90577bb85f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/masked_ssl/seed_233.pt",
+      "sha256": "71c019e1c7baa78429578593fcec930f2dcc94aa93cb35cb91b3e0074364b872",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/masked_ssl/seed_242.pt",
+      "sha256": "de05be268bde1a65c5f3af2486c200a7b76f1bd9bf09a485208796303560885b",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/masked_ssl/seed_33.pt",
+      "sha256": "47c5fcd9f8eb26352705d18373777da211230c22b794989f5766adbc8d27539f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/masked_ssl/seed_42.pt",
+      "sha256": "227b1873b3a1381caf266e805128a22e7fa5c823cee089684a2707ae44910d63",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P01_linear.pt",
+      "sha256": "552c196c758a10eb76dc7c5840aea4cbf0ac5e08e48db9d3cd5044600705a1d6",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P01_rbf.pt",
+      "sha256": "9c94aa15ae5db1e4195cf6e4974fd77aadd670af94c8d716e653d5ebc94f498d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P02_linear.pt",
+      "sha256": "0180189b524c7f44fff2f8eccc417f86cd5d986eab079c353d7b042267055fea",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P02_rbf.pt",
+      "sha256": "c914b7bfa231738704298bca4bad77982d60ab7ed6a7925186074d454afe9192",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P03_linear.pt",
+      "sha256": "39ac5e3f6f3daa74cab0e6204ec1bd9a2cfe62ad9a7223ea50ace430f47c7dd2",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P03_rbf.pt",
+      "sha256": "ceab5e9afffef8c6b3a4a8e2bb0ccd698db98c065721221073028e2f202cd9bd",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P04_linear.pt",
+      "sha256": "53368af64f4e4b77c525f0f2e4eed616aa9fe0738a2b65d181a0707933efdbd9",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P04_rbf.pt",
+      "sha256": "af9088c08fcffcb2229ba1ba84beb5cc0f973d608cadcc8f4c22c10d086e7f41",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P05_linear.pt",
+      "sha256": "57eed6bedf39c8911c0fb24eb836a8f9483cb4e05ad8b11ab2a11f03b25543e9",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P05_rbf.pt",
+      "sha256": "c350618022f3e883087359b198e19ae192800c61468488dc70da0074e8c3583a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P07_linear.pt",
+      "sha256": "834b21c43f113e4d2ea298e1f0bd1c0b29914d7ccf21fe2f7d21012500d00186",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P07_rbf.pt",
+      "sha256": "5ce8cd7bae889425b4bf748fa0bf982988b85f10547296b1e2016ff8f4bbbaea",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P08_linear.pt",
+      "sha256": "4a182b888071d8695cbfc54af1a9c817c852a7cfcde9edae6098df46d6a10bf5",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P08_rbf.pt",
+      "sha256": "e88d989121773ebad6bc6ec8581e4ce388f65a572b1bbb8d4fe7b498ddd3d0d9",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P09_linear.pt",
+      "sha256": "e1ccb0996957b17da303b913dca8c88351389f55f1f5575c13c8588e97c9ac2d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P06/nested/inner_P09_rbf.pt",
+      "sha256": "81919f6b1872713092073a08e706a82546bd4a783634b0dad8c3b3c5d39b266b",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P06/nested/inner_P10_linear.pt",
+      "sha256": "ead40db0ab9c35740404e13979e5f5b450054f72915c4ca5328a945f08c92e41",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P06/nested/inner_P10_rbf.pt",
+      "sha256": "30bd841d880fb674108d2245bd8131d2190e0451f28d349924951658397050eb",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/reconstructed_v6/seed_133.pt",
+      "sha256": "57b53dc2e39cd5ee10bfe40654c77db5056ee87b580c122d4c9a5a65dfdfd313",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/reconstructed_v6/seed_142.pt",
+      "sha256": "5bd15badadb29d3de2400ef669a5cefba791c542fe98e4cb483ccfc6d4679873",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/reconstructed_v6/seed_233.pt",
+      "sha256": "7a0352cddef888f2585f69dcaec32409475702b39ded4b074620e742488ed563",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/reconstructed_v6/seed_242.pt",
+      "sha256": "df5fd698663709bb5d03a0d690ddc96f6cd7ac4339e8a0a912b5d21904d9f4a7",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/reconstructed_v6/seed_33.pt",
+      "sha256": "cdc56cb30e31706ffccdaa3728e844b742a0c7bd4a2060eef1ab78ceacbf0c8b",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P06"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P06/reconstructed_v6/seed_42.pt",
+      "sha256": "83f34b483d015def5f27267cc52acfc7bd9137107e1bd057e3846efad63ad26f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/align_expanded_grid/source.pt",
+      "sha256": "1ee489c74fb0ed712fbf855105bb2eebe6f3698c941736c465cf094ba22b2049",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/align_reconstructed_v6/source.pt",
+      "sha256": "4a227267f6b65f7479f1d65a8dca59dec6c52b2ba0e83b3ac47b0a5b42f65b39",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/classical/covariance.pt",
+      "sha256": "6ab82697bcc07aa30ad9a7ed8c67f5e59ba6f1f621591d0f615a71760ded6672",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/classical/nested.pt",
+      "sha256": "63853efdfec563024a4632e37e119a997d904d942380eff6006413ee8c6e1aee",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/cross_subject_mixup/seed_133.pt",
+      "sha256": "99f7f9c911ae87fd76559a3ceef01b6265a87a3e3d05851e07d35f18df43fd70",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/cross_subject_mixup/seed_142.pt",
+      "sha256": "eeda35261a65b7634b793b8b13b48f168faabf013ec2f222efaf18d44685dd82",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/cross_subject_mixup/seed_233.pt",
+      "sha256": "4acbd0e1d3026807adc63031961057c0d17da0ec6a671442497b111d8fb12003",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/cross_subject_mixup/seed_242.pt",
+      "sha256": "26b30e1270d0065941efe14152ee5c6216b3708f62257c8cacd6920cc3706471",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/cross_subject_mixup/seed_33.pt",
+      "sha256": "0713288261c99f45f849f3c5b2381ff85425e1ae2f0054ec653f3a41486ac462",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/cross_subject_mixup/seed_42.pt",
+      "sha256": "e7d93ed35963362b87f870d3f49d4242ce36c31ff983a83a1d846563892d2561",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/expanded_grid/seed_133.pt",
+      "sha256": "34bfa202918a2cfee146c24628a66c30f3fa3ad1b4d57f23b58c65714f45c139",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/expanded_grid/seed_142.pt",
+      "sha256": "17dc348cb0612dafb3859f857e25d3004b85bb54d85ad772eb7d2ff2f02e71f9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/expanded_grid/seed_233.pt",
+      "sha256": "336f0526c71b63d8cc3462100ac225ffab60357b373c4356d678748987c72a93",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/expanded_grid/seed_242.pt",
+      "sha256": "cbddfd27923bfff511667931b62a948545f278ebc9909db45b68297df48c6c16",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/expanded_grid/seed_33.pt",
+      "sha256": "80480dc80e08a36fd25310098d0823f13686c7d04a08371a6a4db341c1403c1c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/expanded_grid/seed_42.pt",
+      "sha256": "897d8142d9180ddeac6d6019d7675ee822670a129de07dba083f021fe34c9ece",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/masked_ssl/seed_133.pt",
+      "sha256": "7270b35d9aef4d79ae47e760d717e5a7bc3e37bcc5ee1f4a352c7bc3a9309e14",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/masked_ssl/seed_142.pt",
+      "sha256": "d38febae57682d5947544ded29a4b3d1098c7ace7fa667e68b1900357c1765e4",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/masked_ssl/seed_233.pt",
+      "sha256": "cf603db8789f9e9d5713ec97c8c4a5d3fd748015d8f017f3c551751b8dff363c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/masked_ssl/seed_242.pt",
+      "sha256": "6d571af304de6cd554e5021b5b9ddeea7ff7a005ae884b7869a834cfb5462f71",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/masked_ssl/seed_33.pt",
+      "sha256": "5a19aab83aceaf5d67ba9d05a1e39aa04fa28aae83270cafbcbaa4aa2c52e61a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/masked_ssl/seed_42.pt",
+      "sha256": "fa6e7a13459cf293394723235ee87234c870ae8a47d295f7392e0dba45412d1c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P01_linear.pt",
+      "sha256": "25ee3e91024d58bb88c473f266da1b04a5bded65fda63877cf8f1f040fdf2d39",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P01_rbf.pt",
+      "sha256": "6abea2ed1c490af4686eb64de0b8041f8c359b3adec01170dd2636f4f10c1d79",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P02_linear.pt",
+      "sha256": "97d1bdb80f40f9934e03de3ca297dfca8652eea923e8b7c938e6bf8299ad6f15",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P02_rbf.pt",
+      "sha256": "b9ac00fc3c6399128a82e04bad8344d2964422bec5f4227870bf023eb1ba6bbf",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P03_linear.pt",
+      "sha256": "f6862b3bb03ea6ccf5d07f492207c95a031391388eb23d45cdbfeaf583ee4cb2",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P03_rbf.pt",
+      "sha256": "342a0920ecc7b6def3ded90dfa09dc6a3d73d5af8dfcea7f5ea4878d97e7e479",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P04_linear.pt",
+      "sha256": "d54bad619779a452fe1af9398c959d185d81feebfa69126ce1179f40d46825af",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P04_rbf.pt",
+      "sha256": "2d67bfd556024bb0334fb6d1528f7edd7425d41ef460091ff6ec76debd01adb0",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P05_linear.pt",
+      "sha256": "844faff8fe535f6f3b3828bca21cdf4d2bb5cf5fbf7fa1d5dc7b26a2ba00260a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P05_rbf.pt",
+      "sha256": "84f53ed490fd630f974cca4ef0ed8b9debb9baafa529a32eba95ee6d20338f74",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P06_linear.pt",
+      "sha256": "081127bedfd9e6c678eeea152803a46d842d66f5572e6edb81c9995acd0c6933",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P06_rbf.pt",
+      "sha256": "8d9f92e6d6cb6879e388cf887e9760f417857626802df7eb063d6b6d4a204687",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P08_linear.pt",
+      "sha256": "db00e39519357f1a2f5df4a54e8aeb4964ca77cca108fb4ba7e8ca5bcaa1894f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P08_rbf.pt",
+      "sha256": "8b2c22d79d1970b7ed89b169f2cd55e81bf1695ee45e99b3cfe273a863f32f6a",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P09_linear.pt",
+      "sha256": "a640b7cbc29489c1d95a1d1c544e055cae83aecdd66d168d115430fda658f7e6",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P07/nested/inner_P09_rbf.pt",
+      "sha256": "77cdef72a1a77bfe6b60e78e68fed809919e450246444586e930027ad4c1732e",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P07/nested/inner_P10_linear.pt",
+      "sha256": "2e5dd81016212a74c16f44803abddc3401cac2f4e3e88c95b2356b31dd55cf1d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P07/nested/inner_P10_rbf.pt",
+      "sha256": "9c74b0a6fea4567501c43405ed067e7d52f20c40bca7a66bc7edbc2acd27356c",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/reconstructed_v6/seed_133.pt",
+      "sha256": "8f806162a8687e118dfc0b1b3dd37b0712e7787cc2f024a5dcfa1c52bd6263ba",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/reconstructed_v6/seed_142.pt",
+      "sha256": "da8ad799db18871562b64fbe61ca9c1cc569307ab1c31d5bcc8dae4bbb939237",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/reconstructed_v6/seed_233.pt",
+      "sha256": "de316529ee80eeb2b0c9556a82e923eeae786b4344fd82b403f4ef1866561ae5",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/reconstructed_v6/seed_242.pt",
+      "sha256": "e0c7a08c2c2c4d1ad86db97e6842bc202b85a0805f07767f951ad0175b131a51",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/reconstructed_v6/seed_33.pt",
+      "sha256": "9fedd0e2eb1bfd53f1e36f3e717d1376f4cb98ef2ef2baebdccc40be93c10b3c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P07"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P07/reconstructed_v6/seed_42.pt",
+      "sha256": "f6787b3f5df244d993e02c9dec72deccf22f59ddb2cd920b749b3bb833e2c934",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/align_expanded_grid/source.pt",
+      "sha256": "9d704fdb17f93443c371c7d288763a2c56efc1a741b11ba842de3b689bda30d2",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/align_reconstructed_v6/source.pt",
+      "sha256": "f33dde506e390d8d013375e03172184c742bee001e24d4986db0ecbdbb998982",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/classical/covariance.pt",
+      "sha256": "c059e5d910892fdac25246e9bfd5b06b9bc1b31e2dbe3b959dfccfeb3ac6c49a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/classical/nested.pt",
+      "sha256": "1faa9c4b21e2ac86b1244e982dc7846d24a589d06b1d1e0610f10d5ab47ca225",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/cross_subject_mixup/seed_133.pt",
+      "sha256": "55881e5c2bc854b7ff630f12e4791f3115f40e0d71cb05f38122ef2872d39b49",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/cross_subject_mixup/seed_142.pt",
+      "sha256": "06ead255cff77a0f44ed08163c954e82627719c4cd1d62919e349149c8126b7c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/cross_subject_mixup/seed_233.pt",
+      "sha256": "8ac9a043dff4152f388e4c2c56b3ab88b280f0dd0a8baacfe6f1d408d7bf0383",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/cross_subject_mixup/seed_242.pt",
+      "sha256": "a4db9727b4f2900096a32d514805299f110b77fc5a850413e721d4d4a121eaff",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/cross_subject_mixup/seed_33.pt",
+      "sha256": "eea3cba7bb72f8fbd5a40739cdcedae7deb53036fc53d2e14ce6e1be1be5a512",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/cross_subject_mixup/seed_42.pt",
+      "sha256": "9964b18ea12bab47cf476d6ac3041e5e6ae75dd5d0d5eb3f3ff9a1b132893868",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/expanded_grid/seed_133.pt",
+      "sha256": "00025e1832a163f7707b374931a29c2d5f40dd721d24a0085c663da1e0aa3b1e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/expanded_grid/seed_142.pt",
+      "sha256": "b8769d29ad64a130e024b6a4a0ea239b5b2e837d1bae37f50575a16ce9d8d407",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/expanded_grid/seed_233.pt",
+      "sha256": "ad7554361eb609fb84e9063c5e7786cce4d5db6bebb1dd29f0699e2bac8785ee",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/expanded_grid/seed_242.pt",
+      "sha256": "e3efee5c440814cf59eb02b528ad90429c102b82f295c0123711cce839636176",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/expanded_grid/seed_33.pt",
+      "sha256": "de1edd7e8defec1c3dc08243623d7716212ca4bc89d065157fe4923e8a4ecfa9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/expanded_grid/seed_42.pt",
+      "sha256": "d0205c7b5f381cc7dfc8d2ee0f7b1efba3f28bd2df45d5284ec20c4412aa5798",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/masked_ssl/seed_133.pt",
+      "sha256": "9083c1a5c3db6f92d7f273247aecc5fe05e980d0466a3eae60b8df509753382e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/masked_ssl/seed_142.pt",
+      "sha256": "2f6d82cd3be35ff4865b49bbd9954cb594bfa1fe20dd8e7d6b9da0464f9b5398",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/masked_ssl/seed_233.pt",
+      "sha256": "c51087322c229103741ae82f6b56d16c9b3ba3348f41534083b4304b1dadedea",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/masked_ssl/seed_242.pt",
+      "sha256": "3b2d1bd994ea9bbb1f96ed98d7dc77ad1680f3c00eae22736e645ca1b58cae37",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/masked_ssl/seed_33.pt",
+      "sha256": "f99a2c49202a3ea4248088dc7330bad30188d7e7906f39589c8c638b70c5ac2d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/masked_ssl/seed_42.pt",
+      "sha256": "e8ba40e68800f05282baafd049fdd4193a0b313b51331147adfe13674afaf83d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P01_linear.pt",
+      "sha256": "ea6d0445b79998a4ad07af019e236af0d2486dd3d18b5718e6611e4627eaf5c6",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P01_rbf.pt",
+      "sha256": "397384e95c3a906b262e5374eccfcc352be8f89b6d0ba7b25c1fe6a487a77d35",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P02_linear.pt",
+      "sha256": "bd20515bfb5565011890cb88cfbd6efc68f4a912158ef5a3979efddd44476a9f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P02_rbf.pt",
+      "sha256": "63c61d74de4bdeddb01f69870aaf223cc134a6423f53c70d9810f17f14420bda",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P03_linear.pt",
+      "sha256": "114c0dfcac324bb756b0f13deb86c26a2d0c9197b0fd52cc60bd5ce7275615af",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P03_rbf.pt",
+      "sha256": "343a544e532feb99a48108a8749bce3a93531e7d26f04595ac7cda763245b767",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P04_linear.pt",
+      "sha256": "ea99b9f6cc0ff62081c7db9f197750ba2bbe735c55c1f7abcf7610c98fc4e048",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P04_rbf.pt",
+      "sha256": "b698dd36d505dcd9ddbedc462146552daa7001b953298a4a6b239a4bd00ede9b",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P05_linear.pt",
+      "sha256": "05cae92b784d0cc246502bbbd042b9e7931243216da696de36b0683ec843d9f4",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P05_rbf.pt",
+      "sha256": "a8c27f006afc3a72cb248b617294c3402c823928a891ac0181bfaad23923d05d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P06_linear.pt",
+      "sha256": "4e57367170e90c79ecd4305b39ec9a405d66739278cd55ebbea422e64d3bc740",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P06_rbf.pt",
+      "sha256": "ffe51447c604df8bc3454ed2264449cc8992513a4f624fda72fdd3a75dda58fd",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P07_linear.pt",
+      "sha256": "919c7112e5fbd11ea6ff038eb98fbf9aa494ba15a42fe06deac621d56c867584",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P07_rbf.pt",
+      "sha256": "6fa8a76277ce0fcf19dfe3d5bd8713b363dabd067dad73e22582e2d9a257d992",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P09_linear.pt",
+      "sha256": "bd0252859c8e65280ad33dd52904585a20adfdb0d095a24a4c988bdced559f9d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P10"
+      ],
+      "path": "runs/hold_P08/nested/inner_P09_rbf.pt",
+      "sha256": "8159c1b807a4d9224cad69b75d3d987dae43ed9d9c14733cf83acc0c3a197e63",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09"
+      ],
+      "path": "runs/hold_P08/nested/inner_P10_linear.pt",
+      "sha256": "65063ae3c4010185a24b5726c0b09563094873867e4f7f84abab4042fddf9072",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09"
+      ],
+      "path": "runs/hold_P08/nested/inner_P10_rbf.pt",
+      "sha256": "044c4a60dbd74777dde6658ac98c1f09a2fd87a0b2fb4e7953a583c07fd8a681",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/reconstructed_v6/seed_133.pt",
+      "sha256": "bf67811f4e2cc7ba437873921d6b74453f7846b06619302a685cebb9ae208855",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/reconstructed_v6/seed_142.pt",
+      "sha256": "70fda30dbf308d2be5841f43f74516864391690c308ae324c83677edf677e34e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/reconstructed_v6/seed_233.pt",
+      "sha256": "cb7123fe03c009de650a71bd7acfa3108026d81711314f9f31b88fcc0acb7029",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/reconstructed_v6/seed_242.pt",
+      "sha256": "12fad965f6136c73153b1d46b2ebc152f1fc859ea326c5f5a51b060d7191893d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/reconstructed_v6/seed_33.pt",
+      "sha256": "a5947673096fdb229038edf0479f73f29ba5318d3654b1e81ac0eb810b26937f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P08"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "path": "runs/hold_P08/reconstructed_v6/seed_42.pt",
+      "sha256": "4ad3174948a544d98fa0afd990eed5f8e3d3a9b7d1caa9212a838976aeaaaba2",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/align_expanded_grid/source.pt",
+      "sha256": "3f63a1ed60e16dc55c87f340e7561918426dfcd7c04d4006871564d2fe34956b",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/align_reconstructed_v6/source.pt",
+      "sha256": "526fb8ce5732d276244560ec00d2a4206077890bd7b2f7c484473074790ec597",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/classical/covariance.pt",
+      "sha256": "54b504e2fd2b4d113a0f8c51eec825db42c0033aea79715cbdfe4e19602a0470",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/classical/nested.pt",
+      "sha256": "4f4687fa3469c4423c4f6b79ec6a850c2eb60909d4bbcba44c385bd0710bad60",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/cross_subject_mixup/seed_133.pt",
+      "sha256": "54757f9b11ec04d7c440ed7230bd5ae0c29c79206d9cd19951735721cd2367a2",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/cross_subject_mixup/seed_142.pt",
+      "sha256": "04544bee9f682e722519e92ab5cd122ef7d3854835d97d494e80f2885894c821",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/cross_subject_mixup/seed_233.pt",
+      "sha256": "512fddec3e26c53f09889b285223c5fd94a7a5df54c8a489334f3983133dfe30",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/cross_subject_mixup/seed_242.pt",
+      "sha256": "58f74abee2613a76bdc28d14b36769a42f34c91b3a32d68569ef12ee537df2d8",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/cross_subject_mixup/seed_33.pt",
+      "sha256": "a4960032050f6dd050ebb6dec005d298156afc14f3f2bd4d52d4ed342cb57604",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/cross_subject_mixup/seed_42.pt",
+      "sha256": "c8c8f6f3b8dd1198ede6fb103ba245844624f5c8cbe373fac01a3b56057c3f1a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/expanded_grid/seed_133.pt",
+      "sha256": "7254a61b9bbe8d08c97cadad3a73cef8234d34d16533c7bbe8988d5283e80e4a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/expanded_grid/seed_142.pt",
+      "sha256": "ec9bec8039d87b874af79e766f64df0f3473de3c61ff3bd1db229156acd4b7a9",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/expanded_grid/seed_233.pt",
+      "sha256": "e935af3e915a9aed7971ae547110c0307c3eb32a7b3261ae47dfc01fde6b7bd7",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/expanded_grid/seed_242.pt",
+      "sha256": "781896a73c53c41ea9d5788a24ae9529a1d8e20b743bd1bcbac08f9a458914bd",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/expanded_grid/seed_33.pt",
+      "sha256": "360f77915c3a617937b165e92af20e5cfc886e39cbec92be3c46ae3295da820f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/expanded_grid/seed_42.pt",
+      "sha256": "d6695908ae5ed8b0ac60e82b45cd74e29b63106d6fe05eda34b1ea7f580e366c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/masked_ssl/seed_133.pt",
+      "sha256": "f11364dc5bb2354778f32e34613b5554e2cd0e1a232a8aef994958de3a9a5acb",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/masked_ssl/seed_142.pt",
+      "sha256": "7a8e2fe28a9d0dc859151562b227587997bc0ef4d6dcef766dade32a8bdb838e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/masked_ssl/seed_233.pt",
+      "sha256": "baabef03b4980323e7676364c5033f2f6144458d100c23a3978f297cef84de4e",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/masked_ssl/seed_242.pt",
+      "sha256": "ac413070ddbbfe4fc93a51b83a1c7a1c2b9d6c80df3e86088e65abae29490803",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/masked_ssl/seed_33.pt",
+      "sha256": "6e6a9326ec826d13d3ded10e54ec8e7ddfd691d545101f6899fa881b0e201d82",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/masked_ssl/seed_42.pt",
+      "sha256": "1c3ada1f11807f531d271810e447a70015ddb1ca6fd70c31795623568c2c91b3",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P01_linear.pt",
+      "sha256": "5d9a97a6efaef4058f8816f034e60bde8ec0cdbba77f71c60c1bb7fa26586d28",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P01_rbf.pt",
+      "sha256": "ffd101c9245ec4d6881c6cbc16dc53a87e3b55b86eb138ad3c7af7a0bfa0bcd4",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P02_linear.pt",
+      "sha256": "8582fdb1b47f082ebe64b716b3fef64e938836c22fdfd3c2092c973132f882a0",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P02_rbf.pt",
+      "sha256": "72237f6584325cfe9a284aff3f300856f2a042ff5cc0018d31e8759e1df8ffe1",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P03_linear.pt",
+      "sha256": "eab482be0f3a0682fbbf395290502c2e3a78f154a648d314e7ccc954788c8fea",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P03_rbf.pt",
+      "sha256": "a34642b6b2912cf7dad9478ccba69ab510b7408a4e0b38dc22ba1258c2d96d74",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P04_linear.pt",
+      "sha256": "09579adef71596e4dd55b6c07a0fb6c6bf878f488b5806e627599e54a0717c34",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P04_rbf.pt",
+      "sha256": "fd2d53de368a72485bf46abe5ba296948ac035e9b776f4cc87062093cb324079",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P05_linear.pt",
+      "sha256": "aa445f1864f03b1b3f4fc40beeea75f1fce295226e315e9a87eeda522b36b4a7",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P05_rbf.pt",
+      "sha256": "9698f7a10f922d6c35b0538725089ec381c4101e1a07a0b837627773b0676e72",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P06_linear.pt",
+      "sha256": "110c7f8780faa3490db0cf1fc3cbcc587143c9bad81a24c0fe1a0a723aa0ff1d",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P06_rbf.pt",
+      "sha256": "4bd0b7ab0aa4b19c3fe837580bfeddd9a2083facf14922fa41791ae6f16a6c41",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P07_linear.pt",
+      "sha256": "c018e352a1e2a269d0655ecd04fa9008599fed4f3a9e6201ed8ba9d427214c78",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P07_rbf.pt",
+      "sha256": "7d8322300cb92efc7963cb93c02e9126e3f38ada7439d45334794a673dce83bb",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P08_linear.pt",
+      "sha256": "c5c1f4f42a3c8179fe8597a591faefcd71aabbbf8f0709f8b65cd6f51a2b2ea0",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08",
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P10"
+      ],
+      "path": "runs/hold_P09/nested/inner_P08_rbf.pt",
+      "sha256": "7ce3aad65e06ee19b5d6fa79e636d6f5892d2735681ac1fc6442b7f001b81110",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P09",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "path": "runs/hold_P09/nested/inner_P10_linear.pt",
+      "sha256": "5cb4f5c2f4091dbfe35bd9f223581f52e53f4ce4d6e01a9c020c05f76d485070",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P09",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "path": "runs/hold_P09/nested/inner_P10_rbf.pt",
+      "sha256": "ced68cb148e5c2a7c18b88b441ace497ea1e73a0714a2b30e0670fb2087eda77",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/reconstructed_v6/seed_133.pt",
+      "sha256": "5f5f905d679ee875c3f0e338ccecbf4ad52b317c000daea22be6802a5b6fe064",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/reconstructed_v6/seed_142.pt",
+      "sha256": "839ff32aa16f033f29e9872d2881f90069ba0221cd79a439ab7d46c979e980dc",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/reconstructed_v6/seed_233.pt",
+      "sha256": "245ab94bf9dd62dcf08e4a19dab7a31b1fb04110677c2032458b5ac96d5ce5ce",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/reconstructed_v6/seed_242.pt",
+      "sha256": "799fc0681934d5127291246ce1c22baf8609919f05276a834f0f46541e99f9d3",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/reconstructed_v6/seed_33.pt",
+      "sha256": "a48ec8febaacc2cd01bac8fcb6103ab495f4246643118bea64fb34e754e4b0b4",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P09"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "path": "runs/hold_P09/reconstructed_v6/seed_42.pt",
+      "sha256": "128438dba5cada57c8f88ea991c734afc986884ee1a1c2773a3d444d798fb811",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/align_expanded_grid/source.pt",
+      "sha256": "91ab603987c7125490b5c203b369c829041c12ee666661f88e69bc31ab3ae024",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/align_reconstructed_v6/source.pt",
+      "sha256": "db11439578fb7cc91421d3767593a90d613b2100fd5da3551f815198e5bb6861",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/classical/covariance.pt",
+      "sha256": "feea543b03e5ecd6904390dabc45e759fd69aa856b8238a553baad11d0430d7a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/classical/nested.pt",
+      "sha256": "0c3a5ac19e2913ccd22002238903851aa6fa443d795c88b8ca2e81b465e58cc5",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/cross_subject_mixup/seed_133.pt",
+      "sha256": "166256c9c3db09fc515eefb8383567bb6695d13f0c6eb1b72c3c1f8c14541c58",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/cross_subject_mixup/seed_142.pt",
+      "sha256": "4190137f716875795b9b10e9f9656d25e5375f2ccb0f1df84113ae9153994352",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/cross_subject_mixup/seed_233.pt",
+      "sha256": "2e41673fc3371d2a618fd2c4b960717155cb3f844883114c21c1442d9bf3a419",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/cross_subject_mixup/seed_242.pt",
+      "sha256": "72b05392922b09913ef90d7f4aee1d09774f444009cb07ee80d43bd1eca6b4f4",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/cross_subject_mixup/seed_33.pt",
+      "sha256": "681b29a2002da0c168ca0cbffa55c194ae7356d4fe7438310082be1c3d0749aa",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/cross_subject_mixup/seed_42.pt",
+      "sha256": "0aa74740e0e85df52bdd5c3e386b540e3dc4cd4f30c066a334fd6dab0a70af0c",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/expanded_grid/seed_133.pt",
+      "sha256": "f0df434094e8aca3a61c7bbea45097522b522ca74ad0737fb55c676e30fd3b0a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/expanded_grid/seed_142.pt",
+      "sha256": "18b04a9da10606325b8668ca22afedf4c2e92e4541bd7810e1a1fb48b4b08d23",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/expanded_grid/seed_233.pt",
+      "sha256": "797ac5d0fbf49a1515f034171db3e02c81740b4e60b8a0208e1f5e73f5b624e5",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/expanded_grid/seed_242.pt",
+      "sha256": "e4a91c7bdb92b9c15aca311a2e45e6c7520123c6ec8e8cf2bd68dd8a9870a3d1",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/expanded_grid/seed_33.pt",
+      "sha256": "93bfa8216d7297f7ed006d238fe0dc834c2c4f3e3f1a1a200f842b2910469cae",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/expanded_grid/seed_42.pt",
+      "sha256": "44f256696c7ec85ffdae892cd2b61358bb39bbb9bcc964401b6ddf5db78fbd18",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/masked_ssl/seed_133.pt",
+      "sha256": "d286169251d956764b2407568ceb4f0653b963aa9fa8a01ac572307b86878e74",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/masked_ssl/seed_142.pt",
+      "sha256": "957467ce78f11ed1a1f2329c94ed75d008bdb721726f59a21ea625b975fcc92f",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/masked_ssl/seed_233.pt",
+      "sha256": "9e6b126177acd58188a475ce97cfa9f6d99102a0be43c2c07ce21cf9da0a227a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/masked_ssl/seed_242.pt",
+      "sha256": "ff4249959583926b3951929511e216c6dc3ef1e16b3b7b2bb244cd9f3b649f3a",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/masked_ssl/seed_33.pt",
+      "sha256": "5c4f645f7e97c85bcc7569579b6e715fe60f244a0954364b575db040e0b79f48",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/masked_ssl/seed_42.pt",
+      "sha256": "149110d752820f046ebed8cc78f55cbd009de8686f04c410c8d3c19b68b97534",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P01_linear.pt",
+      "sha256": "8c296db6ba09d3fddb87f53aa44e9c6d8e9fb1e424f55b81a3acf7f79ba3db25",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P01",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P01_rbf.pt",
+      "sha256": "ed8b8b70e7a03f9960508b92d335dd32d79cdf0af5dfefcd3acc58df5a191363",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P02_linear.pt",
+      "sha256": "04c21c3d03d82c014548465ee163a3675a2136c7cfc11b63124c73df2a08edff",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P02",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P02_rbf.pt",
+      "sha256": "f51fe8ff991d0b463e5bf3b6e82883f361d6b350f6453039f32b44de58feb748",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P03_linear.pt",
+      "sha256": "74233ed30028202f8b1e5a7b39e152079119c74c3340eebec2959153be4643d2",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P03",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P03_rbf.pt",
+      "sha256": "f3f86a6f3b6c2d9077ff130e0c517cbd2ef99ed6c8843ff9369f7837c8ab4f1e",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P04_linear.pt",
+      "sha256": "d6019e57a572bf3fd73ec7e75e68d4ac6564a46bb0752f9547f75c70818ff88e",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P04",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P04_rbf.pt",
+      "sha256": "b6aadfb77e5be075fa840ae4781da7562b9bab84892b884478d9c01c82b6e31f",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P05_linear.pt",
+      "sha256": "157956acd33c8cf849619db187647947f4e7ce0d775b1201187f991e8802c682",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P05",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P05_rbf.pt",
+      "sha256": "69320ad8a15fac4d895b5f3329588575e9d529941f6c9751476faede81c75cab",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P06_linear.pt",
+      "sha256": "2b4996a25a435a2b9774aae60285e9d6f29f7885c90e8efa13d3da98311e9b87",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P06",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P06_rbf.pt",
+      "sha256": "f686f2ee580eb797d6b284ffb559f500c6f1c34e2fe2df8f425c7cb2658e1042",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P07_linear.pt",
+      "sha256": "98939bd2a804182402f602d78d5ad253e7467aadb2c2bab35644e0a90df04e38",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P07",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P07_rbf.pt",
+      "sha256": "027eb90f165a53a2128113e2030fb5eb196c1d32cc23cf5b432259f28c8ece99",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P08_linear.pt",
+      "sha256": "983e5b0c63cb0c5dfc2fee6799bf7913e2b38a0fd2311b1d46d28f0d4ad83403",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P08",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09"
+      ],
+      "path": "runs/hold_P10/nested/inner_P08_rbf.pt",
+      "sha256": "5df452e8ae39f4f494bf99da4758a5310465c6df5a16799f42ec9cfa88437215",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P09",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "path": "runs/hold_P10/nested/inner_P09_linear.pt",
+      "sha256": "2c966445e458938f15753e6f5d17d85e8aa40a56185e8e7f8d818002634890e5",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P09",
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "path": "runs/hold_P10/nested/inner_P09_rbf.pt",
+      "sha256": "9b2a16b3352e1d6e5d5f527ff389df1edbaa45b488baa5b4451ed174e2a7d634",
+      "stage": "inner_cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/reconstructed_v6/seed_133.pt",
+      "sha256": "bf51cb17c4e917392b23f482977d7ebd96638241f4b80281f3147ff0fd76fd63",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/reconstructed_v6/seed_142.pt",
+      "sha256": "9441e25fa306edf530dc11cad871bcc78f29da24fa3339836e1e518933108529",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/reconstructed_v6/seed_233.pt",
+      "sha256": "a61b5ee1f6c28901a9ded6037ee88749800f7debcf17a123fd28cb88eb4045c1",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/reconstructed_v6/seed_242.pt",
+      "sha256": "6e76c70f6d5313b25982f788bd4ffa9881fec57ee205ed562c139b0e379d6bf5",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/reconstructed_v6/seed_33.pt",
+      "sha256": "5a449e979771487f3cfc08931e098844b32ea80a9f356eb09d55605dfae6b05d",
+      "stage": "cv"
+    },
+    {
+      "excluded": [
+        "P10"
+      ],
+      "fitting_subjects": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "path": "runs/hold_P10/reconstructed_v6/seed_42.pt",
+      "sha256": "ad29b4629ac429b8afb26a908365cf42a0955bbc967b113f3db96a1cc8ce2a8d",
+      "stage": "cv"
+    }
+  ],
+  "scope": "Executable exact-row/population/hash checks plus inspected fitting code; not an OS sandbox or formal proof"
+}

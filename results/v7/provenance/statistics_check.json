@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "equal-cell rather than equal-subject gain",
+    "independent cluster bootstrap formula",
+    "zero-gain rejection",
+    "expected adoption decision",
+    "incomplete-panel rejection"
+  ],
+  "data": "synthetic only",
+  "passed": true
+}

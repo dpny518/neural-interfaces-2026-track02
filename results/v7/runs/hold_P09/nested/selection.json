@@ -1,0 +1,273 @@
+{
+  "choice": "rbf",
+  "fitting_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P10"
+  ],
+  "inner_records": [
+    {
+      "cells": [
+        0.5218413978494624,
+        0.46875
+      ],
+      "checkpoint_sha256": "5d9a97a6efaef4058f8816f034e60bde8ec0cdbba77f71c60c1bb7fa26586d28",
+      "inner_heldout": "P01",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "4296f464d9e0270d0f423e170229b8e3375fbacbd6753c192ea3a9150246d413"
+    },
+    {
+      "cells": [
+        0.5631720430107526,
+        0.5104166666666666
+      ],
+      "checkpoint_sha256": "ffd101c9245ec4d6881c6cbc16dc53a87e3b55b86eb138ad3c7af7a0bfa0bcd4",
+      "inner_heldout": "P01",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "e8e24ed0f573f5789aebb77a2e39bd766b491f9631218ae7412ff352170cb1cf"
+    },
+    {
+      "cells": [
+        0.5726702508960574,
+        0.625
+      ],
+      "checkpoint_sha256": "8582fdb1b47f082ebe64b716b3fef64e938836c22fdfd3c2092c973132f882a0",
+      "inner_heldout": "P02",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "4654f77d37ce2776a556478f99ed7411b54fa00ed3cdb75d3ae81c3d57b07415"
+    },
+    {
+      "cells": [
+        0.5823700716845878,
+        0.6041666666666666
+      ],
+      "checkpoint_sha256": "72237f6584325cfe9a284aff3f300856f2a042ff5cc0018d31e8759e1df8ffe1",
+      "inner_heldout": "P02",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "f9f3ea675aa47b8d146c6dd2fb747e2137f22f9c61cbad898bfb1d45de8fa6c7"
+    },
+    {
+      "cells": [
+        0.4016353046594982,
+        0.4166666666666667
+      ],
+      "checkpoint_sha256": "eab482be0f3a0682fbbf395290502c2e3a78f154a648d314e7ccc954788c8fea",
+      "inner_heldout": "P03",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "a4372c8ea6ff21f0a6d5a22657687694a1487d516e31bae707cae44e52609b88"
+    },
+    {
+      "cells": [
+        0.4523073476702509,
+        0.46875
+      ],
+      "checkpoint_sha256": "a34642b6b2912cf7dad9478ccba69ab510b7408a4e0b38dc22ba1258c2d96d74",
+      "inner_heldout": "P03",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "28838c32e0c66c8b61af5fc82f469b94a425bab333247a41629c1abfb35458a5"
+    },
+    {
+      "cells": [
+        0.3748879928315412,
+        0.4895833333333333,
+        0.33848566308243727,
+        0.3854166666666667,
+        0.34767025089605735,
+        0.3333333333333333
+      ],
+      "checkpoint_sha256": "09579adef71596e4dd55b6c07a0fb6c6bf878f488b5806e627599e54a0717c34",
+      "inner_heldout": "P04",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "84b48961c3885529dd2261aaa428d6a4f6b1ad6fcb9a00f7be4c89c34a8cca2b"
+    },
+    {
+      "cells": [
+        0.3526881720430108,
+        0.4479166666666667,
+        0.4168458781362007,
+        0.3958333333333333,
+        0.41362007168458775,
+        0.4166666666666667
+      ],
+      "checkpoint_sha256": "fd2d53de368a72485bf46abe5ba296948ac035e9b776f4cc87062093cb324079",
+      "inner_heldout": "P04",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "874b31f59ebc746238f00c50b54736a32514f6ee3efb0d2fda3316860b5551b0"
+    },
+    {
+      "cells": [
+        0.5658602150537634,
+        0.5416666666666666
+      ],
+      "checkpoint_sha256": "aa445f1864f03b1b3f4fc40beeea75f1fce295226e315e9a87eeda522b36b4a7",
+      "inner_heldout": "P05",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "03428d96fb4e68e5589d9e412ee47c5661a5dfc5cdfe2045ca0b78267060bfd8"
+    },
+    {
+      "cells": [
+        0.5759408602150538,
+        0.4895833333333333
+      ],
+      "checkpoint_sha256": "9698f7a10f922d6c35b0538725089ec381c4101e1a07a0b837627773b0676e72",
+      "inner_heldout": "P05",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "f5b366d22769c4c0b2b09dfcf2fcad8fa1d73a415e6523fd3f10dbcaf3db7a87"
+    },
+    {
+      "cells": [
+        0.4813620071684588,
+        0.5208333333333334
+      ],
+      "checkpoint_sha256": "110c7f8780faa3490db0cf1fc3cbcc587143c9bad81a24c0fe1a0a723aa0ff1d",
+      "inner_heldout": "P06",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "2c493f8ce51730d1ddaafac8ce5ebd0deec3e4b7d8b2634b4955bd95130edbd3"
+    },
+    {
+      "cells": [
+        0.5598566308243728,
+        0.59375
+      ],
+      "checkpoint_sha256": "4bd0b7ab0aa4b19c3fe837580bfeddd9a2083facf14922fa41791ae6f16a6c41",
+      "inner_heldout": "P06",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "ed640d17f0d14116e00963c91aed076db3e1aff6275780340881c759c596ab8f"
+    },
+    {
+      "cells": [
+        0.5688172043010753,
+        0.3854166666666667
+      ],
+      "checkpoint_sha256": "c018e352a1e2a269d0655ecd04fa9008599fed4f3a9e6201ed8ba9d427214c78",
+      "inner_heldout": "P07",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "1ae5848f9f3fb8b1f076a05a8d59a0c774526292c7189615a67c9ef9edcf6680"
+    },
+    {
+      "cells": [
+        0.5681227598566309,
+        0.4479166666666667
+      ],
+      "checkpoint_sha256": "7d8322300cb92efc7963cb93c02e9126e3f38ada7439d45334794a673dce83bb",
+      "inner_heldout": "P07",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "149c40dbcdbf8697088038a12a174f88c472afbcd38505584bfb71657faa72e4"
+    },
+    {
+      "cells": [
+        0.5580197132616488,
+        0.6458333333333334
+      ],
+      "checkpoint_sha256": "c5c1f4f42a3c8179fe8597a591faefcd71aabbbf8f0709f8b65cd6f51a2b2ea0",
+      "inner_heldout": "P08",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "b8a5d8871266f065666457f2d6565912c056119890754e359af9911f8ffc801c"
+    },
+    {
+      "cells": [
+        0.6219086021505377,
+        0.6875
+      ],
+      "checkpoint_sha256": "7ce3aad65e06ee19b5d6fa79e636d6f5892d2735681ac1fc6442b7f001b81110",
+      "inner_heldout": "P08",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "b4f7c50227b7ee6e4c1e3312a4bd07ca6b6627c24978299cf1c0ece9eda4d644"
+    },
+    {
+      "cells": [
+        0.4166666666666667,
+        0.3333333333333333,
+        0.46842170312693115,
+        0.5104166666666666,
+        0.32156862745098036,
+        0.46875
+      ],
+      "checkpoint_sha256": "5cb4f5c2f4091dbfe35bd9f223581f52e53f4ce4d6e01a9c020c05f76d485070",
+      "inner_heldout": "P10",
+      "kind": "linear",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "b7162e5292cba815be3f0bb561094ed0a7d18f06d0ea9ea640a4929c36289c71"
+    },
+    {
+      "cells": [
+        0.3854166666666667,
+        0.4895833333333333,
+        0.45910270671116055,
+        0.4270833333333333,
+        0.3915966386554622,
+        0.4270833333333333
+      ],
+      "checkpoint_sha256": "ced68cb148e5c2a7c18b88b441ace497ea1e73a0714a2b30e0670fb2087eda77",
+      "inner_heldout": "P10",
+      "kind": "rbf",
+      "outer_excluded": [
+        "P09"
+      ],
+      "predictions_sha256": "c75ff29d24572c6803ba23787f66cc68e1bcd1971ba4fe7d0c024058dc271e1b"
+    }
+  ],
+  "inner_scores": {
+    "linear": 0.4639579614324838,
+    "rbf": 0.4903537865118952
+  },
+  "outer_excluded": [
+    "P09"
+  ]
+}

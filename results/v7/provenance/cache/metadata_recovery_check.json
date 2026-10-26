@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checked_fields": [
+    "subject",
+    "session",
+    "task",
+    "run",
+    "interface",
+    "y",
+    "onset",
+    "cue_onset",
+    "start_sample",
+    "stream_id",
+    "record_id",
+    "split",
+    "legacy_split"
+  ],
+  "windows": 2655
+}

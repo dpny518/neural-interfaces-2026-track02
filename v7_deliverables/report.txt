@@ -1,0 +1,110 @@
+NEURAL INTERFACES 2026 TRACK 2 — V7 / RECONSTRUCTED V6 BASELINE
+
+ORIGINAL V6 ARTIFACTS WERE NOT RECOVERED.
+The historical 57.91% +/- 0.58 claim and ce6c36d9... deployment hash were supplied by the user and were not independently verified.
+This round measures a newly reconstructed multiscale baseline. It does not establish numerical identity with the lost model.
+
+PROTOCOL
+All P01–P10 are adaptively reused public development data under Option A. P04/P09 have no independent test role.
+Ten LOSO folds, three fixed seed pairs (33,42), (133,142), (233,242). Fixed branch epochs 75/20, cosine horizon 120; no held-out checkpoint selection.
+Each held-out participant is excluded from all fitting, including unlabeled SSL, normalization, reference covariances, feature scales and BatchNorm statistics.
+The nested classical replacement uses inner LOSO only within the outer fitting population; every inner model excludes both participants.
+Metric: balanced accuracy within each subject/session/interface cell, averaged equally across all 28 cells. SD is sample SD across three complete CV replicates.
+Adopt only if the mean paired gain exceeds its participant-cluster bootstrap SE (10,000 draws, seed 20261024). Replicate-paired cell differences are averaged before resampling.
+Each participant cluster retains all of its sessions/interfaces. Resamples preserve equal-cell weighting with a ratio of sampled cell sums to sampled cell counts.
+Among passes, maximize gain minus SE; exact ties break lexicographically. This is a development rule, not a statistical-significance claim.
+Ten participant clusters, overlapping CV fitting populations, adaptive historical reuse and candidate selection all limit external validity.
+
+MEASURED COMPLETE PANEL
+Candidate | CV mean +/- SD (%) | Gain (pp) | Paired SE (pp) | Decision
+reconstructed_v6 | 57.6982 +/- 0.7423 | — | — | reference
+masked_ssl | 57.6729 +/- 1.2592 | -0.0253 | 0.1934 | REJECT
+nested_classical | 57.4077 +/- 0.6611 | -0.2905 | 0.1315 | REJECT
+expanded_grid | 57.9641 +/- 0.1150 | +0.2659 | 0.4880 | REJECT
+cross_subject_mixup | 58.0473 +/- 0.3010 | +0.3491 | 0.5063 | REJECT
+
+SELECTION
+NULL RESULT: no candidate cleared the predeclared bar. No final/legacy candidate fits or new submission ZIPs were made. The historical v6 remains the stated champion, but its original deployable artifact is still missing.
+
+RECONSTRUCTION AND FIXED CANDIDATES
+Baseline: 7 spectral bands x early/late/full views; shared 7x16x41 normalized spatial weights; log projected variances plus channel log powers; BatchNorm(momentum=.05), dropout .5; linear logits plus a GELU 128-unit residual head.
+Both head branches use normal PyTorch initialization. This exact topology/initialization is an inference fixed before fitting, not recovered v6 source.
+Mixture: 45% each neural branch + 10% original temporal Euclidean log-covariance ridge. Neural prior count 16, classical prior 8, EMA floor .02, shrinkage .05, trace clip 10; transform before causal update.
+Masked SSL: 30 fitting-only masked log-power reconstruction epochs; fitting-only target scaling; only shared spatial weights retained; same-seed fresh BN and supervised heads.
+Nested classical: the lost v6 classical recipe is replaced explicitly. Keep neural weights .45/.45; split the remaining .10 equally between original covariance ridge and an inner-selected log-power linear/RBF ridge member.
+Expanded grid: add 8–10,10–13,13–20,20–30 Hz bands and middle two-second view to the baseline grid, for 44 banks. Original classical branch unchanged.
+Cross-subject mixup: fitting-minibatch partners from other participants, beta(.2,.2), probability .5, weighted soft targets. No additional masking.
+All exact hyperparameters, seeds, grid definitions and inferred details are recorded in plan.json.
+
+ALL PER-CELL RESULTS (mean over three paired replicates; percent)
+Subject | Session | Interface | N | Class counts | reconstructed_v6 | masked_ssl | nested_classical | expanded_grid | cross_subject_mixup
+P01 | 1 | BrainHero | 94 | [31, 32, 31] | 68.0556 | 66.3194 | 68.0668 | 65.5690 | 66.6555
+P01 | 1 | Graz | 96 | [32, 32, 32] | 52.7778 | 51.3889 | 51.7361 | 53.8194 | 54.1667
+P02 | 1 | BrainHero | 93 | [32, 31, 30] | 63.2303 | 62.1423 | 63.2303 | 62.4447 | 62.1192
+P02 | 1 | Graz | 96 | [32, 32, 32] | 73.2639 | 74.3056 | 73.6111 | 72.2222 | 76.7361
+P03 | 1 | BrainHero | 93 | [31, 30, 32] | 49.1420 | 48.0772 | 49.5236 | 54.5789 | 49.2339
+P03 | 1 | Graz | 96 | [32, 32, 32] | 52.7778 | 52.4306 | 51.3889 | 54.1667 | 52.0833
+P04 | 1 | BrainHero | 93 | [30, 31, 32] | 57.7927 | 57.3648 | 57.4119 | 55.9640 | 57.0983
+P04 | 1 | Graz | 96 | [32, 32, 32] | 48.6111 | 49.6528 | 47.9167 | 46.1806 | 51.0417
+P04 | 2 | BrainHero | 93 | [32, 30, 31] | 47.3693 | 45.8886 | 48.4214 | 48.7941 | 48.0406
+P04 | 2 | Graz | 96 | [32, 32, 32] | 44.7917 | 44.4444 | 45.8333 | 45.4861 | 45.1389
+P04 | 3 | BrainHero | 92 | [30, 31, 31] | 48.2437 | 47.5627 | 46.8220 | 49.9881 | 48.6260
+P04 | 3 | Graz | 96 | [32, 32, 32] | 36.4583 | 38.1944 | 37.1528 | 36.1111 | 38.5417
+P05 | 1 | BrainHero | 94 | [31, 31, 32] | 61.1671 | 63.3065 | 62.5784 | 59.7110 | 66.1402
+P05 | 1 | Graz | 96 | [32, 32, 32] | 57.9861 | 57.6389 | 56.2500 | 56.9444 | 59.0278
+P06 | 1 | BrainHero | 91 | [30, 31, 30] | 67.1685 | 66.8220 | 66.0812 | 63.8351 | 67.5508
+P06 | 1 | Graz | 96 | [32, 32, 32] | 61.1111 | 60.4167 | 61.8056 | 60.7639 | 60.4167
+P07 | 1 | BrainHero | 93 | [32, 31, 30] | 71.8354 | 73.6290 | 70.4002 | 71.7548 | 73.6985
+P07 | 1 | Graz | 96 | [32, 32, 32] | 67.7083 | 68.7500 | 67.3611 | 67.0139 | 69.0972
+P08 | 1 | BrainHero | 93 | [31, 32, 30] | 70.9394 | 73.0227 | 70.2218 | 73.6007 | 71.6338
+P08 | 1 | Graz | 96 | [32, 32, 32] | 80.9028 | 79.5139 | 79.8611 | 82.2917 | 80.5556
+P09 | 1 | BrainHero | 93 | [29, 32, 32] | 56.1303 | 55.8190 | 55.4358 | 60.7519 | 56.2380
+P09 | 1 | Graz | 96 | [32, 32, 32] | 58.6806 | 59.3750 | 57.2917 | 62.5000 | 62.1528
+P10 | 1 | BrainHero | 96 | [32, 32, 32] | 45.8333 | 46.1806 | 46.8750 | 44.7917 | 44.0972
+P10 | 1 | Graz | 96 | [32, 32, 32] | 54.5139 | 54.1667 | 54.1667 | 50.6944 | 52.4306
+P10 | 2 | BrainHero | 90 | [31, 30, 29] | 62.2688 | 59.6865 | 61.1816 | 63.0623 | 59.6506
+P10 | 2 | Graz | 96 | [32, 32, 32] | 59.0278 | 59.0278 | 58.3333 | 61.8056 | 58.3333
+P10 | 3 | BrainHero | 103 | [35, 34, 34] | 50.8870 | 52.4930 | 50.8870 | 50.5789 | 47.9458
+P10 | 3 | Graz | 96 | [32, 32, 32] | 46.8750 | 47.2222 | 47.5694 | 47.5694 | 46.8750
+
+PER-PARTICIPANT PAIRED GAINS (pp; diagnostic, not equal-subject headline weighting)
+cross_subject_mixup: P01 -0.0056, P02 +1.1806, P03 -0.3013, P04 +0.8700, P05 +3.0074, P06 -0.1561, P07 +1.6260, P08 +0.1736, P09 +1.7900, P10 -1.6789
+95% descriptive bootstrap percentile interval (pp): [-0.5883320530147441, 1.3301155411877394]
+expanded_grid: P01 -0.7224, P02 -0.9136, P03 +3.4129, P04 -0.1238, P05 -1.2489, P06 -1.8403, P07 -0.3875, P08 +2.0251, P09 +4.2205, P10 -0.1506
+95% descriptive bootstrap percentile interval (pp): [-0.5445162934872273, 1.3782839021237596]
+masked_ssl: P01 -1.5625, P02 -0.0231, P03 -0.7060, P04 -0.0265, P05 +0.8961, P06 -0.5205, P07 +1.4176, P08 +0.3472, P09 +0.1916, P10 -0.1048
+95% descriptive bootstrap percentile interval (pp): [-0.40082278952706873, 0.37909501973604975]
+nested_classical: P01 -0.5152, P02 +0.1736, P03 -0.5037, P04 +0.0485, P05 -0.1624, P06 -0.1964, P07 -0.8912, P08 -0.8796, P09 -1.0417, P10 -0.0655
+95% descriptive bootstrap percentile interval (pp): [-0.6060110513739533, -0.09322204954450401]
+
+EXACT FOLDS
+Hold P01; fit P02,P03,P04,P05,P06,P07,P08,P09,P10
+Hold P02; fit P01,P03,P04,P05,P06,P07,P08,P09,P10
+Hold P03; fit P01,P02,P04,P05,P06,P07,P08,P09,P10
+Hold P04; fit P01,P02,P03,P05,P06,P07,P08,P09,P10
+Hold P05; fit P01,P02,P03,P04,P06,P07,P08,P09,P10
+Hold P06; fit P01,P02,P03,P04,P05,P07,P08,P09,P10
+Hold P07; fit P01,P02,P03,P04,P05,P06,P08,P09,P10
+Hold P08; fit P01,P02,P03,P04,P05,P06,P07,P09,P10
+Hold P09; fit P01,P02,P03,P04,P05,P06,P07,P08,P10
+Hold P10; fit P01,P02,P03,P04,P05,P06,P07,P08,P09
+
+VERIFICATION
+Official batch-one replay: {'calls': 39825, 'copies': 210, 'resets': 210}; zero class-label mismatches; all 15 CV scores match official group_scores(balanced_accuracy).
+Stage-specific audit: 460 CV checkpoints/reference artifacts, exact fitting rows, excluded populations, hashes and embedded provenance verified.
+The isolated prediction-only reanalysis blocked file access to the original workspace and reproduced every summary, paired statistic, bootstrap array and decision exactly.
+The 17 submission contract checks are NOT APPLICABLE: no new submission package exists. CV leakage/replay checks were completed separately.
+
+DATA AND REPRODUCTION
+PROTEUS BCI Bordeaux, NEMAR nm000290 v1.0.0, CC-BY-4.0. Public manifest checksums verified. 112 source runs,84 cued runs,14 sessions,2655 windows.
+Preprocessing reuses preserved v5 source: 50/60Hz notches and harmonics,0.1–75Hz bandpass at500Hz, resample120Hz,float32,microvolts; four-second windows start one second after cue. Metadata matches preserved v5 row ordering.
+Label mapping: mi=0,sub=1,word=2. Input(1,41,480); only EEG reaches predict. No labels or metadata reach runtime adaptation.
+Original reference_v5 sources and extraction manifest remain preserved. Raw EEG and regenerable covariance/alignment caches are omitted from reproduce.zip; regeneration code, checksums, source manifests, all fitted checkpoints and predictions are retained.
+Recorded training environment: {"cuda_available": true, "device": "cuda:0", "gpu": "NVIDIA GeForce RTX 3090", "numpy": "2.2.6", "python": "3.12.13", "torch": "2.13.0+cu126"}
+Numerical library/hardware changes can alter fresh training; archived checkpoints preserve this measured run.
+Plan SHA-256: 0448fed4aed8eb3b84e399204d1ec87b805f6e7824d3d3b02a41d176cb74950f
+Implementation freeze SHA-256: 16c85f05472c629b8093721d6fd0d9d451bb0065ab3bac1fe904b110a252a139
+Data DOI: https://doi.org/10.82901/nemar.nm000290
+Official evaluator commit: a66bc23d1a0e686b895c093a642b45c74970758b
+Data credit: Dreyer Pauline; Bourdil Manon; Bechon Loic; Kojima Simon; Velut Sebastien; Rimbert Sebastien; Roy Raphaëlle; Lotte Fabien.
+No sealed-phase data or leaderboard feedback was used. No competition upload was performed.

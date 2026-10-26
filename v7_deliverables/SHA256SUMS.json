@@ -1,0 +1,14 @@
+{
+  "report.txt": {
+    "bytes": 10243,
+    "sha256": "086bf05c1f7d3cf96349bfded7e13cae69328c218aeed7d6db6634996e5e62f4"
+  },
+  "reproduce.zip": {
+    "bytes": 1269782187,
+    "sha256": "7a101ef47340cbb4d2b9a331329cd35b61ca1fb8476c5aef8aece8632cb980ff"
+  },
+  "verification.zip": {
+    "bytes": 28758,
+    "sha256": "43a44207f239dc264ef71e07f40d4dccb3ee361f2e86682758925a0bfb14bd92"
+  }
+}

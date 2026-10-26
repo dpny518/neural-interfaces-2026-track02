@@ -1,0 +1,8 @@
+{
+  "cuda_available": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "numpy": "2.2.6",
+  "python": "3.12.13",
+  "torch": "2.13.0+cu126"
+}

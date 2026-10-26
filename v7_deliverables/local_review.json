@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "analysis_bundle_sha256": "5210b3f54dd9763989b6537f5aa0aa108479d7e037c34b064de0599ad6678b49",
+  "exact_selection_match": true,
+  "exact_cell_and_bootstrap_arrays": true,
+  "verified_cv_artifacts": 460,
+  "replay_counts": {
+    "calls": 39825,
+    "copies": 210,
+    "resets": 210
+  },
+  "selected": null,
+  "original_v6_recovered": false,
+  "full_reproduce_archive_download_complete": true,
+  "all_deliverable_hashes_verified": true,
+  "all_zip_crc_checks_passed": true,
+  "embedded_manifest_files_verified": 2046,
+  "archived_cv_artifacts": 460,
+  "no_new_submission_packages": true,
+  "completed_at_utc": "2026-10-25T11:10:35.729122+00:00"
+}

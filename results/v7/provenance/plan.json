@@ -1,0 +1,353 @@
+{
+  "adoption": "mean paired gain > participant-cluster bootstrap sample SE",
+  "bands": [
+    [
+      1,
+      4
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      26,
+      40
+    ],
+    [
+      4,
+      40
+    ]
+  ],
+  "baseline": "reconstructed_v6",
+  "bootstrap": {
+    "draws": 10000,
+    "paired_replicates": "average matched cell differences across three seed pairs before resampling",
+    "seed": 20261024,
+    "unit": "participant retaining all sessions/interfaces",
+    "weighting": "sum sampled cell differences / sampled cell count; not equal subject means"
+  },
+  "candidates": [
+    "reconstructed_v6",
+    "masked_ssl",
+    "nested_classical",
+    "expanded_grid",
+    "cross_subject_mixup"
+  ],
+  "classical_definition": {
+    "alpha": 10000.0,
+    "band_dimension": 861,
+    "baseline": "exact v3 temporal Euclidean log-covariance ridge",
+    "center_kwargs": {
+      "alignment": "euclidean",
+      "ema_rate": 0.02,
+      "kind": "logcov",
+      "prior_count": 8.0,
+      "shrinkage": 0.05,
+      "strength": 1.0,
+      "update_clip": 10.0
+    },
+    "checkpoints": "fixed deterministic fit; no held-out parameter or checkpoint selection",
+    "ensemble_weight": 0.1,
+    "feature_scaling": "training-only weighted global scale, exactly as v3",
+    "n_bands": 14,
+    "no_test_role": true,
+    "scale_mode": "global",
+    "shrinkage": 0.05,
+    "source_reference": "equal-session raw covariance; training-only",
+    "tangent_mean_weights": "equal session; uniform within session; no labels",
+    "tangent_origin": "affine-invariant geometric mean of training-aligned covariances",
+    "tangent_solver": {
+      "acceptance": "nonincreasing weighted squared affine distance",
+      "backtracking_factor": 0.5,
+      "initial_step": 1.0,
+      "initialization": "equal-session arithmetic mean",
+      "max_backtracking": 12,
+      "max_iterations": 12,
+      "tolerance": 1e-07
+    },
+    "temperature": 0.125
+  },
+  "competition_commit": "a66bc23d1a0e686b895c093a642b45c74970758b",
+  "compute": {
+    "cpu_threads": 2,
+    "deterministic_algorithms": true,
+    "device": "cuda:0",
+    "precision": "float32, no AMP/TF32"
+  },
+  "created_at_utc": "2026-10-24T06:56:59.103923+00:00",
+  "cross_subject_mixup": {
+    "alpha": 0.2,
+    "loss": "lambda*w_i*CE(y_i)+(1-lambda)*w_j*CE(y_j)",
+    "partners": "uniformly drawn different-subject examples in fitting minibatch",
+    "probability": 0.5,
+    "rationale": "smooth decision boundaries across fitting-subject covariance mixtures",
+    "seed_offset": 300000
+  },
+  "expanded_grid": {
+    "bands": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        18,
+        26
+      ],
+      [
+        26,
+        40
+      ],
+      [
+        4,
+        40
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        13,
+        20
+      ],
+      [
+        20,
+        30
+      ]
+    ],
+    "broadband_band_index": 6,
+    "classical_branch": "unchanged original 14-bank covariance ridge",
+    "views": [
+      [
+        0,
+        240
+      ],
+      [
+        240,
+        480
+      ],
+      [
+        0,
+        480
+      ],
+      [
+        120,
+        360
+      ]
+    ]
+  },
+  "final_seed_pair": [
+    33,
+    42
+  ],
+  "final_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10"
+  ],
+  "fixed_epochs": [
+    75,
+    20
+  ],
+  "historical_test_role_retired": true,
+  "historical_v6_cv_percent_unverified": 57.91,
+  "historical_v6_sha256_unverified": "ce6c36d951c07d41db28179a541bac56865ddda717861a91d413bd198d80daa4",
+  "legacy_diagnostic": {
+    "evaluation_subjects": [
+      "P04",
+      "P09"
+    ],
+    "interpretation": "selection-contaminated legacy-split diagnostic; not an independent test estimate or score of the final all10 model",
+    "passes": 1,
+    "seed_pair": [
+      33,
+      42
+    ],
+    "training_subjects": [
+      "P01",
+      "P02",
+      "P03",
+      "P06",
+      "P07",
+      "P10"
+    ],
+    "used_for_selection": false
+  },
+  "metric": "equal mean balanced accuracy over subject/session/interface cells",
+  "model": {
+    "batchnorm_momentum": 0.05,
+    "dropout": 0.5,
+    "head": "z=dropout(BatchNorm(features)); Linear(z,3)+Linear(dropout(GELU(Linear(z,128))),3)",
+    "hidden": 128,
+    "include_diagonal": true,
+    "initialization": "PyTorch defaults; normalized random spatial weights; both head branches initialized normally",
+    "n_chans": 41,
+    "n_classes": 3,
+    "n_filters": 16,
+    "shared_spatial_weights": "one matrix per frequency band, shared across views"
+  },
+  "nested_classical": {
+    "features": "14-bank causally Euclidean-aligned log diagonal covariance; training-only weighted coordinate standardization",
+    "final_selection": "repeat inner LOSO on the authorized final or legacy fitting population only",
+    "grid": [
+      {
+        "alpha": 10.0,
+        "kind": "linear"
+      },
+      {
+        "alpha": 1.0,
+        "gamma": "1/feature_dimension",
+        "kind": "rbf"
+      }
+    ],
+    "inner_protocol": "LOSO among outer fitting subjects; exclude outer and inner held-out subjects from every fit/reference/scale",
+    "members": [
+      "original covariance ridge",
+      "inner-selected aligned log-power member"
+    ],
+    "neural_branches": "exactly shared freshly fitted reconstructed_v6 branches",
+    "reference": "equal fitting-session arithmetic raw covariance; prior_count=8,ema=.02,shrinkage=.05,clip=10",
+    "replacement_for_missing_v6_recipe": true,
+    "selection": "largest inner equal-cell balanced accuracy; linear before rbf for exact ties",
+    "target": "weighted centered one-hot labels",
+    "temperature": 0.125,
+    "weights": [
+      0.45,
+      0.45,
+      0.05,
+      0.05
+    ]
+  },
+  "neural_alignment": {
+    "ema_rate": 0.02,
+    "normalization": "broadband",
+    "prior_count": 16.0,
+    "shrinkage": 0.05,
+    "strength": 1.0,
+    "update_clip": 10.0
+  },
+  "no_score_matching_or_reconstruction_search": true,
+  "null_result": "no candidate final/legacy fit or new submission ZIP; reconstruction is not asserted identical to missing v6",
+  "original_v6_recovered": false,
+  "public_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10"
+  ],
+  "reconstruction_inferences": [
+    "exact residual-head topology/initialization was lost and is fixed above",
+    "v5 optimizer, label smoothing, gains, BN momentum, losses and epoch schedule retained",
+    "classical v6 nested recipe was lost; replacement below is newly declared, not recovered"
+  ],
+  "schema": "track2-v7-reconstructed-v6-v1",
+  "seed_pairs": [
+    [
+      33,
+      42
+    ],
+    [
+      133,
+      142
+    ],
+    [
+      233,
+      242
+    ]
+  ],
+  "source_freeze": "all active implementation files hashed before first fit; bug-only changes recorded and affected work rerun",
+  "ssl": {
+    "band_replacement": "identity covariance",
+    "channel_mask_probability": 0.15,
+    "channel_replacement": "independent unit-variance axis",
+    "decoder_seed_offset": 100000,
+    "description": "Fit-only masked log-power reconstruction before baseline fine-tuning",
+    "gradient_clip": 5.0,
+    "labels_used_in_pretraining": false,
+    "paired_band_mask_probability": 0.2,
+    "preserve_broadband_bank": true,
+    "pretrain_batch_size": 96,
+    "pretrain_cosine_horizon": 30,
+    "pretrain_epochs": 30,
+    "pretrain_learning_rate": 0.001,
+    "pretrain_minimum_learning_rate": 0.0001,
+    "pretrain_order_seed_offset": 100001,
+    "pretrain_weight_decay": 0.01,
+    "reconstruction_activation": "GELU",
+    "reconstruction_hidden": 128,
+    "reconstruction_loss": "SmoothL1(beta=1), masked entries only",
+    "reconstruction_scale_floor": 0.1,
+    "reconstruction_target": "log diagonal covariance, fit-only coordinate standardization",
+    "retained_parameters": [
+      "spatial_weight"
+    ],
+    "supervised_restart": "same-seed fresh model; replace only pretrained spatial_weight"
+  },
+  "supervised": {
+    "batch_size": 96,
+    "channel_gain_std": 0.08,
+    "cosine_horizon": 120,
+    "gradient_clip": 5.0,
+    "label_smoothing": 0.05,
+    "learning_rate": 0.002,
+    "minimum_learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "orthogonality_weight": 0.001,
+    "weight_decay": 0.01
+  },
+  "views": [
+    [
+      0,
+      240
+    ],
+    [
+      240,
+      480
+    ],
+    [
+      0,
+      480
+    ]
+  ],
+  "winner": "largest gain minus SE among passes; lexicographic tie break"
+}

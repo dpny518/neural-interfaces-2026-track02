@@ -1,0 +1,2717 @@
+{
+  "baseline": "reconstructed_v6",
+  "contamination": "All ten public participants are adaptively reused development data; P04/P09 have no independent test role.",
+  "null_result": true,
+  "original_v6_recovered": false,
+  "paired": {
+    "cross_subject_mixup": {
+      "margin": -0.0015719884361550937,
+      "mean_gain": 0.0034914981009088915,
+      "paired_se": 0.005063486537063985,
+      "passes": false,
+      "percentile_interval_95": [
+        -0.005883320530147442,
+        0.013301155411877395
+      ],
+      "replicate_gains": [
+        0.0027744720895403136,
+        -0.0016045392016650856,
+        0.009304561414851448
+      ],
+      "subjects": [
+        {
+          "gain": -5.600358422937733e-05,
+          "n_cells": 2,
+          "subject": "P01"
+        },
+        {
+          "gain": 0.011805555555555531,
+          "n_cells": 2,
+          "subject": "P02"
+        },
+        {
+          "gain": -0.003012992831541217,
+          "n_cells": 2,
+          "subject": "P03"
+        },
+        {
+          "gain": 0.008700467941059333,
+          "n_cells": 6,
+          "subject": "P04"
+        },
+        {
+          "gain": 0.03007392473118279,
+          "n_cells": 2,
+          "subject": "P05"
+        },
+        {
+          "gain": -0.0015606332138589454,
+          "n_cells": 2,
+          "subject": "P06"
+        },
+        {
+          "gain": 0.016259707287933117,
+          "n_cells": 2,
+          "subject": "P07"
+        },
+        {
+          "gain": 0.001736111111111142,
+          "n_cells": 2,
+          "subject": "P08"
+        },
+        {
+          "gain": 0.017899904214559392,
+          "n_cells": 2,
+          "subject": "P09"
+        },
+        {
+          "gain": -0.016788667893721982,
+          "n_cells": 6,
+          "subject": "P10"
+        }
+      ]
+    },
+    "expanded_grid": {
+      "margin": -0.00222070397619759,
+      "mean_gain": 0.002658914804953008,
+      "paired_se": 0.004879618781150598,
+      "passes": false,
+      "percentile_interval_95": [
+        -0.005445162934872273,
+        0.013782839021237597
+      ],
+      "replicate_gains": [
+        -0.0013537260473340113,
+        -0.0007828875432264063,
+        0.01011335800541944
+      ],
+      "subjects": [
+        {
+          "gain": -0.0072244623655914044,
+          "n_cells": 2,
+          "subject": "P01"
+        },
+        {
+          "gain": -0.009136051373954568,
+          "n_cells": 2,
+          "subject": "P02"
+        },
+        {
+          "gain": 0.034128584229390656,
+          "n_cells": 2,
+          "subject": "P03"
+        },
+        {
+          "gain": -0.0012383014735165285,
+          "n_cells": 6,
+          "subject": "P04"
+        },
+        {
+          "gain": -0.012488799283154144,
+          "n_cells": 2,
+          "subject": "P05"
+        },
+        {
+          "gain": -0.018402777777777733,
+          "n_cells": 2,
+          "subject": "P06"
+        },
+        {
+          "gain": -0.003875448028673789,
+          "n_cells": 2,
+          "subject": "P07"
+        },
+        {
+          "gain": 0.020250896057347662,
+          "n_cells": 2,
+          "subject": "P08"
+        },
+        {
+          "gain": 0.04220545977011493,
+          "n_cells": 2,
+          "subject": "P09"
+        },
+        {
+          "gain": -0.001505896512603309,
+          "n_cells": 6,
+          "subject": "P10"
+        }
+      ]
+    },
+    "masked_ssl": {
+      "margin": -0.0021864812848820686,
+      "mean_gain": -0.00025265103878653475,
+      "paired_se": 0.0019338302460955338,
+      "passes": false,
+      "percentile_interval_95": [
+        -0.004008227895270687,
+        0.0037909501973604977
+      ],
+      "replicate_gains": [
+        0.004787589164327218,
+        0.0005400660913234505,
+        -0.006085608372010272
+      ],
+      "subjects": [
+        {
+          "gain": -0.015624999999999991,
+          "n_cells": 2,
+          "subject": "P01"
+        },
+        {
+          "gain": -0.00023148148148148008,
+          "n_cells": 2,
+          "subject": "P02"
+        },
+        {
+          "gain": -0.007060185185185179,
+          "n_cells": 2,
+          "subject": "P03"
+        },
+        {
+          "gain": -0.00026508363201910935,
+          "n_cells": 6,
+          "subject": "P04"
+        },
+        {
+          "gain": 0.0089605734767025,
+          "n_cells": 2,
+          "subject": "P05"
+        },
+        {
+          "gain": -0.005204599761051328,
+          "n_cells": 2,
+          "subject": "P06"
+        },
+        {
+          "gain": 0.014176373954599789,
+          "n_cells": 2,
+          "subject": "P07"
+        },
+        {
+          "gain": 0.0034722222222222463,
+          "n_cells": 2,
+          "subject": "P08"
+        },
+        {
+          "gain": 0.0019157088122605341,
+          "n_cells": 2,
+          "subject": "P09"
+        },
+        {
+          "gain": -0.0010484918950070842,
+          "n_cells": 6,
+          "subject": "P10"
+        }
+      ]
+    },
+    "nested_classical": {
+      "margin": -0.0042204733847032595,
+      "mean_gain": -0.0029052526028332413,
+      "paired_se": 0.0013152207818700184,
+      "passes": false,
+      "percentile_interval_95": [
+        -0.006060110513739533,
+        -0.0009322204954450401
+      ],
+      "replicate_gains": [
+        -0.004118381223457118,
+        -0.002717056650246293,
+        -0.0018803199347963131
+      ],
+      "subjects": [
+        {
+          "gain": -0.0051523297491039375,
+          "n_cells": 2,
+          "subject": "P01"
+        },
+        {
+          "gain": 0.001736111111111105,
+          "n_cells": 2,
+          "subject": "P02"
+        },
+        {
+          "gain": -0.0050365890083631975,
+          "n_cells": 2,
+          "subject": "P03"
+        },
+        {
+          "gain": 0.00048536439665471543,
+          "n_cells": 6,
+          "subject": "P04"
+        },
+        {
+          "gain": -0.001624103942652332,
+          "n_cells": 2,
+          "subject": "P05"
+        },
+        {
+          "gain": -0.0019638590203106174,
+          "n_cells": 2,
+          "subject": "P06"
+        },
+        {
+          "gain": -0.008912037037037007,
+          "n_cells": 2,
+          "subject": "P07"
+        },
+        {
+          "gain": -0.008796296296296266,
+          "n_cells": 2,
+          "subject": "P08"
+        },
+        {
+          "gain": -0.010416666666666647,
+          "n_cells": 2,
+          "subject": "P09"
+        },
+        {
+          "gain": -0.000654619673436876,
+          "n_cells": 6,
+          "subject": "P10"
+        }
+      ]
+    }
+  },
+  "plan_sha256": "0448fed4aed8eb3b84e399204d1ec87b805f6e7824d3d3b02a41d176cb74950f",
+  "replay_manifest_sha256": "674b205fd7b08be60204dedeaad8beee56c636a629d44af26317714c3002ab93",
+  "schema": "v7-reconstruction-selection-v1",
+  "selected": null,
+  "summaries": {
+    "cross_subject_mixup": {
+      "cells": [
+        {
+          "class_counts": [
+            31,
+            32,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6665546594982079,
+          "replicates": [
+            0.6911962365591399,
+            0.6706989247311829,
+            0.637768817204301
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5416666666666666,
+          "replicates": [
+            0.5625,
+            0.5416666666666666,
+            0.5208333333333334
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6211917562724015,
+          "replicates": [
+            0.6107750896057348,
+            0.6524417562724014,
+            0.600358422939068
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.767361111111111,
+          "replicates": [
+            0.7291666666666666,
+            0.7604166666666666,
+            0.8125
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4923387096774194,
+          "replicates": [
+            0.49536290322580645,
+            0.508176523297491,
+            0.47347670250896057
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5208333333333334,
+          "replicates": [
+            0.5,
+            0.5416666666666666,
+            0.5208333333333334
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5709826762246117,
+          "replicates": [
+            0.5907930107526882,
+            0.5768817204301075,
+            0.5452732974910394
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5104166666666666,
+          "replicates": [
+            0.5104166666666666,
+            0.5,
+            0.5208333333333334
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            30,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4804062126642772,
+          "replicates": [
+            0.44977598566308236,
+            0.4959005376344086,
+            0.49554211469534054
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.4513888888888889,
+          "replicates": [
+            0.4479166666666667,
+            0.4270833333333333,
+            0.4791666666666667
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.48626045400238943,
+          "replicates": [
+            0.4802867383512545,
+            0.4885304659498208,
+            0.48996415770609314
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 92
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.3854166666666667,
+          "replicates": [
+            0.40625,
+            0.375,
+            0.375
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.661402329749104,
+          "replicates": [
+            0.6928763440860215,
+            0.6502016129032259,
+            0.6411290322580645
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5902777777777778,
+          "replicates": [
+            0.5833333333333334,
+            0.6145833333333334,
+            0.5729166666666666
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6755077658303464,
+          "replicates": [
+            0.649820788530466,
+            0.6827956989247311,
+            0.6939068100358424
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 91
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6041666666666666,
+          "replicates": [
+            0.6145833333333334,
+            0.6145833333333334,
+            0.5833333333333334
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7369847670250896,
+          "replicates": [
+            0.7073700716845878,
+            0.7514560931899642,
+            0.7521281362007168
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6909722222222222,
+          "replicates": [
+            0.7291666666666666,
+            0.6458333333333334,
+            0.6979166666666666
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            32,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7163381123058543,
+          "replicates": [
+            0.7232750896057348,
+            0.6805779569892474,
+            0.7451612903225806
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.8055555555555557,
+          "replicates": [
+            0.8125,
+            0.8020833333333334,
+            0.8020833333333334
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            29,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5623802681992336,
+          "replicates": [
+            0.5395114942528735,
+            0.5675287356321839,
+            0.5801005747126436
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6215277777777778,
+          "replicates": [
+            0.59375,
+            0.65625,
+            0.6145833333333334
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.44097222222222227,
+          "replicates": [
+            0.4479166666666667,
+            0.46875,
+            0.40625
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5243055555555557,
+          "replicates": [
+            0.53125,
+            0.5208333333333334,
+            0.5208333333333334
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            29
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5965064062950604,
+          "replicates": [
+            0.6407366209368434,
+            0.5743789395624769,
+            0.5744036583858608
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 90
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5833333333333334,
+          "replicates": [
+            0.6145833333333334,
+            0.5729166666666666,
+            0.5625
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            35,
+            34,
+            34
+          ],
+          "interface": "BrainHero",
+          "mean": 0.47945845004668536,
+          "replicates": [
+            0.49859943977591037,
+            0.44061624649859943,
+            0.4991596638655462
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 103
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.46875,
+          "replicates": [
+            0.4895833333333333,
+            0.4583333333333333,
+            0.4583333333333333
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 96
+        }
+      ],
+      "mean": 0.580473464722683,
+      "replicates": [
+        0.5836891599891718,
+        0.5800066147148515,
+        0.5777246194640259
+      ],
+      "sample_sd": 0.0030095510655887394
+    },
+    "expanded_grid": {
+      "cells": [
+        {
+          "class_counts": [
+            31,
+            32,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6556899641577061,
+          "replicates": [
+            0.6273521505376344,
+            0.7127016129032259,
+            0.627016129032258
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5381944444444444,
+          "replicates": [
+            0.5520833333333334,
+            0.5729166666666666,
+            0.4895833333333333
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.62444743130227,
+          "replicates": [
+            0.6416666666666667,
+            0.6191532258064517,
+            0.6125224014336917
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.7222222222222223,
+          "replicates": [
+            0.7395833333333334,
+            0.7083333333333334,
+            0.71875
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5457885304659498,
+          "replicates": [
+            0.549171146953405,
+            0.5605734767025089,
+            0.5276209677419355
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5416666666666666,
+          "replicates": [
+            0.5729166666666666,
+            0.5104166666666666,
+            0.5416666666666666
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5596400836320191,
+          "replicates": [
+            0.5362455197132617,
+            0.5765456989247312,
+            0.5661290322580644
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.4618055555555555,
+          "replicates": [
+            0.4583333333333333,
+            0.4375,
+            0.4895833333333333
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            30,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4879405615292713,
+          "replicates": [
+            0.48483422939068105,
+            0.49451164874551967,
+            0.484475806451613
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.45486111111111116,
+          "replicates": [
+            0.4270833333333333,
+            0.4166666666666667,
+            0.5208333333333334
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.49988052568697733,
+          "replicates": [
+            0.48960573476702507,
+            0.4992831541218638,
+            0.510752688172043
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 92
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.3611111111111111,
+          "replicates": [
+            0.3958333333333333,
+            0.3333333333333333,
+            0.3541666666666667
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5971102150537634,
+          "replicates": [
+            0.6391129032258065,
+            0.5655241935483871,
+            0.5866935483870968
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5694444444444443,
+          "replicates": [
+            0.6041666666666666,
+            0.59375,
+            0.5104166666666666
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6383512544802867,
+          "replicates": [
+            0.6168458781362007,
+            0.6487455197132617,
+            0.6494623655913978
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 91
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.607638888888889,
+          "replicates": [
+            0.6145833333333334,
+            0.6145833333333334,
+            0.59375
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.717547789725209,
+          "replicates": [
+            0.7507616487455196,
+            0.6848118279569894,
+            0.7170698924731184
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6701388888888888,
+          "replicates": [
+            0.6145833333333334,
+            0.7291666666666666,
+            0.6666666666666666
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            32,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7360065710872162,
+          "replicates": [
+            0.7753584229390681,
+            0.7316084229390681,
+            0.7010528673835125
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.8229166666666666,
+          "replicates": [
+            0.8333333333333334,
+            0.8229166666666666,
+            0.8125
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            29,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6075191570881225,
+          "replicates": [
+            0.6059626436781609,
+            0.5915948275862069,
+            0.625
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.625,
+          "replicates": [
+            0.6666666666666666,
+            0.6041666666666666,
+            0.6041666666666666
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4479166666666667,
+          "replicates": [
+            0.40625,
+            0.4895833333333333,
+            0.4479166666666667
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5069444444444445,
+          "replicates": [
+            0.46875,
+            0.53125,
+            0.5208333333333334
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            29
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6306225023688873,
+          "replicates": [
+            0.5959090347299468,
+            0.6414781856383637,
+            0.6544802867383512
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 90
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6180555555555555,
+          "replicates": [
+            0.5520833333333334,
+            0.6354166666666666,
+            0.6666666666666666
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            35,
+            34,
+            34
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5057889822595705,
+          "replicates": [
+            0.5190476190476191,
+            0.4991596638655462,
+            0.4991596638655462
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 103
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.4756944444444444,
+          "replicates": [
+            0.4895833333333333,
+            0.4375,
+            0.5
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 96
+        }
+      ],
+      "mean": 0.5796408814267272,
+      "replicates": [
+        0.5795609618522974,
+        0.5808282663732902,
+        0.5785334160545939
+      ],
+      "sample_sd": 0.0011495107002929422
+    },
+    "masked_ssl": {
+      "cells": [
+        {
+          "class_counts": [
+            31,
+            32,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6631944444444445,
+          "replicates": [
+            0.6911962365591399,
+            0.6918682795698925,
+            0.606518817204301
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.513888888888889,
+          "replicates": [
+            0.5729166666666666,
+            0.5208333333333334,
+            0.4479166666666667
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6214232377538829,
+          "replicates": [
+            0.589605734767025,
+            0.6527777777777778,
+            0.6218862007168459
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.7430555555555557,
+          "replicates": [
+            0.75,
+            0.7395833333333334,
+            0.7395833333333334
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4807721027479092,
+          "replicates": [
+            0.48391577060931895,
+            0.47520161290322577,
+            0.4831989247311828
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5243055555555556,
+          "replicates": [
+            0.5208333333333334,
+            0.5729166666666666,
+            0.4791666666666667
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5736484468339308,
+          "replicates": [
+            0.5668458781362008,
+            0.6091621863799284,
+            0.5449372759856631
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.49652777777777773,
+          "replicates": [
+            0.4895833333333333,
+            0.5,
+            0.5
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            30,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.45888590203106333,
+          "replicates": [
+            0.4612231182795699,
+            0.4636424731182796,
+            0.45179211469534053
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.4444444444444444,
+          "replicates": [
+            0.4375,
+            0.4583333333333333,
+            0.4375
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.47562724014336916,
+          "replicates": [
+            0.4473118279569892,
+            0.478494623655914,
+            0.5010752688172043
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 92
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.3819444444444444,
+          "replicates": [
+            0.40625,
+            0.375,
+            0.3645833333333333
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6330645161290324,
+          "replicates": [
+            0.7039650537634409,
+            0.5977822580645161,
+            0.5974462365591399
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5763888888888888,
+          "replicates": [
+            0.6041666666666666,
+            0.5833333333333334,
+            0.5416666666666666
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6682198327359617,
+          "replicates": [
+            0.6942652329749105,
+            0.6609318996415771,
+            0.6494623655913978
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 91
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6041666666666666,
+          "replicates": [
+            0.6041666666666666,
+            0.59375,
+            0.6145833333333334
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7362903225806452,
+          "replicates": [
+            0.7184811827956988,
+            0.7504032258064517,
+            0.7399865591397851
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6875,
+          "replicates": [
+            0.7291666666666666,
+            0.6666666666666666,
+            0.6666666666666666
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            32,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7302270011947432,
+          "replicates": [
+            0.7125224014336918,
+            0.7229390681003585,
+            0.7552195340501792
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.795138888888889,
+          "replicates": [
+            0.8020833333333334,
+            0.8020833333333334,
+            0.78125
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            29,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5581896551724138,
+          "replicates": [
+            0.5258620689655172,
+            0.600933908045977,
+            0.5477729885057471
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.59375,
+          "replicates": [
+            0.5729166666666666,
+            0.6041666666666666,
+            0.6041666666666666
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4618055555555556,
+          "replicates": [
+            0.4583333333333333,
+            0.4791666666666667,
+            0.4479166666666667
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5416666666666666,
+          "replicates": [
+            0.5625,
+            0.5520833333333334,
+            0.5104166666666666
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            29
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5968648292341285,
+          "replicates": [
+            0.631850203930293,
+            0.607353849956742,
+            0.5513904338153505
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 90
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5902777777777778,
+          "replicates": [
+            0.6354166666666666,
+            0.5729166666666666,
+            0.5625
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            35,
+            34,
+            34
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5249299719887954,
+          "replicates": [
+            0.5476190476190476,
+            0.4991596638655462,
+            0.5280112044817927
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 103
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.47222222222222227,
+          "replicates": [
+            0.4791666666666667,
+            0.46875,
+            0.46875
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 96
+        }
+      ],
+      "mean": 0.5767293155829876,
+      "replicates": [
+        0.5857022770639587,
+        0.5821512200078399,
+        0.5623344496771642
+      ],
+      "sample_sd": 0.01259212551116495
+    },
+    "nested_classical": {
+      "cells": [
+        {
+          "class_counts": [
+            31,
+            32,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6806675627240143,
+          "replicates": [
+            0.6592741935483871,
+            0.7338709677419355,
+            0.6488575268817204
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5173611111111112,
+          "replicates": [
+            0.5520833333333334,
+            0.5,
+            0.5
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6323028673835126,
+          "replicates": [
+            0.6114695340501792,
+            0.6739695340501792,
+            0.6114695340501792
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.736111111111111,
+          "replicates": [
+            0.7291666666666666,
+            0.7291666666666666,
+            0.75
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4952359617682198,
+          "replicates": [
+            0.47419354838709676,
+            0.506429211469534,
+            0.5050851254480286
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.513888888888889,
+          "replicates": [
+            0.5208333333333334,
+            0.53125,
+            0.4895833333333333
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5741188769414576,
+          "replicates": [
+            0.589426523297491,
+            0.5987455197132617,
+            0.5341845878136201
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.4791666666666667,
+          "replicates": [
+            0.5104166666666666,
+            0.46875,
+            0.4583333333333333
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            30,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.48421445639187577,
+          "replicates": [
+            0.4508064516129033,
+            0.5063172043010753,
+            0.4955197132616487
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.4583333333333333,
+          "replicates": [
+            0.4583333333333333,
+            0.4791666666666667,
+            0.4375
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.46821983273596174,
+          "replicates": [
+            0.4688172043010752,
+            0.478494623655914,
+            0.45734767025089607
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 92
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.37152777777777773,
+          "replicates": [
+            0.3645833333333333,
+            0.3645833333333333,
+            0.3854166666666667
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6257840501792115,
+          "replicates": [
+            0.6394489247311829,
+            0.6293682795698925,
+            0.6085349462365591
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5625,
+          "replicates": [
+            0.5729166666666666,
+            0.5625,
+            0.5520833333333334
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6608124253285543,
+          "replicates": [
+            0.6609318996415771,
+            0.6939068100358422,
+            0.6275985663082437
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 91
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6180555555555555,
+          "replicates": [
+            0.6354166666666666,
+            0.6041666666666666,
+            0.6145833333333334
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7040023894862605,
+          "replicates": [
+            0.7080645161290322,
+            0.7073476702508961,
+            0.6965949820788531
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6736111111111112,
+          "replicates": [
+            0.6979166666666666,
+            0.6770833333333334,
+            0.6458333333333334
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            32,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7022177419354839,
+          "replicates": [
+            0.6812724014336918,
+            0.6805779569892474,
+            0.7448028673835125
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.7986111111111112,
+          "replicates": [
+            0.7916666666666666,
+            0.8020833333333334,
+            0.8020833333333334
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            29,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5543582375478927,
+          "replicates": [
+            0.5050287356321839,
+            0.5894396551724138,
+            0.5686063218390804
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5729166666666666,
+          "replicates": [
+            0.5625,
+            0.5520833333333334,
+            0.6041666666666666
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.46875,
+          "replicates": [
+            0.4791666666666667,
+            0.4583333333333333,
+            0.46875
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5416666666666666,
+          "replicates": [
+            0.5625,
+            0.53125,
+            0.53125
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            29
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6118155975775553,
+          "replicates": [
+            0.653330861450995,
+            0.6188481028303053,
+            0.5632678284513657
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 90
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5833333333333334,
+          "replicates": [
+            0.59375,
+            0.5833333333333334,
+            0.5729166666666666
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            35,
+            34,
+            34
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5088702147525677,
+          "replicates": [
+            0.5378151260504201,
+            0.48963585434173673,
+            0.4991596638655462
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 103
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.4756944444444444,
+          "replicates": [
+            0.4791666666666667,
+            0.4583333333333333,
+            0.4895833333333333
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 96
+        }
+      ],
+      "mean": 0.574076714018941,
+      "replicates": [
+        0.5767963066761743,
+        0.5788940972662703,
+        0.5665397381143781
+      ],
+      "sample_sd": 0.006610951949564006
+    },
+    "reconstructed_v6": {
+      "cells": [
+        {
+          "class_counts": [
+            31,
+            32,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6805555555555555,
+          "replicates": [
+            0.6908602150537635,
+            0.7231182795698925,
+            0.6276881720430106
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5277777777777778,
+          "replicates": [
+            0.5520833333333334,
+            0.5104166666666666,
+            0.5208333333333334
+          ],
+          "session": "1",
+          "subject": "P01",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6323028673835126,
+          "replicates": [
+            0.6114695340501792,
+            0.6739695340501792,
+            0.6114695340501792
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.7326388888888888,
+          "replicates": [
+            0.7291666666666666,
+            0.71875,
+            0.75
+          ],
+          "session": "1",
+          "subject": "P02",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4914202508960573,
+          "replicates": [
+            0.48391577060931895,
+            0.4852598566308244,
+            0.5050851254480286
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5277777777777778,
+          "replicates": [
+            0.5416666666666666,
+            0.5520833333333334,
+            0.4895833333333333
+          ],
+          "session": "1",
+          "subject": "P03",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5779271206690563,
+          "replicates": [
+            0.558176523297491,
+            0.6310259856630824,
+            0.544578853046595
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.48611111111111116,
+          "replicates": [
+            0.5208333333333334,
+            0.46875,
+            0.46875
+          ],
+          "session": "1",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            30,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4736932497013142,
+          "replicates": [
+            0.4508064516129033,
+            0.4962589605734767,
+            0.4740143369175627
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.4479166666666667,
+          "replicates": [
+            0.4479166666666667,
+            0.46875,
+            0.4270833333333333
+          ],
+          "session": "2",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            31
+          ],
+          "interface": "BrainHero",
+          "mean": 0.48243727598566305,
+          "replicates": [
+            0.4795698924731182,
+            0.5,
+            0.467741935483871
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 92
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.3645833333333333,
+          "replicates": [
+            0.3541666666666667,
+            0.3541666666666667,
+            0.3854166666666667
+          ],
+          "session": "3",
+          "subject": "P04",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            31,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.611671146953405,
+          "replicates": [
+            0.6290322580645161,
+            0.6081989247311829,
+            0.5977822580645161
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 94
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5798611111111112,
+          "replicates": [
+            0.5833333333333334,
+            0.5625,
+            0.59375
+          ],
+          "session": "1",
+          "subject": "P05",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            30,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.67168458781362,
+          "replicates": [
+            0.6716845878136201,
+            0.7046594982078852,
+            0.6387096774193548
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 91
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.611111111111111,
+          "replicates": [
+            0.6354166666666666,
+            0.59375,
+            0.6041666666666666
+          ],
+          "session": "1",
+          "subject": "P06",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            31,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7183542413381122,
+          "replicates": [
+            0.7295922939068099,
+            0.7177643369175627,
+            0.7077060931899641
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.6770833333333334,
+          "replicates": [
+            0.6979166666666666,
+            0.6875,
+            0.6458333333333334
+          ],
+          "session": "1",
+          "subject": "P07",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            32,
+            30
+          ],
+          "interface": "BrainHero",
+          "mean": 0.7093936678614098,
+          "replicates": [
+            0.6916890681003585,
+            0.6916890681003585,
+            0.7448028673835125
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.8090277777777777,
+          "replicates": [
+            0.7916666666666666,
+            0.8125,
+            0.8229166666666666
+          ],
+          "session": "1",
+          "subject": "P08",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            29,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5613026819923371,
+          "replicates": [
+            0.5154454022988505,
+            0.5894396551724138,
+            0.5790229885057471
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 93
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5868055555555555,
+          "replicates": [
+            0.5729166666666666,
+            0.5729166666666666,
+            0.6145833333333334
+          ],
+          "session": "1",
+          "subject": "P09",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "BrainHero",
+          "mean": 0.4583333333333333,
+          "replicates": [
+            0.46875,
+            0.4583333333333333,
+            0.4479166666666667
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5451388888888888,
+          "replicates": [
+            0.5625,
+            0.5416666666666666,
+            0.53125
+          ],
+          "session": "1",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            31,
+            30,
+            29
+          ],
+          "interface": "BrainHero",
+          "mean": 0.6226877600626209,
+          "replicates": [
+            0.664083549623038,
+            0.6303423557038684,
+            0.5736373748609567
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 90
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.5902777777777778,
+          "replicates": [
+            0.6145833333333334,
+            0.5833333333333334,
+            0.5729166666666666
+          ],
+          "session": "2",
+          "subject": "P10",
+          "windows": 96
+        },
+        {
+          "class_counts": [
+            35,
+            34,
+            34
+          ],
+          "interface": "BrainHero",
+          "mean": 0.5088702147525677,
+          "replicates": [
+            0.5476190476190476,
+            0.48963585434173673,
+            0.4893557422969188
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 103
+        },
+        {
+          "class_counts": [
+            32,
+            32,
+            32
+          ],
+          "interface": "Graz",
+          "mean": 0.46875,
+          "replicates": [
+            0.46875,
+            0.4583333333333333,
+            0.4791666666666667
+          ],
+          "session": "3",
+          "subject": "P10",
+          "windows": 96
+        }
+      ],
+      "mean": 0.5769819666217741,
+      "replicates": [
+        0.5809146878996315,
+        0.5816111539165165,
+        0.5684200580491744
+      ],
+      "sample_sd": 0.007423003100655203
+    }
+  }
+}
