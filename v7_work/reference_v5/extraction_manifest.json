@@ -1,0 +1,315 @@
+{
+  "source_sha256": "ebc27e96bbfd8b7ea72ae4fed67842efe37ee584e722cb935ca70ce72dd7d15f",
+  "files": [
+    {
+      "path": "bci_work/build_submission.py",
+      "bytes": 5417,
+      "sha256": "2e859b1e3f9875ea7e41d309c876ff079c760fdf1c4bb669bb62fc0a426799a6"
+    },
+    {
+      "path": "bci_work/classical_sweep.py",
+      "bytes": 8058,
+      "sha256": "924afe32f62cfac1544fa00ab80331d7e144ad0e52a2195379a231fe67e0ac3a"
+    },
+    {
+      "path": "bci_work/contract_check.py",
+      "bytes": 11227,
+      "sha256": "e1f7176b77a35820709f4dc18d11e43e5284856ee3f7783ff66e6f3669a4ba17"
+    },
+    {
+      "path": "bci_work/crossvalidate.py",
+      "bytes": 9196,
+      "sha256": "f59145f8737d3f1957a3b4d3926518ee50e86a2a21c8524614375b35b0979ecd"
+    },
+    {
+      "path": "bci_work/crossvalidate_neural.py",
+      "bytes": 7158,
+      "sha256": "6c4235b1deb5828f4ade8bba3bc4fb1bfa6c0bd3047ce66f10155b68b6e656fd"
+    },
+    {
+      "path": "bci_work/deploy_runtime.py",
+      "bytes": 9290,
+      "sha256": "0f4fb7272c532fe7a7e353f13095a6d6d8fb54b33f0f427aab6fb68ae71c2dc1"
+    },
+    {
+      "path": "bci_work/euclidean_loso.py",
+      "bytes": 3154,
+      "sha256": "65e0c4c1ca24548cc9efe5fe3b0230fa71cbb67904cea719acb3beba0a560ac7"
+    },
+    {
+      "path": "bci_work/euclidean_sweep.py",
+      "bytes": 5071,
+      "sha256": "e2d1030d78bbdbbf4b34b057893c6ccf2a5aec83c0333fcb1fb9601bc6c333c9"
+    },
+    {
+      "path": "bci_work/evaluate_submission.py",
+      "bytes": 3501,
+      "sha256": "796c0a8b9ef2ab15ba7cdf1d2c31b3425178357e367915d20b253d5538e1d2a0"
+    },
+    {
+      "path": "bci_work/evaluation.py",
+      "bytes": 5783,
+      "sha256": "4f38c048cead20f6006893dd9b3e4a7e944516cde27f9af4e158d6bf58a9ea61"
+    },
+    {
+      "path": "bci_work/extract_features.py",
+      "bytes": 1952,
+      "sha256": "655690d4ecfc638c905b96f32174a44288f7564b3345614da2db610197f30386"
+    },
+    {
+      "path": "bci_work/finalize_artifacts.py",
+      "bytes": 17450,
+      "sha256": "055bd7f566f4165addcda4e5f9f0e5f105f02628b3df9d715c49c6435c483323"
+    },
+    {
+      "path": "bci_work/logreg_sweep.py",
+      "bytes": 2879,
+      "sha256": "70611bfc15be9fbe61e9207635eb044025cbc7408e15c5ed7ab1012d2c63e46e"
+    },
+    {
+      "path": "bci_work/neural_cov.py",
+      "bytes": 7893,
+      "sha256": "171bdd1f1a8c4c04c034f23744b15767c5db8794d6aea7c2c20384fea35b578d"
+    },
+    {
+      "path": "bci_work/neural_raw.py",
+      "bytes": 4794,
+      "sha256": "7cf2e6beb51bc3e4e61390ca70fbfb9ba94a38943817c164fedb32d58bd511e8"
+    },
+    {
+      "path": "bci_work/prepare_data.py",
+      "bytes": 10549,
+      "sha256": "6aed10a9314da672c24aed672fb0aa54fb7174debf91564c2d5a877b6f196ccc"
+    },
+    {
+      "path": "bci_work/select_ensemble.py",
+      "bytes": 6856,
+      "sha256": "93ad9a13b632e0bd1dd34c2c64038de3e8b2c42f9f195f241d6b2ee45489d965"
+    },
+    {
+      "path": "bci_work/temporal_sweep.py",
+      "bytes": 4659,
+      "sha256": "e2f2267ab56c96321450f0e6feb2ec01acf8176c5d57d67ca52db9787cc78ba6"
+    },
+    {
+      "path": "bci_work/train_neural_cov.py",
+      "bytes": 10171,
+      "sha256": "c76944868661b01166fec3b1b53dfc81fc9b516d9b7edecf7f7a6eb09b0b64c3"
+    },
+    {
+      "path": "bci_work/train_neural_raw.py",
+      "bytes": 6485,
+      "sha256": "c9a1dcfe0bb1ffd987e79f7700d6796f44c365377adb93297cbf8d8e247cd3f3"
+    },
+    {
+      "path": "bci_work/verify_protocol.py",
+      "bytes": 6039,
+      "sha256": "1d93a77500dacd4790e637fdbd6914dd1000031d065a22fa125af548cf15bca2"
+    },
+    {
+      "path": "data/nm000290/v1.0.0/dataset_description.json",
+      "bytes": 883,
+      "sha256": "4fa4fdf2bc568e112c7e45a2c7fd2d54cca27ab849a336284834b1422735e063"
+    },
+    {
+      "path": "data/nm000290/v1.0.0/download_manifest.json",
+      "bytes": 237088,
+      "sha256": "646d0f1347599c69b77ca9cc9b673cf80c2100c82ec77d3c9f1959ff9e2e61bb"
+    },
+    {
+      "path": "methods_draft/riemann_features.py",
+      "bytes": 17865,
+      "sha256": "58c77458b24e1339c2914553e161ee03874e61b98d3d65597a356a9c829ddf9c"
+    },
+    {
+      "path": "v5_work/README_reproduce.txt",
+      "bytes": 13115,
+      "sha256": "706d52814bb1516f40c3ed5cb84b825a5ae56a3196eff82d0e49c8cef9046aa8"
+    },
+    {
+      "path": "v5_work/aggregate_streaming_checks.py",
+      "bytes": 16966,
+      "sha256": "9002ff5ff7d5ba9d5c69f8057171dc2d6b1b2ca84dbe83865b02f4b1c16c6ab0"
+    },
+    {
+      "path": "v5_work/analyze_cv.py",
+      "bytes": 14695,
+      "sha256": "29442d9435b07f79d035654c81c6c2ea70ef802166dbd012bc9f3b37e9639c11"
+    },
+    {
+      "path": "v5_work/assemble_cv_predictions.py",
+      "bytes": 26623,
+      "sha256": "9e17adb2ef8d6f118ed37f288cf01e1762cad68db691f727dc135d6df495d72d"
+    },
+    {
+      "path": "v5_work/build_postselection.py",
+      "bytes": 6079,
+      "sha256": "990e8b901ac5506a7fac0f40679aa9465f2811f669ce5f0474d23f61dd963e10"
+    },
+    {
+      "path": "v5_work/cache/dataset_info.json",
+      "bytes": 14027,
+      "sha256": "73d6e0e20c025a9359c5720ecca7679177e0aa3a2632b117c34d0d1fd174b59b"
+    },
+    {
+      "path": "v5_work/cache/feature_config_reproducible.json",
+      "bytes": 468,
+      "sha256": "07773ed8e5673ce77b14bfe00e5eace563fd0eba740faa3bec4fa884fec2eb2d"
+    },
+    {
+      "path": "v5_work/cache/metadata.npz",
+      "bytes": 1320356,
+      "sha256": "6eab2d51c0cd8e84c3f52801f56244f16089abacc0d2f710a4853af705dc5ae8"
+    },
+    {
+      "path": "v5_work/check_official_metric.py",
+      "bytes": 4609,
+      "sha256": "7720628e8d79263b94ae2ba2d962abffdb9857083aeaad96a2612d755e3dcbba"
+    },
+    {
+      "path": "v5_work/classical_math_audit.py",
+      "bytes": 2828,
+      "sha256": "aa61c73d447fc136349bb8d79c6239e2f5e558593f0fc387b8ea7847151cdbb4"
+    },
+    {
+      "path": "v5_work/classical_v5.py",
+      "bytes": 16550,
+      "sha256": "290bac97ffae08e25ad6fb47ce1a912630832cfdb425284ded7fc204a78e6e28"
+    },
+    {
+      "path": "v5_work/contract_check_v5.py",
+      "bytes": 21552,
+      "sha256": "63c7875b34047b7a9deeec1b619477224adf6a6af5897a90c9f08e1d65f8b61c"
+    },
+    {
+      "path": "v5_work/download_public.py",
+      "bytes": 4529,
+      "sha256": "7603a69d17a6f367cbe6337613d96d3b01d56739a70dd27557299d853a63c7bc"
+    },
+    {
+      "path": "v5_work/execution_order_audit.py",
+      "bytes": 2952,
+      "sha256": "6c9c799e361215654a61e1f1b3f3f4fb8fb4d020ee26de3295031dac0b25238f"
+    },
+    {
+      "path": "v5_work/finalize_classical_integrity.py",
+      "bytes": 4577,
+      "sha256": "d045942b59b3186f9781de2694e315dbd445e1e7394cbc0ac92a150c7433c84f"
+    },
+    {
+      "path": "v5_work/legacy_diagnostic_once.py",
+      "bytes": 7106,
+      "sha256": "543327b7e15c473e33f31fddc08e59fcc7930fe3952d45b65d3345c79f9577c3"
+    },
+    {
+      "path": "v5_work/monitor_auxiliary_fits.py",
+      "bytes": 11640,
+      "sha256": "d7d9280a4ac445ce9fc506f30372eeda56bd2c4532d789b76293413fd83c15f9"
+    },
+    {
+      "path": "v5_work/monitor_optional_ssl_tail.py",
+      "bytes": 7063,
+      "sha256": "bf5af4d53690bd40a3d8ad62254eb0059e223e86ab1edca67a2905e52a662773"
+    },
+    {
+      "path": "v5_work/neural_training_audit.py",
+      "bytes": 5210,
+      "sha256": "dccc16bac56475434fe0e6c9be51843cd51e9c462c23a96784f4a89452982531"
+    },
+    {
+      "path": "v5_work/neural_training_v5.py",
+      "bytes": 16473,
+      "sha256": "3bab3eb10546cacf20570c818a9318acb9224c3eb7a1f3f199d7c82aeb4fbe29"
+    },
+    {
+      "path": "v5_work/pack_runtime.py",
+      "bytes": 6140,
+      "sha256": "6d7bd805b4b97bd9ab2a56241ff6a90a4a60fd859034e1a8158ef53180129594"
+    },
+    {
+      "path": "v5_work/package_reproduction.py",
+      "bytes": 6640,
+      "sha256": "a1f46245ef76ec6fb4ef4296a967df5078a1d0e1b0e8363aea001b4c218f642a"
+    },
+    {
+      "path": "v5_work/plan.json",
+      "bytes": 6834,
+      "sha256": "ce7264eaf7efba24d04ba7b694ba4ca51f76762d3f25cee0ce1dc132457cef59"
+    },
+    {
+      "path": "v5_work/prepare_fold_cache.py",
+      "bytes": 10856,
+      "sha256": "e6a86eeb630a85ec0eb68d955747fea2c3a1788124e4638194dfafe0675ad087"
+    },
+    {
+      "path": "v5_work/prepare_public.py",
+      "bytes": 10330,
+      "sha256": "d571914a87b96903f59851d435dd8d0a0e08c74833848cde23cec2fdf7ebd721"
+    },
+    {
+      "path": "v5_work/protocol_selfcheck.py",
+      "bytes": 7402,
+      "sha256": "c821e2a8c1758564941fd61706f2e8f1f3b4e65f67c226feeace937652952bf1"
+    },
+    {
+      "path": "v5_work/protocol_v5.py",
+      "bytes": 15022,
+      "sha256": "892f6dc836ac6b11e0494a6eb54224fbbac7013b839cf2e1ed1096589dea9eec"
+    },
+    {
+      "path": "v5_work/reference_sources.json",
+      "bytes": 720,
+      "sha256": "a99b29a533e72a8aa88670e2f1db05416a73d23722a33fdac7ab541163f675ab"
+    },
+    {
+      "path": "v5_work/release_augmentation_guard.py",
+      "bytes": 3756,
+      "sha256": "b0ce5139125f3386e8367d63e9a1dcb7c3cf14cf13d634d92cc6601a21f611d4"
+    },
+    {
+      "path": "v5_work/requirements-training.lock.txt",
+      "bytes": 917,
+      "sha256": "da3f10cc5a9f5642adbe08c0b41e74f3479b4fad5659ca5986c04bd44b72af23"
+    },
+    {
+      "path": "v5_work/riemann_v5_runtime.py",
+      "bytes": 3360,
+      "sha256": "c7c2144d72410914c178be001b717c6ff0024d9df6454f3939c1aa8a0c0c669e"
+    },
+    {
+      "path": "v5_work/run_neural_cv.py",
+      "bytes": 9942,
+      "sha256": "3bbc748fcbf3ed7a8afb5749ee7fd4fae00f042c477a750b37c7f208a1369e62"
+    },
+    {
+      "path": "v5_work/save_recovery_snapshot.py",
+      "bytes": 3526,
+      "sha256": "28cde1df5a8af4f451ef08b6e24e2eb356f5da046cc9267c2dba2469124dfa50"
+    },
+    {
+      "path": "v5_work/source_snapshots/classical_v5_at_cv_start.py",
+      "bytes": 16528,
+      "sha256": "abd45db5c9234dda61ea888c82fdbe18e511172d80f1527c5a4f8559bbc1f8a8"
+    },
+    {
+      "path": "v5_work/splits.json",
+      "bytes": 364896,
+      "sha256": "59a38bb51780db8d377ff053ca49995b56b23510064f61ba766fec076cdddb85"
+    },
+    {
+      "path": "v5_work/train_postselection.py",
+      "bytes": 9281,
+      "sha256": "c3725845713c92b242226cc2c462c364ac35cbfdefd59ef274d902b85423cf20"
+    },
+    {
+      "path": "v5_work/verify_cv_streaming.py",
+      "bytes": 35784,
+      "sha256": "829dcfbdf76eab1dbd9024e5760726432ed42d00f31fe25eeee2f98b86b047f1"
+    },
+    {
+      "path": "v5_work/write_report_v5.py",
+      "bytes": 39508,
+      "sha256": "24d79cdf58eb1f61bd83dac4097c1362dae5937df6356e09883dabdb3121598d"
+    }
+  ]
+}

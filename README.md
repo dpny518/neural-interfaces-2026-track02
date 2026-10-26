@@ -1,5 +1,30 @@
 # Neural Interfaces 2026 — Track 02: BCI Decoding
 
+## Current development state — 26 October 2026
+
+The v7 round is complete and returned a **null result** against an explicitly
+reconstructed v6 baseline. The original v6 artifacts were not recovered.
+The reconstructed baseline measured **57.6982% ± 0.7423%** across three
+ten-subject LOSO repetitions; none of four fixed candidates passed the
+paired-gain-greater-than-bootstrap-SE adoption rule. No new deployment or
+legacy submission ZIP was built.
+
+Start with the [developer handoff and next-step recommendations](docs/DEVELOPER_HANDOFF.md).
+The immediate recommendation is a separate, verified all-ten-subject deployment
+refit of the frozen reconstructed baseline. This has **not** been performed.
+
+- [Training, inference, analysis and verification code](v7_work/README.md)
+- [Recorded results, predictions and fitting provenance](results/v7/README.md)
+- [Full result report](results/v7/report.txt)
+- [Frozen protocol](v7_work/plan.json)
+
+Git includes source and lightweight review evidence. The complete 1.27 GB
+checkpoint/reproduction archive is kept in the existing private Bay shelf;
+its location and verified hashes are in the handoff. Raw EEG, model weights,
+large caches, credentials, and temporary transfers are excluded from Git.
+
+## Competition background
+
 Repo for the new **Track 02 warm-up (update 1)**: PROTEUS BCI Bordeaux, three
 cued mental commands, causal streaming evaluation on Codabench
 ([competition 17982](https://www.codabench.org/competitions/17982/)).

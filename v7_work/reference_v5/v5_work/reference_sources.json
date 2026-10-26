@@ -1,0 +1,13 @@
+{
+  "competition_repository": "https://github.com/neural-interfaces26/2026-competition",
+  "competition_commit": "a66bc23d1a0e686b895c093a642b45c74970758b",
+  "files": {
+    "benchmark_utils/streaming.py": "790c74fcd572218533ded9deebc79740448c5eb30780d3a2d618051c5e40a0c5",
+    "benchmark_utils/metrics.py": "fcc739400806a74259f248618501376a4fe53f2b5a40ccdc20db6a9e2369787d",
+    "benchmark_utils/base_solver.py": "0067ec208ae8e659fad8bd615c14f1b97f967bb8a17388bda870440f0c64ae40"
+  },
+  "preprocessing_repository": "https://github.com/facebookresearch/neuroai",
+  "preprocessing_commit": "7aaccf34b11540e00cca2425c6b9094cae396bf6",
+  "dataset": "https://doi.org/10.82901/nemar.nm000290",
+  "dataset_version": "1.0.0"
+}

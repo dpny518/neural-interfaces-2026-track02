@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "batch/sequential probability identity",
+    "reset restoration",
+    "deepcopy after adaptation",
+    "prefix causality",
+    "template isolation",
+    "input immutability",
+    "empty and integer output shapes",
+    "excluded-subject rejection",
+    "one-epoch fit smoke",
+    "fit-only SSL smoke"
+  ],
+  "data": "synthetic only",
+  "passed": true
+}

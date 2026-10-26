@@ -1,0 +1,140 @@
+NEURAL INTERFACES 2026 TRACK 2 — V5 OPTION A REPORT
+
+NULL — no candidate passed the predeclared paired-gain adoption rule.
+Refitted V3 baseline: 55.30% +/- 0.45 percentage points across the three complete CV replicates. All values below are local development results, not a Codabench or sealed-phase score.
+
+1. SELECTION PROTOCOL AND CONTAMINATION
+
+All public participants P01,P02,P03,P04,P05,P06,P07,P08,P09,P10 are development data. The old P04/P09 test role was explicitly retired; P05/P08 also cease to be a standalone selection set. Earlier v3/v4 scores are historical context only, not inputs to this decision. No new validation-only or historical-test-only score is used to choose a candidate. Fold isolation does not erase the earlier selection history, so these estimates are not a newly pristine test.
+
+Each of ten LOSO folds refits V3 and all ablations on exactly the other nine participants. Seeds are paired as (33,42), (133,142), (233,242); branch epochs are fixed at 75/20 with a 120-epoch cosine schedule. No checkpoint picking or early stopping uses the held-out fold. The deterministic classical branch is shared across the three optimization replicates. Every fitted reference, SSL example/scale, classifier scale and BatchNorm statistic excludes the current held-out participant.
+
+Exact folds (IDs have the BIDS prefix sub-; full row memberships are in v5_work/splits.json):
+Held out | Fitting participants                | Held-out windows
+---------+-------------------------------------+-----------------
+P01      | P02,P03,P04,P05,P06,P07,P08,P09,P10 | 190             
+P02      | P01,P03,P04,P05,P06,P07,P08,P09,P10 | 189             
+P03      | P01,P02,P04,P05,P06,P07,P08,P09,P10 | 189             
+P04      | P01,P02,P03,P05,P06,P07,P08,P09,P10 | 566             
+P05      | P01,P02,P03,P04,P06,P07,P08,P09,P10 | 190             
+P06      | P01,P02,P03,P04,P05,P07,P08,P09,P10 | 187             
+P07      | P01,P02,P03,P04,P05,P06,P08,P09,P10 | 189             
+P08      | P01,P02,P03,P04,P05,P06,P07,P09,P10 | 189             
+P09      | P01,P02,P03,P04,P05,P06,P07,P08,P10 | 189             
+P10      | P01,P02,P03,P04,P05,P06,P07,P08,P09 | 577             
+
+The frozen rule averages balanced accuracy equally over 28 subject x session x interface cells. For each ablation, matched candidate-minus-V3 cell differences are averaged over the three replicates, then ten participant clusters are resampled 10,000 times (seed 20261023), retaining all of each participant's two or six cells. The bootstrap ratio preserves the official cell weighting. Adopt only if mean paired gain exceeds its paired-gain SE; among passes, maximize gain minus SE, then break exact ties lexicographically. Decisions use unrounded values. This one-SE development rule is not a statistical-significance claim: ten participants, overlapping CV fitting sets, and selection among four ablations leave substantial uncertainty and selection optimism.
+
+2. ARCHITECTURE AND FIXED ABLATIONS
+
+V3 is a 45% + 45% softmax mixture of two learned spatial log-variance networks plus a 10% Euclidean-aligned log-covariance ridge model. Seven spectral banks in each two-second half produce 14 covariance banks; each neural branch learns 16 spatial filters per bank, includes channel log powers, and uses training-only BatchNorm, dropout 0.5 and a linear three-class head. Ridge alpha=10,000 and temperature=0.125 remain fixed. Session covariance adaptation is unchanged across candidates: neural prior count 16, classical prior count 8, EMA floor 0.02, shrinkage 0.05 and update clipping 10. No TTA, interface-dependent weight search, architecture sweep or foundation model is claimed.
+
+Aug: 10% channel masking, 10% paired non-broadband bank masking, and cross-subject mixup (alpha 0.2, probability 0.5), using fitting subjects only. Adv: a training-only 64-unit subject classifier with gradient reversal strength 0.1. SSL: 30 epochs of fitting-only masked log-power reconstruction and fitting-only target standardization, retaining only spatial filters and restarting BatchNorm/classifier before supervised training. Tan: replace only the 10% classical branch with a tangent-space ridge model around a fitting-only affine-invariant covariance mean; keep regularization, weighting and adaptation fixed. Auxiliary SSL/domain heads are discarded.
+
+The tangent mean used its predeclared maximum 12 updates. All band means met the solver tolerance in 0/10 folds; the largest recorded final residual was 4.9838e-05. Finite-iteration results are retained as measured, without post-score solver tuning. Full recipes and numerical settings are in plan.json.
+
+3. COMPLETE CV AND PAIRED ABLATIONS
+
+CV results (%); SD is sample SD over three complete LOSO runs, not an uncertainty interval:
+
+Method | Seeds 33/42 | 133/142 | 233/242 | Mean +/- SD   
+-------+-------------+---------+---------+---------------
+V3     | 55.00       | 55.09   | 55.82   | 55.30 +/- 0.45
+Aug    | 55.27       | 55.22   | 55.66   | 55.38 +/- 0.24
+Adv    | 55.15       | 54.99   | 55.60   | 55.25 +/- 0.32
+SSL    | 55.70       | 55.11   | 55.47   | 55.43 +/- 0.30
+Tan    | 54.96       | 55.12   | 55.83   | 55.30 +/- 0.46
+
+Paired change versus the refitted V3 baseline (percentage points). The 95% percentile interval is an approximate descriptive bootstrap interval; the adoption rule uses one paired SE, not this interval:
+
+Method | Mean gain | Paired SE | Approx. 95% interval | Adoptable
+-------+-----------+-----------+----------------------+----------
+Aug    | +0.08     | 0.78      | [-1.34, +1.70]       | NO       
+Adv    | -0.05     | 0.11      | [-0.26, +0.19]       | NO       
+SSL    | +0.12     | 0.15      | [-0.15, +0.43]       | NO       
+Tan    | +0.00     | 0.03      | [-0.07, +0.06]       | NO       
+
+4. ALL 28 SCORING CELLS
+
+Values are mean balanced accuracy (%) over the three paired ensemble replicates. N is windows; class counts are mi/sub/word. V3=baseline_v3, Aug=augmentation, Adv=adversarial, SSL=masked_ssl, Tan=riemannian_tangent. Every cell receives equal weight in the headline metric.
+
+Subject | Session | Interface | N   | Class counts | V3    | Aug   | Adv   | SSL   | Tan  
+--------+---------+-----------+-----+--------------+-------+-------+-------+-------+------
+P01     | 1       | BrainHero | 94  | 31/32/31     | 67.65 | 65.22 | 67.31 | 67.28 | 67.65
+P01     | 1       | Graz      | 96  | 32/32/32     | 49.65 | 49.31 | 48.96 | 50.00 | 49.31
+P02     | 1       | BrainHero | 93  | 32/31/30     | 64.20 | 66.33 | 64.55 | 64.58 | 64.20
+P02     | 1       | Graz      | 96  | 32/32/32     | 63.89 | 63.54 | 63.54 | 63.89 | 63.89
+P03     | 1       | BrainHero | 93  | 31/30/32     | 51.45 | 51.42 | 51.80 | 50.73 | 51.80
+P03     | 1       | Graz      | 96  | 32/32/32     | 47.22 | 46.53 | 46.18 | 46.88 | 46.53
+P04     | 1       | BrainHero | 93  | 30/31/32     | 49.65 | 50.82 | 50.04 | 49.36 | 49.65
+P04     | 1       | Graz      | 96  | 32/32/32     | 46.88 | 48.26 | 47.92 | 47.57 | 47.22
+P04     | 2       | BrainHero | 93  | 32/30/31     | 44.20 | 48.08 | 43.84 | 43.12 | 44.20
+P04     | 2       | Graz      | 96  | 32/32/32     | 46.18 | 45.49 | 45.14 | 42.71 | 46.18
+P04     | 3       | BrainHero | 92  | 30/31/31     | 40.66 | 40.07 | 41.40 | 41.77 | 40.30
+P04     | 3       | Graz      | 96  | 32/32/32     | 38.19 | 40.97 | 38.19 | 40.28 | 38.19
+P05     | 1       | BrainHero | 94  | 31/31/32     | 66.14 | 67.23 | 66.86 | 66.52 | 66.49
+P05     | 1       | Graz      | 96  | 32/32/32     | 59.38 | 60.42 | 58.33 | 58.33 | 59.38
+P06     | 1       | BrainHero | 91  | 30/31/30     | 59.40 | 64.90 | 61.59 | 62.33 | 59.40
+P06     | 1       | Graz      | 96  | 32/32/32     | 54.17 | 60.76 | 54.17 | 54.17 | 54.17
+P07     | 1       | BrainHero | 93  | 32/31/30     | 71.15 | 72.50 | 70.81 | 71.12 | 71.15
+P07     | 1       | Graz      | 96  | 32/32/32     | 59.38 | 59.72 | 59.38 | 59.03 | 59.38
+P08     | 1       | BrainHero | 93  | 31/32/30     | 66.05 | 64.91 | 66.05 | 66.08 | 66.42
+P08     | 1       | Graz      | 96  | 32/32/32     | 73.26 | 75.35 | 73.26 | 73.26 | 73.26
+P09     | 1       | BrainHero | 93  | 29/32/32     | 53.10 | 51.44 | 53.10 | 53.48 | 53.10
+P09     | 1       | Graz      | 96  | 32/32/32     | 56.94 | 52.43 | 56.25 | 57.29 | 56.60
+P10     | 1       | BrainHero | 96  | 32/32/32     | 49.65 | 45.49 | 49.65 | 50.35 | 49.65
+P10     | 1       | Graz      | 96  | 32/32/32     | 51.04 | 49.65 | 51.04 | 52.78 | 51.39
+P10     | 2       | BrainHero | 90  | 31/30/29     | 62.90 | 56.46 | 62.16 | 62.86 | 62.90
+P10     | 2       | Graz      | 96  | 32/32/32     | 57.99 | 55.90 | 57.99 | 57.99 | 57.99
+P10     | 3       | BrainHero | 103 | 35/34/34     | 50.53 | 47.93 | 49.89 | 49.88 | 50.53
+P10     | 3       | Graz      | 96  | 32/32/32     | 47.57 | 49.65 | 47.57 | 48.26 | 47.57
+
+5. PARTICIPANT DIAGNOSTICS
+
+V3 is the within-participant cell mean (%); all four changes are paired percentage points. This table is diagnostic: averaging its ten rows equally would not reproduce the 28-cell ranking metric because P04/P10 each contribute six cells.
+
+Subject | Cells | V3    | Gain Aug | Gain Adv | Gain SSL | Gain Tan
+--------+-------+-------+----------+----------+----------+---------
+P01     | 2     | 58.65 | -1.39    | -0.52    | -0.01    | -0.17   
+P02     | 2     | 64.05 | +0.89    | +0.00    | +0.19    | +0.00   
+P03     | 2     | 49.34 | -0.36    | -0.35    | -0.53    | -0.17   
+P04     | 6     | 44.29 | +1.32    | +0.13    | -0.16    | -0.00   
+P05     | 2     | 62.76 | +1.06    | -0.16    | -0.33    | +0.17   
+P06     | 2     | 56.78 | +6.05    | +1.09    | +1.46    | +0.00   
+P07     | 2     | 65.26 | +0.85    | -0.17    | -0.19    | +0.00   
+P08     | 2     | 69.65 | +0.47    | +0.00    | +0.02    | +0.19   
+P09     | 2     | 55.02 | -3.09    | -0.35    | +0.37    | -0.17   
+P10     | 6     | 53.28 | -2.43    | -0.23    | +0.41    | +0.06   
+
+6. DATA, CAUSAL REPLAY AND FITTING AUDIT
+
+Public nm000290 v1.0.0 contributes 112 source runs, 84 cued runs, 14 sessions and 2,655 windows. Preprocessing matches the retained v3 prepare_run function at the AST level: 50/60-Hz notch bases and their sub-Nyquist harmonics, 0.1-75-Hz bandpass at 500 Hz, resampling to 120 Hz, float32 conversion and scaling to microvolts by 1e6. Four-second windows begin one second after the cue, yielding 41 x 480. Labels are mi=0, sub=1, word=2. There is no additional offline scaling; model-internal covariance transformations are reproduced during inference. Metadata records the exact channel order and pinned preprocessing versions.
+
+The actual official benchmark_utils.streaming.predict_streams harness replayed all five candidates, all three replicates and every window: 39,825 batch-one predict calls with 210 session deepcopies and 210 resets. Every predicted label exactly matched the assembled OOF label; probabilities matched within atol=2e-6/rtol=1e-5. The official group_scores(balanced_accuracy) calculation on these actual streamed labels independently matched all 15 reported CV scores within 1e-12. A read-only observer captured probabilities from the same predict call, so adaptation was not applied twice. Each session starts from its fitted prior; only its current EEG window reaches the model. No labels, future-window statistics or another session's state enter prediction.
+
+The recorded sum of measured inference time across replay jobs was 706.17 seconds (17.732 ms/window); this sum is not parallel wall-clock time. All 270 learned CV artifacts—240 neural checkpoints, 20 classical checkpoints and ten references—passed the stage-specific audit of actual fitting rows, seven fitting-provenance fields, hashes and embedded metadata. P04/P09 are excluded in their own held-out folds and legitimately appear among fitting subjects in other folds. These are executable evidence checks and source review, not an operating-system sandbox or formal proof.
+
+7. NULL RESULT AND SUBMISSION STATUS
+
+None of the four fixed ablations exceeded its paired-gain SE. V3 remains the retained submission; no v5 submission.zip was produced. No all-ten final model, original-six diagnostic model, passing-selection freeze, or additional historical P04/P09 diagnostic was fitted/evaluated.
+
+The 17 submission contract checks are NOT APPLICABLE: no new submission exists to check. This is distinct from the completed 270-artifact CV isolation audit and full official-harness replay, which passed. The result supports stopping this bounded search; it does not prove that v3 is a global ceiling or that every untried method would fail.
+
+8. REPRODUCTION, LIMITS AND CREDIT
+
+Recorded environment: Python 3.12.14, CPU PyTorch 2.14.1+cpu, NumPy 2.3.5, SciPy 1.17.0, scikit-learn 1.8.0, MNE 1.10.2; no GPU. The fixed plan SHA-256 is ce7264eaf7efba24d04ba7b694ba4ca51f76762d3f25cee0ce1dc132457cef59. reproduce.zip retains code, exact subject/row splits, seed pairs, all CV checkpoints, per-artifact provenance, OOF/replay predictions, logs and analysis. Omitted raw EEG and large covariance caches are regenerated by README_reproduce.txt. Floating-point/library differences may change a fresh fit; the archived checkpoints preserve the measured run.
+
+The bounded search tests four specific changes against the same refitted backbone. Neither a pass nor a null result establishes unseen-subject or sealed-phase performance. No further public-score tuning is justified by this report. Deployment, when present, uses the same replay-verified runtime source and the explicitly authorized all-public fitting stage.
+
+Data credit: PROTEUS BCI Bordeaux — EEG/EMG Foundation Challenge 2026, Track 02; authors Dreyer Pauline; Bourdil Manon; Bechon Loic; Kojima Simon; Velut Sebastien; Rimbert Sebastien; Roy Raphaëlle; Lotte Fabien. NEMAR nm000290 v1.0.0, DOI https://doi.org/10.82901/nemar.nm000290, CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/). The dataset_description.json is retained. Derived features and models are experimental outputs from this versioned public release.
+
+PRIMARY REFERENCES AND LOCAL EVIDENCE
+[1] Official Track 2 FAQ, including sealed-session/unseen-participant scope: https://github.com/neural-interfaces26/2026-competition/blob/a66bc23d1a0e686b895c093a642b45c74970758b/codabench/pages/scientific_faq_bci.md
+[2] Official evaluator: https://github.com/neural-interfaces26/2026-competition/blob/a66bc23d1a0e686b895c093a642b45c74970758b/benchmark_utils/streaming.py ; metric helpers: same commit, benchmark_utils/metrics.py
+[3] Submission contract: https://github.com/neural-interfaces26/2026-competition/blob/a66bc23d1a0e686b895c093a642b45c74970758b/codabench/pages/participate.md
+[4] Public data: https://data.nemar.org/nm000290/v1.0.0/manifest.json ; retained data/nm000290/v1.0.0/dataset_description.json
+[5] Selection and every measured table: v5_work/cv_analysis/selection.json; probabilities and provenance: v5_work/cv_predictions/assembly_manifest.json, stage_specific_leakage_check.json, and candidate NPZs
+[6] Official runtime replay: v5_work/cv_streaming_check/streaming_replay_check.json and its hashed prediction artifacts
+    Exact metric equality: v5_work/cv_analysis/official_metric_check.json ; pinned official source hashes: v5_work/reference_sources.json
+[7] Protocol/preprocessing/environment: v5_work/plan.json, splits.json, cache/dataset_info.json, implementation_record.json, requirements-training.lock.txt, README_reproduce.txt
+[8] Null result: final/legacy submission artifacts and diagnostic are absent; submission runtime checks are not applicable.

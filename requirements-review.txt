@@ -1,0 +1,2 @@
+# Enough to recompute the recorded v7 statistics without EEG or checkpoints.
+numpy==2.2.6

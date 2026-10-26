@@ -1,0 +1,52 @@
+# macOS metadata and Python caches
+._*
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Credentials belong in each developer's existing local configuration.
+.env
+.env.*
+!.env.example
+credentials.env
+*.pem
+*.key
+
+# Large downloaded archives, EEG, checkpoints and regenerable arrays.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.edf
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.partial
+*.partial.*
+*.log
+!/results/v7/logs/*.log
+
+# Machine-local data, scratch replays, and transfer fragments.
+/v7_work/data/
+/v7_work/cache/
+/v7_work/runs/
+/v7_work/postselection/
+/v7_work/packages/
+/v7_work/deliverables/
+/v7_work/predictions/
+/v7_work/analysis/
+/v7_work/verification/
+/v7_work/data_transfer.json
+/v7_work/prepared_data_transfer.sha256
+/v7_review/
+/v7_transfer_chunks/
+/v7_bay_verified_parts/
+/reanalysis*/
+
+# Small immutable predictions and provenance in results/ are intentional.
+
+# Keep this last so log whitelists never admit AppleDouble sidecars.
+._*

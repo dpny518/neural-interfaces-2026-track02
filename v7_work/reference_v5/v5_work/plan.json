@@ -1,0 +1,225 @@
+{
+  "schema": "track2-v5-fixed-option-A-plan-v1",
+  "created_at_utc": "2026-10-23T13:57:39.863282+00:00",
+  "warmup_test_role_retired": true,
+  "public_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10"
+  ],
+  "baseline_candidate": "baseline_v3",
+  "candidates": [
+    "baseline_v3",
+    "augmentation",
+    "adversarial",
+    "masked_ssl",
+    "riemannian_tangent"
+  ],
+  "seed_pairs": [
+    [
+      33,
+      42
+    ],
+    [
+      133,
+      142
+    ],
+    [
+      233,
+      242
+    ]
+  ],
+  "fixed_epochs": [
+    75,
+    20
+  ],
+  "schedule_epochs": 120,
+  "cv_protocol": "10 participant LOSO folds, repeated with three fixed ensemble seed pairs; all14sessions28cells retained",
+  "metric": "unweighted mean of balanced accuracy across subject x session x interface cells",
+  "ensemble_weights": [
+    0.45,
+    0.45,
+    0.1
+  ],
+  "neural_alignment": {
+    "normalization": "broadband",
+    "strength": 1.0,
+    "prior_count": 16.0,
+    "ema_rate": 0.02,
+    "shrinkage": 0.05,
+    "update_clip": 10.0
+  },
+  "neural_definitions": {
+    "model": {
+      "n_bands": 14,
+      "n_chans": 41,
+      "n_filters": 16,
+      "n_classes": 3,
+      "dropout": 0.5,
+      "include_diagonal": true,
+      "hidden": 0
+    },
+    "supervised": {
+      "optimizer": "AdamW",
+      "learning_rate": 0.002,
+      "weight_decay": 0.01,
+      "batch_size": 96,
+      "label_smoothing": 0.05,
+      "channel_gain_std": 0.08,
+      "orthogonality_weight": 0.001,
+      "gradient_clip": 5.0,
+      "cosine_horizon": 120,
+      "minimum_learning_rate": 0.0001
+    },
+    "recipes": {
+      "baseline": {
+        "description": "Exact v3 fixed-epoch neural training"
+      },
+      "augmentation": {
+        "description": "Baseline plus covariance masking and cross-subject mixup",
+        "channel_mask_probability": 0.1,
+        "paired_band_mask_probability": 0.1,
+        "channel_replacement": "independent unit-variance axis",
+        "band_replacement": "identity covariance",
+        "preserve_broadband_bank": true,
+        "mixup_alpha": 0.2,
+        "mixup_probability": 0.5,
+        "augmentation_seed_offset": 300000
+      },
+      "adversarial": {
+        "description": "Baseline plus a training-only subject-adversarial head",
+        "gradient_reversal_strength": 0.1,
+        "domain_loss_weight": 1.0,
+        "head_hidden": 64,
+        "head_activation": "GELU",
+        "head_dropout": 0.0,
+        "domain_weighting": "equal fitting-subject totals",
+        "head_seed_offset": 200000
+      },
+      "masked_ssl": {
+        "description": "Fit-only masked log-power reconstruction before baseline fine-tuning",
+        "pretrain_epochs": 30,
+        "pretrain_learning_rate": 0.001,
+        "pretrain_weight_decay": 0.01,
+        "pretrain_batch_size": 96,
+        "pretrain_cosine_horizon": 30,
+        "pretrain_minimum_learning_rate": 0.0001,
+        "channel_mask_probability": 0.15,
+        "paired_band_mask_probability": 0.2,
+        "channel_replacement": "independent unit-variance axis",
+        "band_replacement": "identity covariance",
+        "preserve_broadband_bank": true,
+        "reconstruction_hidden": 128,
+        "reconstruction_activation": "GELU",
+        "reconstruction_target": "log diagonal covariance, fit-only coordinate standardization",
+        "reconstruction_loss": "SmoothL1(beta=1), masked entries only",
+        "reconstruction_scale_floor": 0.1,
+        "gradient_clip": 5.0,
+        "decoder_seed_offset": 100000,
+        "pretrain_order_seed_offset": 100001,
+        "retained_parameters": [
+          "spatial_weight"
+        ],
+        "supervised_restart": "same-seed fresh model; replace only pretrained spatial_weight",
+        "labels_used_in_pretraining": false
+      }
+    }
+  },
+  "classical_definition": {
+    "baseline": "exact v3 temporal Euclidean log-covariance ridge",
+    "alpha": 10000.0,
+    "scale_mode": "global",
+    "temperature": 0.125,
+    "ensemble_weight": 0.1,
+    "center_kwargs": {
+      "kind": "logcov",
+      "alignment": "euclidean",
+      "strength": 1.0,
+      "prior_count": 8.0,
+      "ema_rate": 0.02,
+      "shrinkage": 0.05,
+      "update_clip": 10.0
+    },
+    "shrinkage": 0.05,
+    "n_bands": 14,
+    "band_dimension": 861,
+    "tangent_origin": "affine-invariant geometric mean of training-aligned covariances",
+    "tangent_mean_weights": "equal session; uniform within session; no labels",
+    "tangent_solver": {
+      "initialization": "equal-session arithmetic mean",
+      "max_iterations": 12,
+      "tolerance": 1e-07,
+      "initial_step": 1.0,
+      "backtracking_factor": 0.5,
+      "max_backtracking": 12,
+      "acceptance": "nonincreasing weighted squared affine distance"
+    },
+    "checkpoints": "fixed deterministic fit; no held-out parameter or checkpoint selection",
+    "source_reference": "equal-session raw covariance; training-only",
+    "feature_scaling": "training-only weighted global scale, exactly as v3",
+    "no_test_role": true
+  },
+  "adoption_rule": "mean paired CV gain > participant-cluster bootstrap SE of that gain",
+  "winner_rule": "largest mean paired gain minus paired SE among passing candidates; lexicographic tie break",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261023,
+  "bootstrap_unit": "participant, retaining all sessions/interfaces; average paired replicate differences before subject resampling",
+  "uncertainty_note": "approximate participant-cluster uncertainty; CV fitting sets overlap; 3 seeds are not 30 independent subjects",
+  "additional_search": false,
+  "final_seed_pair": [
+    33,
+    42
+  ],
+  "final_seed_policy": "fixed before CV; do not choose best seed or introduce untested replicate averaging",
+  "final_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10"
+  ],
+  "final_fit_condition": "at least one predeclared candidate passes the adoption rule",
+  "legacy_diagnostic": {
+    "training_subjects": [
+      "P01",
+      "P02",
+      "P03",
+      "P06",
+      "P07",
+      "P10"
+    ],
+    "evaluation_subjects": [
+      "P04",
+      "P09"
+    ],
+    "seed_pair": [
+      33,
+      42
+    ],
+    "interpretation": "selection-contaminated legacy-split diagnostic; not an independent test estimate or score of the final all10 model",
+    "passes": 1,
+    "used_for_selection": false
+  },
+  "null_result": "report and reproducibility evidence only; no new submission ZIP or all-subject final fit",
+  "dataset": "nm000290",
+  "tag": "1.0.0",
+  "competition_commit": "a66bc23d1a0e686b895c093a642b45c74970758b",
+  "excluded_from_fitting_in_each_fold": [
+    "heldout participant EEG including unlabeled SSL data",
+    "heldout labels",
+    "heldout-derived references/scaling/BN",
+    "heldout-based checkpoint decisions"
+  ]
+}

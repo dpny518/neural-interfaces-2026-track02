@@ -1,0 +1,56 @@
+{
+  "stage": "complete",
+  "selected": null,
+  "null_result": true,
+  "original_v6_recovered": false,
+  "baseline": "reconstructed_v6",
+  "measured_run_host": "Dell RTX3090",
+  "local_alternative_data_cache_used": false,
+  "local_deliverables": "/Volumes/Untitled/Development/procen/kaggle/neural-interfaces-2026-track02/v7_deliverables",
+  "artifacts": {
+    "report.txt": {
+      "bytes": 10243,
+      "sha256": "086bf05c1f7d3cf96349bfded7e13cae69328c218aeed7d6db6634996e5e62f4"
+    },
+    "reproduce.zip": {
+      "bytes": 1269782187,
+      "sha256": "7a101ef47340cbb4d2b9a331329cd35b61ca1fb8476c5aef8aece8632cb980ff"
+    },
+    "verification.zip": {
+      "bytes": 28758,
+      "sha256": "43a44207f239dc264ef71e07f40d4dccb3ee361f2e86682758925a0bfb14bd92"
+    }
+  },
+  "delivery_verification": {
+    "passed": true,
+    "analysis_bundle_sha256": "5210b3f54dd9763989b6537f5aa0aa108479d7e037c34b064de0599ad6678b49",
+    "exact_selection_match": true,
+    "exact_cell_and_bootstrap_arrays": true,
+    "verified_cv_artifacts": 460,
+    "replay_counts": {
+      "calls": 39825,
+      "copies": 210,
+      "resets": 210
+    },
+    "selected": null,
+    "original_v6_recovered": false,
+    "full_reproduce_archive_download_complete": true,
+    "all_deliverable_hashes_verified": true,
+    "all_zip_crc_checks_passed": true,
+    "embedded_manifest_files_verified": 2046,
+    "archived_cv_artifacts": 460,
+    "no_new_submission_packages": true,
+    "completed_at_utc": "2026-10-25T11:10:35.729122+00:00"
+  },
+  "cloud_storage": {
+    "folder": "transfers/neural-interfaces-2026-track02/v7-20261025",
+    "node_id": "2e93ae68-814c-4da0-877c-4274501f6e84",
+    "bytes": 1269782187,
+    "sha256": "7a101ef47340cbb4d2b9a331329cd35b61ca1fb8476c5aef8aece8632cb980ff",
+    "download_verified": true,
+    "public_share_created": false,
+    "transfer_mode": "Each 4MiB segment verified against original-host SHA-256, then full archive hash",
+    "verified_segments": 303,
+    "range_endpoint_observation": "Malformed Content-Range header; segment content validated cryptographically"
+  }
+}

@@ -1,0 +1,12 @@
+# Experiment manifests bind exact bytes, including original line endings.
+* -text
+
+# Preserve historical inputs rather than rewriting their recorded hashes.
+bci/** -whitespace
+v7_work/reference_v5/** -whitespace linguist-vendored=true
+
+# Keep generated evidence available while making code review manageable.
+results/v7/** -whitespace linguist-generated=true
+results/v7/README.md linguist-generated=false
+results/v7/report.txt linguist-generated=false
+v7_deliverables/*.json linguist-generated=true

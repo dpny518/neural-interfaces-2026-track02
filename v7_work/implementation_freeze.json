@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-10-24T07:21:22.743886+00:00",
+  "files": {
+    "classical.py": "4250af8c1638c92a396bfd6c02687113e1a026d79e6f5e0bbf115f99adfbb669",
+    "prepare_data.py": "bd08cd98564a7adec55ddd7363c7ce835050cbf6e5710c9119e677fef908ce66",
+    "protocol.py": "613b031a18195946f3180ea2ebbc83d6ab99190275fa1245b80ce6c6970ec5c9",
+    "reference_v5/extraction_manifest.json": "a744c13b7cc2920de3cdeb740c64d04cac5bdf77088b3c903257d3d79814e590",
+    "run_cv.py": "d56fedd4755c15683b9f366b6ea726d3b4a7a9782f2ef9da566e28f883ed35f6",
+    "runtime.py": "9a539fa0591a8389b08bb2d7b3c76657ecce07c0456ecc05d2c746b0fd1e0b12",
+    "training.py": "947095f39f02627774a06797eeb003db3004f83c9cb06493faaf342814c88079"
+  },
+  "plan_sha256": "0448fed4aed8eb3b84e399204d1ec87b805f6e7824d3d3b02a41d176cb74950f",
+  "pre_fitting_revision": {
+    "previous_freeze_sha256": "54276ddffe8d1155f54eb1e9b6f3fe7772af64318ed18355cfb5fa4c335fd887",
+    "reason": "Download read timeouts; preserve and resume partial HTTP transfers. No model/protocol changes. No EEG fitting has started."
+  }
+}
